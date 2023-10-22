@@ -1,0 +1,984 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.2)  29 AUG 2023 20:56
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**FedDisk.tex
+(./FedDisk.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21> (./IEEEtai.cls
+
+LaTeX Warning: You have requested document class `IEEEtai',
+               but the document class provides `IEEEtran'.
+
+Document Class: IEEEtran 2007/03/05 V1.7a by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen138
+\@IEEEtrantmpdimenB=\dimen139
+\@IEEEtrantmpcountA=\count185
+\@IEEEtrantmpcountB=\count186
+\@IEEEtrantmptoksA=\toks16
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
+79.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen140
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen141
+\CLASSINFOnormalsizeunitybaselineskip=\dimen142
+\IEEEnormaljot=\dimen143
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+\IEEEilabelindentA=\dimen144
+\IEEEilabelindentB=\dimen145
+\IEEEilabelindent=\dimen146
+\IEEEelabelindent=\dimen147
+\IEEEdlabelindent=\dimen148
+\IEEElabelindent=\dimen149
+\IEEEiednormlabelsep=\dimen150
+\IEEEiedmathlabelsep=\dimen151
+\IEEEiedtopsep=\skip47
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@IEEEsubequation=\count191
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\c@figure=\count192
+\c@table=\count193
+\@IEEEeqnnumcols=\count194
+\@IEEEeqncolcnt=\count195
+\@IEEEtmpitemindent=\dimen152
+\c@IEEEbiography=\count196
+\@IEEEtranrubishbin=\box50
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen153
+\Gin@req@width=\dimen154
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/01/26 3.70 The Babel package
+\babel@savecnt=\count197
+\U@D=\dimen155
+\l@unhyphenated=\language87
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count198
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/american.ldf
+Language: american 2017/06/06 v3.3r English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language64). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language64). Reported on input line 108.
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen156
+\lightrulewidth=\dimen157
+\cmidrulewidth=\dimen158
+\belowrulesep=\dimen159
+\belowbottomsep=\dimen160
+\aboverulesep=\dimen161
+\abovetopsep=\dimen162
+\cmidrulesep=\dimen163
+\cmidrulekern=\dimen164
+\defaultaddspace=\dimen165
+\@cmidla=\count199
+\@cmidlb=\count266
+\@aboverulesep=\dimen166
+\@belowrulesep=\dimen167
+\@thisruleclass=\count267
+\@lastruleclass=\count268
+\@thisrulewidth=\dimen168
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen169
+\captionmargin@=\dimen170
+\captionwidth=\dimen171
+\caption@tempdima=\dimen172
+\caption@indent=\dimen173
+\caption@parindent=\dimen174
+\caption@hangindent=\dimen175
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
+blestring \footnotesize \begin {center}{\normalfont \footnotesize #1}\\{\normal
+font \footnotesize \scshape #2}\end {center}\@IEEEtablecaptionsepspace \else \@
+IEEEfigurecaptionsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {
+#1.}~~ #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\normalfont \
+footnotesize {#1.}~~ }\parbox [t]{\hsize }{\normalfont \footnotesize \noindent 
+\unhbox \@tempboxa #2}\else \ifCLASSOPTIONconference \hbox to\hsize {\normalfon
+t \footnotesize \hfil \box \@tempboxa \hfil }\else \hbox to\hsize {\normalfont 
+\footnotesize \box \@tempboxa \hfil }\fi \fi \fi  on input line 1139.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count269
+\c@continuedfloat=\count270
+)
+\c@subfigure=\count271
+\c@subtable=\count272
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2021/02/02 v1.28 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count273
+\calc@Bcount=\count274
+\calc@Adimen=\dimen176
+\calc@Bdimen=\dimen177
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count275
+\calc@Cskip=\skip52
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen178
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen179
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count276
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count277
+\leftroot@=\count278
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count279
+\DOTSCASE@=\count280
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen180
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count281
+\c@MaxMatrixCols=\count282
+\dotsspace@=\muskip16
+\c@parentequation=\count283
+\dspbrk@lvl=\count284
+\tag@help=\toks19
+\row@=\count285
+\column@=\count286
+\maxfields@=\count287
+\andhelp@=\toks20
+\eqnshift@=\dimen181
+\alignsep@=\dimen182
+\tagshift@=\dimen183
+\tagwidth@=\dimen184
+\totwidth@=\dimen185
+\lineht@=\dimen186
+\@envbody=\toks21
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+\g_MT_multlinerow_int=\count288
+\l_MT_multwidth_dim=\dimen187
+\origjot=\skip56
+\l_MT_shortvdotswithinadjustabove_dim=\dimen188
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen189
+\l_MT_above_intertext_sep=\dimen190
+\l_MT_below_intertext_sep=\dimen191
+\l_MT_above_shortintertext_sep=\dimen192
+\l_MT_below_shortintertext_sep=\dimen193
+\xmathstrut@box=\box53
+\xmathstrut@dim=\dimen194
+)
+(/usr/share/texlive/texmf-dist/tex/latex/svg/svg.sty
+Package: svg 2020/11/26 v2.02k (include SVG pictures)
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2021/11/13 v3.35 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2021/11/13 v3.35 KOMA-Script package (file load hooks)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2021/11/13 v3.35 KOMA-Script package (using LaTeX hooks)
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2021/11/13 v3.35 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+\c@svg@param@lastpage=\count289
+\svg@box=\box54
+\c@svg@param@currpage=\count290
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/transparent/transparent.sty
+Package: transparent 2019/11/29 v1.4 Transparency via pdfTeX's color stack (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks23
+\pgfutil@tempdima=\dimen195
+\pgfutil@tempdimb=\dimen196
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box55
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks26
+))
+\pgf@x=\dimen197
+\pgf@y=\dimen198
+\pgf@xa=\dimen199
+\pgf@ya=\dimen256
+\pgf@xb=\dimen257
+\pgf@yb=\dimen258
+\pgf@xc=\dimen259
+\pgf@yc=\dimen260
+\pgf@xd=\dimen261
+\pgf@yd=\dimen262
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count291
+\c@pgf@countb=\count292
+\c@pgf@countc=\count293
+\c@pgf@countd=\count294
+\t@pgf@toka=\toks27
+\t@pgf@tokb=\toks28
+\t@pgf@tokc=\toks29
+\pgf@sys@id@count=\count295
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count296
+\pgfsyssoftpath@bigbuffer@items=\count297
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count298
+\float@exts=\toks30
+\float@box=\box56
+\@float@everytoks=\toks31
+\@floatcapt=\box57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/preprint/balance.sty
+Package: balance 1999/02/23 4.3 (PWD)
+\oldvsize=\dimen263
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks32
+\c@algorithm=\count299
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algcompatible.sty
+Package: algcompatible 
+
+(/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count300
+\c@ALG@rem=\count301
+\c@ALG@nested=\count302
+\ALG@tlm=\skip57
+\ALG@thistlm=\skip58
+\c@ALG@Lnr=\count303
+\c@ALG@blocknr=\count304
+\c@ALG@storecount=\count305
+\c@ALG@tmpcounter=\count306
+\ALG@tmplength=\skip59
+)
+Document Style - algorithmic compatible environments for the `algorithmicx' sty
+le
+) (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count307
+\mult@box=\box58
+\multicol@leftmargin=\dimen264
+\c@unbalance=\count308
+\c@collectmore=\count309
+\doublecol@number=\count310
+\multicoltolerance=\count311
+\multicolpretolerance=\count312
+\full@width=\dimen265
+\page@free=\dimen266
+\premulticols=\dimen267
+\postmulticols=\dimen268
+\multicolsep=\skip60
+\multicolbaselineskip=\skip61
+\partial@page=\box59
+\last@line=\box60
+\maxbalancingoverflow=\dimen269
+\mult@rightbox=\box61
+\mult@grightbox=\box62
+\mult@firstbox=\box63
+\mult@gfirstbox=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\c@minrows=\count313
+\c@columnbadness=\count314
+\c@finalcolumnbadness=\count315
+\last@try=\dimen270
+\multicolovershoot=\dimen271
+\multicolundershoot=\dimen272
+\mult@nat@firstbox=\box101
+\colbreak@box=\box102
+\mc@col@check@num=\count316
+)
+(/usr/share/texlive/texmf-dist/tex/latex/grffile/grffile.sty
+Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
+y)
+Package grffile Info: This package is an empty stub for compatibility on input 
+line 40.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/clipboard/clipboard.sty
+Package: clipboard 2016/05/18 v0.3 Copy and paste into and across documents
+\clipboard@fileout=\write4
+)
+\openout4 = `myclipboard.cpy'.
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks33
+\SOUL@lasttoken=\toks34
+\SOUL@cmds=\toks35
+\SOUL@buffer=\toks36
+\SOUL@token=\toks37
+\SOUL@spaceskip=\skip62
+\SOUL@ttwidth=\dimen273
+\SOUL@uldp=\dimen274
+\SOUL@ulht=\dimen275
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count317
+\output=\toks38
+\linenoprevgraf=\count318
+\linenumbersep=\dimen276
+\linenumberwidth=\dimen277
+\c@linenumber=\count319
+\c@pagewiselinenumber=\count320
+\c@LN@truepage=\count321
+\c@internallinenumber=\count322
+\c@internallinenumbers=\count323
+\quotelinenumbersep=\dimen278
+\bframerule=\dimen279
+\bframesep=\dimen280
+\bframebox=\box103
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count324
+\l__pdf_internal_box=\box104
+))
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count325
+\l__lipsum_a_int=\count326
+\l__lipsum_b_int=\count327
+
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (./FedDisk.aux
+
+LaTeX Warning: Label `para:motivation' multiply defined.
+
+
+LaTeX Warning: Label `par:problemStatement' multiply defined.
+
+
+LaTeX Warning: Label `par:howEffectiveness' multiply defined.
+
+
+LaTeX Warning: Label `sec:discussion' multiply defined.
+
+
+LaTeX Warning: Label `sec:algorithm' multiply defined.
+
+
+LaTeX Warning: Label `alg:FedDisk' multiply defined.
+
+
+LaTeX Warning: Label `sec:problem' multiply defined.
+
+
+LaTeX Warning: Label `equ:goal' multiply defined.
+
+
+LaTeX Warning: Label `sec:algorithm' multiply defined.
+
+
+LaTeX Warning: Label `alg:FedDisk' multiply defined.
+
+
+LaTeX Warning: Label `sec:ablation' multiply defined.
+
+)
+\openout1 = `FedDisk.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count328
+\scratchdimen=\dimen281
+\scratchbox=\box105
+\nofMPsegments=\count329
+\nofMParguments=\count330
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count331
+\MPscratchDim=\dimen282
+\MPnumerator=\count332
+\makeMPintoPDFobject=\count333
+\everyMPtoPDFconversion=\toks40
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 105.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 105
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 105
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 1
+05.
+
+(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd) [1{/var/lib/texmf/
+fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+Underfull \vbox (badness 4543) has occurred while \output is active []
+
+ [2]
+Overfull \hbox (9.59511pt too wide) detected at line 188
+[]\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OT1/cmr/bx/n/10 x\OT1/cmr/m/n/10 ) = \OML
+/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 j\OML/cmm/m
+/it/10 x[]; x[]; ::; x[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10
+ p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 x[]; 
+:::; x[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :::p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
+ x[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^
+A \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )\OML/
+cmm/m/it/10 :
+ []
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Figures/FL.pdf): PDF inclusion: found
+ PDF version <1.6>, but at most version <1.5> allowed
+<Figures/FL.pdf, id=17, 963.6pt x 542.025pt>
+File: Figures/FL.pdf Graphic file (type pdf)
+<use Figures/FL.pdf>
+Package pdftex.def Info: Figures/FL.pdf  used on input line 214.
+(pdftex.def)             Requested size: 438.60315pt x 256.68982pt.
+[3] [4 <./Figures/FL.pdf>]
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 3
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 385.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [5]
+Underfull \vbox (badness 2418) has occurred while \output is active []
+
+ [6]
+<Figures/mnist/IMGS/client:1label:9.jpg, id=115, 291.9708pt x 307.1475pt>
+File: Figures/mnist/IMGS/client:1label:9.jpg Graphic file (type jpg)
+<use Figures/mnist/IMGS/client:1label:9.jpg>
+Package pdftex.def Info: Figures/mnist/IMGS/client:1label:9.jpg  used on input 
+line 418.
+(pdftex.def)             Requested size: 52.92169pt x 55.66847pt.
+<Figures/mnist/IMGS/client:27label:9.jpg, id=116, 291.9708pt x 307.1475pt>
+File: Figures/mnist/IMGS/client:27label:9.jpg Graphic file (type jpg)
+<use Figures/mnist/IMGS/client:27label:9.jpg>
+Package pdftex.def Info: Figures/mnist/IMGS/client:27label:9.jpg  used on input
+ line 419.
+(pdftex.def)             Requested size: 52.92169pt x 55.66847pt.
+<Figures/mnist/IMGS/client:17label:3.jpg, id=117, 291.9708pt x 307.1475pt>
+File: Figures/mnist/IMGS/client:17label:3.jpg Graphic file (type jpg)
+<use Figures/mnist/IMGS/client:17label:3.jpg>
+Package pdftex.def Info: Figures/mnist/IMGS/client:17label:3.jpg  used on input
+ line 420.
+(pdftex.def)             Requested size: 52.92169pt x 55.66847pt.
+<Figures/mnist/IMGS/client:23label:3.jpg, id=118, 291.9708pt x 307.1475pt>
+File: Figures/mnist/IMGS/client:23label:3.jpg Graphic file (type jpg)
+<use Figures/mnist/IMGS/client:23label:3.jpg>
+Package pdftex.def Info: Figures/mnist/IMGS/client:23label:3.jpg  used on input
+ line 421.
+(pdftex.def)             Requested size: 52.92169pt x 55.66847pt.
+<Figures/femnist/IMGS/client:26label:15.jpg, id=119, 291.9708pt x 307.1475pt>
+File: Figures/femnist/IMGS/client:26label:15.jpg Graphic file (type jpg)
+<use Figures/femnist/IMGS/client:26label:15.jpg>
+Package pdftex.def Info: Figures/femnist/IMGS/client:26label:15.jpg  used on in
+put line 422.
+(pdftex.def)             Requested size: 52.92169pt x 55.66847pt.
+<Figures/femnist/IMGS/client:27label:15.jpg, id=120, 291.9708pt x 307.1475pt>
+File: Figures/femnist/IMGS/client:27label:15.jpg Graphic file (type jpg)
+<use Figures/femnist/IMGS/client:27label:15.jpg>
+Package pdftex.def Info: Figures/femnist/IMGS/client:27label:15.jpg  used on in
+put line 423.
+(pdftex.def)             Requested size: 52.92169pt x 55.66847pt.
+<Figures/femnist/IMGS/client:14label:40.jpg, id=121, 291.9708pt x 307.1475pt>
+File: Figures/femnist/IMGS/client:14label:40.jpg Graphic file (type jpg)
+<use Figures/femnist/IMGS/client:14label:40.jpg>
+Package pdftex.def Info: Figures/femnist/IMGS/client:14label:40.jpg  used on in
+put line 424.
+(pdftex.def)             Requested size: 52.92169pt x 55.66847pt.
+<Figures/femnist/IMGS/client:24label:40.jpg, id=122, 291.9708pt x 307.1475pt>
+File: Figures/femnist/IMGS/client:24label:40.jpg Graphic file (type jpg)
+<use Figures/femnist/IMGS/client:24label:40.jpg>
+Package pdftex.def Info: Figures/femnist/IMGS/client:24label:40.jpg  used on in
+put line 425.
+(pdftex.def)             Requested size: 52.92169pt x 55.66847pt.
+<Figures/xray/IMGS/client:0label:0.jpg, id=123, 291.9708pt x 307.1475pt>
+File: Figures/xray/IMGS/client:0label:0.jpg Graphic file (type jpg)
+<use Figures/xray/IMGS/client:0label:0.jpg>
+Package pdftex.def Info: Figures/xray/IMGS/client:0label:0.jpg  used on input l
+ine 426.
+(pdftex.def)             Requested size: 52.92169pt x 55.66847pt.
+<Figures/xray/IMGS/client:3label:0.jpg, id=124, 291.9708pt x 307.1475pt>
+File: Figures/xray/IMGS/client:3label:0.jpg Graphic file (type jpg)
+<use Figures/xray/IMGS/client:3label:0.jpg>
+Package pdftex.def Info: Figures/xray/IMGS/client:3label:0.jpg  used on input l
+ine 427.
+(pdftex.def)             Requested size: 52.92169pt x 55.66847pt.
+<Figures/xray/IMGS/client:13label:1.jpg, id=125, 291.9708pt x 307.1475pt>
+File: Figures/xray/IMGS/client:13label:1.jpg Graphic file (type jpg)
+<use Figures/xray/IMGS/client:13label:1.jpg>
+Package pdftex.def Info: Figures/xray/IMGS/client:13label:1.jpg  used on input 
+line 428.
+(pdftex.def)             Requested size: 52.92169pt x 55.66847pt.
+<Figures/xray/IMGS/client:8label:1.jpg, id=126, 291.9708pt x 307.1475pt>
+File: Figures/xray/IMGS/client:8label:1.jpg Graphic file (type jpg)
+<use Figures/xray/IMGS/client:8label:1.jpg>
+Package pdftex.def Info: Figures/xray/IMGS/client:8label:1.jpg  used on input l
+ine 429.
+(pdftex.def)             Requested size: 52.92169pt x 55.66847pt.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 442.
+<Figures/xray/test_acc.jpg, id=127, 351.2322pt x 349.7868pt>
+File: Figures/xray/test_acc.jpg Graphic file (type jpg)
+<use Figures/xray/test_acc.jpg>
+Package pdftex.def Info: Figures/xray/test_acc.jpg  used on input line 451.
+(pdftex.def)             Requested size: 154.80157pt x 154.1682pt.
+<Figures/femnist/test_acc.jpg, id=128, 346.896pt x 349.7868pt>
+File: Figures/femnist/test_acc.jpg Graphic file (type jpg)
+<use Figures/femnist/test_acc.jpg>
+Package pdftex.def Info: Figures/femnist/test_acc.jpg  used on input line 457.
+(pdftex.def)             Requested size: 154.80157pt x 156.08963pt.
+<Figures/mnist/test_acc.jpg, id=129, 346.896pt x 349.7868pt>
+File: Figures/mnist/test_acc.jpg Graphic file (type jpg)
+<use Figures/mnist/test_acc.jpg>
+Package pdftex.def Info: Figures/mnist/test_acc.jpg  used on input line 463.
+(pdftex.def)             Requested size: 154.80157pt x 156.08963pt.
+<Figures/xray/ClientAcc.jpg, id=130, 328.1058pt x 312.9291pt>
+File: Figures/xray/ClientAcc.jpg Graphic file (type jpg)
+<use Figures/xray/ClientAcc.jpg>
+Package pdftex.def Info: Figures/xray/ClientAcc.jpg  used on input line 475.
+(pdftex.def)             Requested size: 154.80157pt x 147.6449pt.
+<Figures/femnist/ClientAcc.jpg, id=131, 328.1058pt x 312.9291pt>
+File: Figures/femnist/ClientAcc.jpg Graphic file (type jpg)
+<use Figures/femnist/ClientAcc.jpg>
+Package pdftex.def Info: Figures/femnist/ClientAcc.jpg  used on input line 481.
+
+(pdftex.def)             Requested size: 154.80157pt x 147.6449pt.
+<Figures/mnist/ClientAcc.jpg, id=132, 328.1058pt x 312.9291pt>
+File: Figures/mnist/ClientAcc.jpg Graphic file (type jpg)
+<use Figures/mnist/ClientAcc.jpg>
+Package pdftex.def Info: Figures/mnist/ClientAcc.jpg  used on input line 487.
+(pdftex.def)             Requested size: 154.80157pt x 147.6449pt.
+<Figures/xray/MADE_loss.jpg, id=133, 328.1058pt x 332.442pt>
+File: Figures/xray/MADE_loss.jpg Graphic file (type jpg)
+<use Figures/xray/MADE_loss.jpg>
+Package pdftex.def Info: Figures/xray/MADE_loss.jpg  used on input line 504.
+(pdftex.def)             Requested size: 154.80157pt x 156.8514pt.
+<Figures/femnist/MADE_loss.jpg, id=134, 328.1058pt x 332.442pt>
+File: Figures/femnist/MADE_loss.jpg Graphic file (type jpg)
+<use Figures/femnist/MADE_loss.jpg>
+Package pdftex.def Info: Figures/femnist/MADE_loss.jpg  used on input line 510.
+
+(pdftex.def)             Requested size: 154.80157pt x 156.8514pt.
+<Figures/mnist/MADE_loss.jpg, id=135, 328.1058pt x 332.442pt>
+File: Figures/mnist/MADE_loss.jpg Graphic file (type jpg)
+<use Figures/mnist/MADE_loss.jpg>
+Package pdftex.def Info: Figures/mnist/MADE_loss.jpg  used on input line 516.
+(pdftex.def)             Requested size: 154.80157pt x 156.8514pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Figures/Com.Cost.pdf, id=136, 733.55304pt x 490.94167pt>
+File: Figures/Com.Cost.pdf Graphic file (type pdf)
+<use Figures/Com.Cost.pdf>
+Package pdftex.def Info: Figures/Com.Cost.pdf  used on input line 581.
+(pdftex.def)             Requested size: 361.19843pt x 241.73962pt.
+<Figures/xray/train_loss.jpg, id=137, 351.2322pt x 349.7868pt>
+File: Figures/xray/train_loss.jpg Graphic file (type jpg)
+<use Figures/xray/train_loss.jpg>
+Package pdftex.def Info: Figures/xray/train_loss.jpg  used on input line 591.
+(pdftex.def)             Requested size: 154.80157pt x 154.1682pt.
+<Figures/femnist/train_loss.jpg, id=138, 346.896pt x 349.7868pt>
+File: Figures/femnist/train_loss.jpg Graphic file (type jpg)
+<use Figures/femnist/train_loss.jpg>
+Package pdftex.def Info: Figures/femnist/train_loss.jpg  used on input line 596
+.
+(pdftex.def)             Requested size: 154.80157pt x 156.08963pt.
+<Figures/mnist/train_loss.jpg, id=139, 346.896pt x 349.7868pt>
+File: Figures/mnist/train_loss.jpg Graphic file (type jpg)
+<use Figures/mnist/train_loss.jpg>
+Package pdftex.def Info: Figures/mnist/train_loss.jpg  used on input line 601.
+(pdftex.def)             Requested size: 154.80157pt x 156.08963pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7 <./Figures/mnist/IMGS/client:1label:9.jpg> <./Figures/mnist/IMGS/client:27la
+bel:9.jpg> <./Figures/mnist/IMGS/client:17label:3.jpg> <./Figures/mnist/IMGS/cl
+ient:23label:3.jpg> <./Figures/femnist/IMGS/client:26label:15.jpg> <./Figures/f
+emnist/IMGS/client:27label:15.jpg> <./Figures/femnist/IMGS/client:14label:40.jp
+g> <./Figures/femnist/IMGS/client:24label:40.jpg> <./Figures/xray/IMGS/client:0
+label:0.jpg> <./Figures/xray/IMGS/client:3label:0.jpg> <./Figures/xray/IMGS/cli
+ent:13label:1.jpg> <./Figures/xray/IMGS/client:8label:1.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 <./Figures/xray/test_acc.jpg> <./Figures/femnist/test_acc.jpg> <./Figures/m
+nist/test_acc.jpg> <./Figures/xray/ClientAcc.jpg> <./Figures/femnist/ClientAcc.
+jpg> <./Figures/mnist/ClientAcc.jpg> <./Figures/xray/MADE_loss.jpg> <./Figures/
+femnist/MADE_loss.jpg> <./Figures/mnist/MADE_loss.jpg>] [9 <./Figures/Com.Cost.
+pdf> <./Figures/xray/train_loss.jpg> <./Figures/femnist/train_loss.jpg> <./Figu
+res/mnist/train_loss.jpg>] (./FedDisk.bbl
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `English'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+
+Underfull \hbox (badness 6284) in paragraph at lines 106--110
+[]\OT1/ptm/m/n/8 S. Ita-hara, T. Nishio, Y. Koda, M. Morikura, and K. Ya-
+ []
+
+[10]
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `"English (US)"'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `"English (US)"'. Using the pattern for
+** the default language instead.
+) [11] (./FedDisk.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 11233 strings out of 478287
+ 212190 string characters out of 5849290
+ 661242 words of memory out of 5000000
+ 29157 multiletter control sequences out of 15000+600000
+ 516622 words of font info for 134 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 94i,13n,92p,1827b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/stmaryrd/stmary9.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/urw/times/utmri8a.pfb>
+Output written on FedDisk.pdf (11 pages, 1486612 bytes).
+PDF statistics:
+ 315 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,84 @@
+\renewcommand {\cftchappagefont }{\normalfont }
+\renewcommand {\cftchapfont }{\normalfont }
+\renewcommand {\cftchapleader }{\normalfont \cftdotfill {\cftsecdotsep }}
+\contentsline {chapter}{{\textmd {List of Tables}}}{iv}{}%
+\contentsline {chapter}{{\textmd {List of Figures}}}{v}{}%
+\contentsline {chapter}{\textmd {Abstract}}{vi}{}%
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{{\textmd {{Chapter 1: Introduction}}}}{\hspace *{\fill }1}{}%
+\contentsline {chapter}{{\textmd {{Chapter 2: Federated Learning for Skewed Distribution}}}}{\hspace *{\fill }2}{}%
+\contentsline {section}{\numberline {2.1}Introduction}{\hspace *{\fill }2}{}%
+\contentsline {section}{\numberline {2.2}Preliminary: Masked Autoencoder for Distribution Estimation}{\hspace *{\fill }5}{}%
+\contentsline {section}{\numberline {2.3}Scenario}{\hspace *{\fill }6}{}%
+\contentsline {section}{\numberline {2.4}Federated Learning for Skewed Distribution Using Sample Weights{}}{\hspace *{\fill }6}{}%
+\contentsline {subsection}{\numberline {2.4.1}Sample Weights Design}{\hspace *{\fill }7}{}%
+\contentsline {subsection}{\numberline {2.4.2}Probability Density Approximation}{\hspace *{\fill }9}{}%
+\contentsline {subsection}{\numberline {2.4.3}Sample Weight Approximation}{\hspace *{\fill }10}{}%
+\contentsline {subsection}{\numberline {2.4.4}Learning on Skewed Distribution Data Across Clients }{\hspace *{\fill }12}{}%
+\contentsline {section}{\numberline {2.5}Privacy Leakage Analysis}{\hspace *{\fill }13}{}%
+\contentsline {section}{\numberline {2.6}Experiments}{\hspace *{\fill }13}{}%
+\contentsline {subsection}{\numberline {2.6.1}Datasets and Non-IID Setting.}{\hspace *{\fill }14}{}%
+\contentsline {subsubsection}{\numberline {2.6.1.1}Simulated Non-IID: MNIST}{\hspace *{\fill }14}{}%
+\contentsline {subsubsection}{\numberline {2.6.1.2}Real Non-IID: Femnist and Chest Xray}{\hspace *{\fill }14}{}%
+\contentsline {subsection}{\numberline {2.6.2}Implementation Detail}{\hspace *{\fill }15}{}%
+\contentsline {subsubsection}{\numberline {2.6.2.1}Baselines}{\hspace *{\fill }15}{}%
+\contentsline {subsubsection}{\numberline {2.6.2.2}Federated Learning Classification Model}{\hspace *{\fill }15}{}%
+\contentsline {subsubsection}{\numberline {2.6.2.3}Density Estimation Model (MADE)}{\hspace *{\fill }16}{}%
+\contentsline {subsubsection}{\numberline {2.6.2.4}Sample Weight Approximation}{\hspace *{\fill }16}{}%
+\contentsline {subsection}{\numberline {2.6.3}Results}{\hspace *{\fill }17}{}%
+\contentsline {subsubsection}{\numberline {2.6.3.1}Classification Accuracy}{\hspace *{\fill }17}{}%
+\contentsline {subsubsection}{\numberline {2.6.3.2}Performance Over Different Feature Skewness Levels}{\hspace *{\fill }18}{}%
+\contentsline {subsubsection}{\numberline {2.6.3.3}Communication Cost}{\hspace *{\fill }19}{}%
+\contentsline {section}{\numberline {2.7}Conclusion}{\hspace *{\fill }21}{}%
+\contentsline {chapter}{{\textmd {{Chapter 3: Synthetic Information Towards Maximum Posterior Ratio for Deep Learning on Class Imbalanced Data}}}}{\hspace *{\fill }22}{}%
+\contentsline {section}{\numberline {3.1}Introduction}{\hspace *{\fill }22}{}%
+\contentsline {section}{\numberline {3.2}Preliminaries}{\hspace *{\fill }26}{}%
+\contentsline {subsection}{\numberline {3.2.1}Imbalance Ratio (IR)}{\hspace *{\fill }26}{}%
+\contentsline {subsection}{\numberline {3.2.2}Evaluation Metrics}{\hspace *{\fill }26}{}%
+\contentsline {subsection}{\numberline {3.2.3}Entropy-based Active Learning }{\hspace *{\fill }27}{}%
+\contentsline {section}{\numberline {3.3}The Problem of Learning From Imbalanced Datasets}{\hspace *{\fill }28}{}%
+\contentsline {section}{\numberline {3.4}Related Work}{\hspace *{\fill }29}{}%
+\contentsline {subsection}{\numberline {3.4.1}Sampling-based Approach.}{\hspace *{\fill }30}{}%
+\contentsline {subsection}{\numberline {3.4.2}Cost-sensitive Learning Approach.}{\hspace *{\fill }31}{}%
+\contentsline {subsection}{\numberline {3.4.3}Ensemble Learning Approach.}{\hspace *{\fill }32}{}%
+\contentsline {section}{\numberline {3.5}Federated Learning for Skewed Distribution Using Sample Weights}{\hspace *{\fill }32}{}%
+\contentsline {subsection}{\numberline {3.5.1}Methodology Motivation}{\hspace *{\fill }32}{}%
+\contentsline {subsection}{\numberline {3.5.2}Generating Minority Synthetic Data}{\hspace *{\fill }33}{}%
+\contentsline {subsection}{\numberline {3.5.3}Algorithm}{\hspace *{\fill }39}{}%
+\contentsline {section}{\numberline {3.6}Algorithm Time Complexity.}{\hspace *{\fill }39}{}%
+\contentsline {section}{\numberline {3.7}Experiments}{\hspace *{\fill }41}{}%
+\contentsline {subsection}{\numberline {3.7.1}Experimental Setup}{\hspace *{\fill }41}{}%
+\contentsline {subsubsection}{\numberline {3.7.1.1}SIMPOR{} Settings}{\hspace *{\fill }43}{}%
+\contentsline {subsubsection}{\numberline {3.7.1.2}Evaluation Classification Settings}{\hspace *{\fill }43}{}%
+\contentsline {subsection}{\numberline {3.7.2}SIMPOR{} on Artificial Moon Dataset}{\hspace *{\fill }44}{}%
+\contentsline {subsection}{\numberline {3.7.3}SIMPOR{} on Forty-one Real Datasets}{\hspace *{\fill }47}{}%
+\contentsline {subsubsection}{\numberline {3.7.3.1}Classification Results}{\hspace *{\fill }47}{}%
+\contentsline {subsubsection}{\numberline {3.7.3.2}Statistical Test}{\hspace *{\fill }52}{}%
+\contentsline {subsubsection}{\numberline {3.7.3.3}Data Visualization}{\hspace *{\fill }53}{}%
+\contentsline {subsubsection}{\numberline {3.7.3.4}Processing Time}{\hspace *{\fill }55}{}%
+\contentsline {subsection}{\numberline {3.7.4}Empirical Study on the Impact of Radius Factor r}{\hspace *{\fill }57}{}%
+\contentsline {subsection}{\numberline {3.7.5}Empirical Study on the Impact of Informative Portion}{\hspace *{\fill }58}{}%
+\contentsline {section}{\numberline {3.8}Conclusion}{\hspace *{\fill }59}{}%
+\contentsline {chapter}{{\textmd {{Chapter 4: AutoGAN-Based Dimension Reduction for Privacy Preservation}}}}{\hspace *{\fill }60}{}%
+\contentsline {section}{\numberline {4.1}Introduction}{\hspace *{\fill }60}{}%
+\contentsline {section}{\numberline {4.2}Related Work}{\hspace *{\fill }63}{}%
+\contentsline {subsection}{\numberline {4.2.1}Literature Review}{\hspace *{\fill }63}{}%
+\contentsline {subsection}{\numberline {4.2.2}Preliminaries}{\hspace *{\fill }65}{}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Auto-encoder}{\hspace *{\fill }66}{}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}GAN}{\hspace *{\fill }66}{}%
+\contentsline {section}{\numberline {4.3}Methodology}{\hspace *{\fill }67}{}%
+\contentsline {subsection}{\numberline {4.3.1}Problem Statement}{\hspace *{\fill }68}{}%
+\contentsline {subsection}{\numberline {4.3.2}Threat Model}{\hspace *{\fill }68}{}%
+\contentsline {subsection}{\numberline {4.3.3}$\epsilon $-Dimension Reduction Privacy ($\epsilon $-DR Privacy)}{\hspace *{\fill }69}{}%
+\contentsline {subsection}{\numberline {4.3.4}AutoGAN Dimension Reduction for Privacy Preserving}{\hspace *{\fill }70}{}%
+\contentsline {subsection}{\numberline {4.3.5}Optimization with Constraint}{\hspace *{\fill }73}{}%
+\contentsline {subsection}{\numberline {4.3.6}Training Algorithms}{\hspace *{\fill }73}{}%
+\contentsline {section}{\numberline {4.4}Experiments and Discussion}{\hspace *{\fill }75}{}%
+\contentsline {subsection}{\numberline {4.4.1}Experiment Setup}{\hspace *{\fill }77}{}%
+\contentsline {subsection}{\numberline {4.4.2}Utility}{\hspace *{\fill }78}{}%
+\contentsline {subsection}{\numberline {4.4.3}Privacy}{\hspace *{\fill }79}{}%
+\contentsline {section}{\numberline {4.5}Comparison to GAP\cite {GAP}}{\hspace *{\fill }79}{}%
+\contentsline {section}{\numberline {4.6}Visual Comparison to Privacy Preserving Techniques}{\hspace *{\fill }83}{}%
+\contentsline {section}{\numberline {4.7}Conclusion}{\hspace *{\fill }85}{}%
+\contentsline {chapter}{{\textmd {References }}}{\hspace *{\fill }87}{}%
+\contentsline {chapter}{{\textmd {{Appendix A: Copyright Permissions}}}}{\hspace *{\fill }101}{}%

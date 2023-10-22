@@ -1,0 +1,310 @@
+ %% font size and lines space 
+\fontsize{12}{21}\selectfont
+\onecolumn
+
+
+
+
+\centerline{SUMMARY OF CHANGES}
+
+
+We are immensely pleased to be offered helpful suggestions and have thoroughly revised the manuscript according to the reviewer’s comments. In this revision, we have taken the opportunity to address the reviewer’s concerns that were kindly drawn to our attention. We thoroughly considered each comment and made changes to clarify the manuscript accordingly. The following items summarize the main changes in the latest revision conducted to the paper.
+
+\begin{enumerate}
+	
+\item Section I "Introduction" was revised, and a part of the content has been put into section II, Related Work, to improve the manuscript's readability. 
+
+\item Section VI "Ablation Study: FedDiskAb" was added to provide a more thorough study of the proposed method and its modules.
+
+\item Section VIII "Problem statement" was provided to better formulate the problem and the goal to achieve. 
+
+\item Section VII-D (Discussion) was added to provide a brief discussion about the advantages and drawbacks of the proposed method.
+
+\item Data and source code Github repository link is included for references. The link is attached to the manuscript footnote.
+
+\item Several sections have been revised in terms of writing, including Abstract, Introduction, Related Work, Experiment, and Methodology. 
+
+\item Added experiments with a state-of-the-art method, namely FedPCL, for a more comprehensive comparison.
+	  
+\end{enumerate}
+
+
+\newpage
+
+I. RESPONSE TO Associate Editor
+~\\
+\color{blue}
+-A section of Related Works is needed.
+-A section of the Problem Statement is needed.
+-Comparative results with literature state-of-the-art approaches are needed.
+
+\color{black}
+Thank you for your recommendation. In this revision, we have addressed all of your concerns. Specifically, we added "Related Work" section, "Problem Statement" section and a comparision with a state-of-the-art method, namely FedPCL.
+
+
+
+
+\newpage
+
+II. RESPONSE TO REVIEWER 1
+
+~\\
+\color{blue}
+\underline{Comment 1.1}
+In the abstract, “non-IID data issue” should be concisely discussed and IID
+must be expanded at its first occurrence.
+
+\color{black}
+\underline{Response 1.1:}
+Thank you for your suggestion. In this revision, the term ``non-IID'' has been expanded and briefly discussed in the abstract. We revised the abstract section accordingly as follows.
+
+\colorbox{marygold}{The change can be listed as follows.}\\~
+
+
+%\setcounter{equation}{11}
+```
+\Paste{non-IID}
+...
+
+"""
+
+
+
+~\\
+\color{blue}
+\underline{Comment 1.2}
+As indicated in Introduction “the primary problem is the divergence of
+weights, which worsens...”, please discuss this issue with an example and
+strengthen the motivation of the tackled problem.
+
+\color{black}
+\underline{Response 1.2:}
+Thank you for your suggestion. We have revised the introduction accordingly and added example to strengen our motivation. 
+
+\colorbox{marygold}{The changes can be seen at \lr{para:motivation} and also listed as follows.}
+
+```
+....
+\Paste{para:motivation}
+...
+
+"""
+
+~\\
+\color{blue}
+\underline{Comment 1.3}
+How the proposed method is effective in resolving the issue of non-IID and
+privacy leakage in real-time while meeting the weight optimization criteria?
+Please include this detailed information within the proposed method.
+
+\color{black}
+\underline{Response 1.3:}
+Thank you for your suggestion. In this version, we have revised the Methodology section accordingly and added an explaination on how the proposed method can help resolve the non-IID and privacy leakage. 
+
+\colorbox{marygold}{The changes can be seen at \lr{par:howEffectiveness} and also listed as follows.}
+
+```
+....
+\Paste{par:howEffectiveness}
+...
+
+"""
+
+~\\
+\color{blue}
+\underline{Comment 1.4}
+Elaborate the effectiveness of the proposed method in reducing non-IID data
+impacts as compared to the existing methods in terms of accuracy, time and
+space complexity, and improvement in overall performance.
+
+\color{black}
+\underline{Response 1.4:}
+Thank you for your question. To have a comprehensive comparison, in this revision, we have added a subsection, namely "Discussion," to discuss the proposed method's performance over others in terms of accuracy, time, and space complexity. We also suggest the method to be used in cross-silo FL scenarios, which typically involve clients with high computing resources (in contrast to cross-device scenarios typically involving users with lightweight devices like mobile). 
+
+\colorbox{marygold}{The main changes can be seen at \lr{par:howEffectiveness} and also listed as follows.}
+
+```
+....
+\Paste{sec:discussion}
+...
+
+"""
+
+~\\
+\color{blue}
+\underline{Comment 1.5}
+Provide complete details of the testbed set-up and the way datasets are used
+during experimentation within the manuscript to allow replication and
+verification of this work for the further growth of this research.
+
+\color{black}
+\underline{Response 1.5:}
+Thank you for your suggestion. In this revision, additional to the detail on how to use the data in Experiments section, we also added an algorithms section which contains information on how to use the data in each step. Further more, we published our code and datasets to provide audiance a tool for reproducing the work. The github link is attached in the manuscript footnote. Link for code and data:\colorbox{marygold}{ "https://github.com/nsh135/FedDiskPytorch".}\\ 
+\setcounter{section}{7}
+\setcounter{subsection}{4}
+\colorbox{marygold}{The algorithm can be seen at Section \ref{sec:algorithm} and also listed as follows.}
+
+```
+....
+\Paste{sec:algorithm}
+...
+
+"""
+
+
+~\\
+\color{blue}
+\underline{Comment 1.6}
+Please include following references within the manuscript at an appropriate
+place:
+1 Wang, Zhibin, Jiahang Qiu, Yong Zhou, Yuanming Shi, Liqun Fu, Wei
+Chen, and Khaled B. Letaief. "Federated learning via intelligent
+reflecting surface." IEEE Transactions on Wireless Communications 21, no.
+2 (2021): 808-822.
+Singh, Ashutosh Kumar, Deepika Saxena, Jitendra Kumar, and Vrinda
+Gupta. "A quantum approach towards the adaptive prediction of cloud
+workloads." IEEE Transactions on Parallel and Distributed Systems 32, no.
+12 (2021): 2893-2905.
+Lim, Wei Yang Bryan, Jer Shyuan Ng, Zehui Xiong, Jiangming Jin, Yang
+Zhang, Dusit Niyato, Cyril Leung, and Chunyan Miao. "Decentralized
+edge intelligence: A dynamic resource allocation framework for
+hierarchical federated learning." IEEE Transactions on Parallel and
+Distributed Systems 33, no. 3 (2021): 536-550.
+
+\color{black}
+\underline{Response 1.6:}
+Thank you for your suggestion. In this revision, we have considered all the suggested works and mentioned in the Related Work section. 
+
+\colorbox{marygold}{The work references can be found at \cite{FLviaIntel}, \cite{distributedQuantum} and \cite{hierarchicalFL} respectively.}
+
+
+~\\
+\color{blue}
+\underline{Comment 1.7}
+ Please carefully proof-read the complete manuscript for typos and English
+grammar before the revised manuscript submission.
+
+\color{black}
+\underline{Response 1.7:}
+Thank you for your suggestion. In this revision, we have corrected a number of typos and grammar errors.
+
+
+\newpage
+
+III. RESPONSE TO REVIEWER 2
+
+~\\
+\color{blue}
+\underline{Comment 2.1}
+The introduction is too long and complicated, which includes the part of related work actually. You should separate the
+Introduction and Related Work into two different sections.
+
+\color{black}
+\underline{Response 2.1:}
+Thank you for your suggestion. In this revision, we have revised the introduction and devide the section into "Introduction" and "Related Work" sections. The two sections have been rewritten to improve the comprehensive of the manuscript. 
+
+
+
+~\\
+\color{blue}
+\underline{Comment 2.2} In the introduction, please emphasize your contribution and innovation by using simple language, not to list a lot of
+references.
+
+\color{black}
+\underline{Response 2.2:}
+Thank you for your suggestion. In this revision, we have revised the introduction section and split the related work into a separate section. The introduction breifly introduce the problem, our distribution and the inovation. 
+
+Our contribution and inovation is discussed in the introduction section as follows:
+
+```
+...
+\Paste{sec:introduction}
+... """
+
+
+~\\
+\color{blue}
+\underline{Comment 2.3}
+Please give enough recent references related to heterogeneous FL in the related work, such as
+\(1\) Wang, Mingjie, Jianxiong Guo, and Weijia Jia. "FedCL: Federated Multi-Phase Curriculum Learning to Synchronously
+Correlate User Heterogeneity." arXiv preprint arXiv:2211.07248 \(2022\).
+\(2\) Zhu, Zhuangdi, Junyuan Hong, and Jiayu Zhou. "Data-free knowledge distillation for heterogeneous federated learning."
+International conference on machine learning. PMLR, 2021.
+\(3\) Luo, M., Chen, F., Hu, D., Zhang, Y., Liang, J., \& Feng, J. \(2021\). No fear of heterogeneity: Classifier calibration for
+federated learning with non-iid data. Advances in Neural Information Processing Systems, 34, 5972-5984.
+Especially for 3, it is very similar to your proposed method.
+
+\color{black}
+\underline{Response 2.3:}
+Thank you for your suggestions. In this revision, we have considered all the above suggested works in the Related Work section. The coresponding references are \cite{fedcl}, \cite{distillationFL} and \cite{nofearofheterogeneity}.
+
+
+
+~\\
+\color{blue}
+\underline{Comment 2.4}
+The problem definition and method are not clear. It is better to combine Section II and Section III, and give a formalized
+
+\color{black}
+\underline{Response 2.4:}
+Thank you for your suggestion. In this revision, we have improved the comprehense of the manuscript by rewriting the Scenario section and change the section title to "Problem Statment". 
+
+\colorbox{marygold}{The main changes can be seen at \lr{par:problemStatement} and also listed as follows.}   
+
+\setcounter{equation}{0}
+\setcounter{section}{2}
+```
+...
+\Paste{par:problemStatement}
+"""
+
+~\\
+\color{blue}
+\underline{Comment 2.5}
+It is better to give a detailed description of your training method, such as "algorithm" structure. This is imperative to thoroughly understand your idea.
+
+\color{black}
+\underline{Response 2.5:}
+Thank you for your suggestion. In this updated version, we've included a new subsection titled "Algorithm" to enhance the comprehensiveness of the manuscript.
+
+\colorbox{marygold}{The algorithm section can be seen at Section \ref{sec:algorithm} and also listed as follows.}
+
+```
+....
+\Paste{sec:algorithm}
+...
+
+"""
+
+
+~\\
+\color{blue}
+\underline{Comment 2.6}
+In the experiment part, this is not enough ablation experiment to verify your proposed module.In addition, it is better to
+compare with the more recent development in this area.
+
+\color{black}
+\underline{Response 2.6:}
+Thank you for your recommendation. In this revised iteration, we've integrated a fresh subsection labeled "Ablation Study: FedDiskAb." Within this section, we explore a scenario where the aggregator could potentially hold the complete dataset, allowing for the direct derivation of sample weights from the data. Through the replacement of this weight computation aspect, we've conducted tests to verify the effective functioning of our distribution learning via the MADE model. The results of the experiment involving FedDiskAb underscore its superior performance compared to alternatives, thus reinforcing the concept of utilizing sample weights to effectively address the challenge posed by non-IID data.
+
+In addition, this revision we have added another state-of-the-art method, namely FedPCL, for a more comprehensive comparision. All the experiements have been updated with the new compared method. 
+
+\colorbox{marygold}{The "Ablation Study: FedDiskAb" section can be viewed at Section \ref{sec:ablation} and also listed as follows.}
+
+```
+....
+\Paste{sec:ablation}
+...
+
+"""
+
+~\\
+\color{blue}
+\underline{Comment 2.7}
+ For the reader to reproduce your work, please open your datasets and source code. In this area, if you cannot prove
+reproducibility, this is meaningless.
+\color{black}
+\underline{Response 2.7:}
+Thank you for your recommendation. We published our code and datasets to provide audiance a tool for reproducing the work. The github link is attached in the manuscript footnote. Link for code and data:\colorbox{marygold}{ "https://github.com/nsh135/FedDiskPytorch".}\\ 
+
+

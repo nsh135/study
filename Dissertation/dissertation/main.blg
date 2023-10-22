@@ -1,0 +1,106 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: appendixA.aux
+Database file #1: template.bib
+I was expecting an "="---line 1139 of file template.bib
+ : @misc{beta_distribution,[break] 
+ :                                 url={https://en.wikipedia.org/wiki/Beta_distribution},[break] journal={En.wikipedia.org},[break] year={2022}}
+I'm skipping whatever remains of this entry
+Repeated entry---line 2896 of file template.bib
+ : @article{PCA
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2951 of file template.bib
+ : @article{Wu
+ :            ,
+I'm skipping whatever remains of this entry
+A bad cross reference---entry "survey"
+refers to entry "conf/mlsys/2020", which doesn't exist
+A bad cross reference---entry "vgg"
+refers to entry "DBLP:conf/iclr/2015", which doesn't exist
+Warning--I didn't find a database entry for "conf/mlsys/2020"
+Warning--I didn't find a database entry for "DBLP:conf/iclr/2015"
+Too many commas in name 1 of "Chong Huang, Peter Kairouz, Xiao Chen, Lalitha Sankar, Ram Rajagopal" for entry GAP
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Chong Huang, Peter Kairouz, Xiao Chen, Lalitha Sankar, Ram Rajagopal" for entry GAP
+while executing---line 1049 of file plain.bst
+Too many commas in name 3 of ""Han, Hui and Wang, Wen-Yuan and Mao, Bing-Huan", editor="Huang, De-Shuang and Zhang, Xiao-Ping and Huang, Guang-Bin"" for entry bordersmote
+while executing---line 1049 of file plain.bst
+Warning--to sort, need author or key in wikipedia_2021
+Warning--to sort, need author or key in maximum_exist
+Warning--to sort, need author or key in KEEL_detail
+Warning--to sort, need author or key in imbalancedlearnFetch_datasetsx2014
+Warning--to sort, need author or key in kaggleCreditCard
+Too many commas in name 7 of "Xie, Kun and Ning, Xueping and Wang, Xin and Wen, Jigang and Liu, Xiaoxiao and He, Shiming and Zhang, Daqiang", editor="Wang, Guojun and Zomaya, Albert and Martinez, Gregorio and Li, Kenli"" for entry XieKun
+while executing---line 1049 of file plain.bst
+Warning--empty journal in Abadi2016
+Warning--there's a number but no volume in Abadi2016
+Warning--empty journal in Al-rubaie
+Warning--empty year in Al-rubaie
+Warning--empty booktitle in Raphael
+Warning--there's a number but no volume in Bost2015
+Warning--empty journal in Chaudhuri
+Warning--empty year in Chaudhuri
+Too many commas in name 1 of "Chong Huang, Peter Kairouz, Xiao Chen, Lalitha Sankar, Ram Rajagopal" for entry GAP
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Chong Huang, Peter Kairouz, Xiao Chen, Lalitha Sankar, Ram Rajagopal" for entry GAP
+while executing---line 1090 of file plain.bst
+Warning--empty publisher in fedDNA
+Warning--empty journal in Goodfellow2014
+Too many commas in name 3 of ""Han, Hui and Wang, Wen-Yuan and Mao, Bing-Huan", editor="Huang, De-Shuang and Zhang, Xiao-Ping and Huang, Guang-Bin"" for entry bordersmote
+while executing---line 1090 of file plain.bst
+Warning--empty journal in Hesamifard2017
+Warning--empty journal in Hitaj2017
+Warning--there's a number but no volume in 9392310
+Warning--empty booktitle in Kermany2018LabeledOC
+Too many commas in name 7 of "Xie, Kun and Ning, Xueping and Wang, Xin and Wen, Jigang and Liu, Xiaoxiao and He, Shiming and Zhang, Daqiang", editor="Wang, Guojun and Zomaya, Albert and Martinez, Gregorio and Li, Kenli"" for entry XieKun
+while executing---line 1090 of file plain.bst
+Warning--there's a number but no volume in Yao1986
+Warning--empty journal in Zhang2012
+You've used 108 entries,
+            2118 wiz_defined-function locations,
+            1143 strings with 25589 characters,
+and the built_in function-call counts, 41447 in all, are:
+= -- 3990
+> -- 2315
+< -- 39
++ -- 908
+- -- 795
+* -- 3029
+:= -- 6773
+add.period$ -- 338
+call.type$ -- 108
+change.case$ -- 706
+chr.to.int$ -- 0
+cite$ -- 129
+duplicate$ -- 1532
+empty$ -- 2968
+format.name$ -- 795
+if$ -- 8721
+int.to.chr$ -- 0
+int.to.str$ -- 108
+missing$ -- 100
+newline$ -- 536
+num.names$ -- 224
+pop$ -- 773
+preamble$ -- 1
+purify$ -- 600
+quote$ -- 0
+skip$ -- 1174
+stack$ -- 0
+substring$ -- 2226
+swap$ -- 433
+text.length$ -- 39
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 428
+warning$ -- 21
+while$ -- 349
+width$ -- 111
+write$ -- 1178
+(There were 13 error messages)

@@ -1,0 +1,13 @@
+
+  
+\begin{figure}[h]
+	\includegraphics[width=\linewidth]{\ChapterPathAutoGAN/figures/AttackModel_CP}
+	\caption{Attack model.}
+	\label{fig:attackmodel}
+\end{figure} 
+
+\subsection{Problem Statement}
+We introduce the problem through the practical scenario mentioned in Section \ref{sec:introduction}. Figure \ref{fig:attackmodel} briefly describes the entire system in which staff members (clients) in a company request access to company resources, such as websites and data servers through a face recognition access control system. For example, if member n requests to access web server 2, the local device first takes a facial photo of the member by an attached camera, locally transforms it into lower dimension data, and sends to an authentication center. The authentication server then obtains the low dimensional data and determines member access eligibility by using a classifier without clear face images of the requesting member. We consider that the system has three levels of privileges (i.e., single level, four-level, eight-level) corresponding to three groups of members. We assume the authentication server is semi-honest (it obeys work procedure but might be used to infer personal information). If the server is compromised, an adversary in the authentication center can reconstruct the face features to achieve plain-text face images and determine members' identity.  
+\subsection{Threat Model}
+In the above scenario, we consider that a strong adversary who has access to the model and training dataset attempts to reconstruct the original face images for inferring a specific member's identity. Our attack model can be represented in Figure \ref{fig:attackmodel}. The adversary utilizes training data and facial features to identify a member identity by reconstructing the original face images using a reconstructor in an auto-encoder. Rather than using fully connected neural network, we implement the auto-encoder by convolutional neural network which more effective for image datasets. Our goal is to design a data dimension reduction method for reducing data dimension and resisting full reconstruction of original data.  
+

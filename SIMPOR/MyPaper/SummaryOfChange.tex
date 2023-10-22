@@ -1,0 +1,113 @@
+ %% font size and lines space 
+\fontsize{12}{21}\selectfont
+\onecolumn
+
+
+ \Methodname{}: SUMMARY OF CHANGES
+\\
+
+We are immensely pleased to be offered helpful suggestions and have thoroughly revised the manuscript according to the reviewer’s comments. In this revision, we have taken the opportunity to address the reviewer’s concerns that were kindly drawn to our attention. We thoroughly considered each comment and made changes to clarify the manuscript accordingly. The following items summarize the main changes in the latest revision conducted to the paper.
+
+\begin{enumerate}
+	
+	\item Section II (Related Work) was revised, and two more related works have been included in this revision. 
+	
+	\item Section III.C (Entropy-based Active Learning) was revised to improve the reading comprehension of the informative sampling mechanism.
+	
+	\item Section V.B (Generate minority Synthetic Data) was revised to improve the  manuscript's readability.
+
+	\item A source code repository link is included for references on GitHub. The footnote containing the link is mentioned in Section VII.A Implementation detail (Page 8).  
+	  
+\end{enumerate}
+
+
+
+
+\newpage
+
+I. RESPONSE TO REVIEWER 1
+
+~\\
+\color{blue}
+\underline{Comment 1.1}
+Eq. (13) seems to be incorrect. According to the manuscript, the length of vector v is r, which is supposed to be a fixed value. In this case, why sample r from a Gaussian distribution? Moreover, the length of vector v is r and the proposed methods generates a minority sample within the radius r. 
+
+If the length is large, will that generate samples located in the area of the majority samples? (In Section V.B, the d-sphere’s radius is set by the length of vector v.)
+
+\color{black}
+\underline{Response 1.1:}
+Thank you for your comment, and sorry for the confusion. The main idea is determining vector $\vec{v}$ length and direction. For the length of $\vec{v}$, we first sample $r$ from a Gaussian distribution as depicted in Equation 13. This generates different distances between synthetic samples and the original minority samples (thus, enriching synthetic samples). The length of $\vec{v}$ then is directly set to $r$. In other words, we can consider $r$ as an alias for $\vec{v}$  
+
+As mentioned in Section "V.B.Finding synthetic samples surrounding a minority sample," $r$ is sampled from a Gaussian distribution with the standard deviation of $\alpha R$ (Equation 13), and $R$ is computed by the average Euclidean distance of the minority sample k-nearest neighbors. Thus, $r$ should not be too large. On the other hand, as the synthetic samples are generated in the direction (vector $\vec{v}$'s direction) toward maximizing the posterior ratio (Equation 7), they should be placed into the minority class and away from the majority class.
+
+To avoid any confusions, we revised Section V.B accordingly as follows.
+
+\colorbox{marygold}{(The change can be viewed at \lr{1.1a}, and \lr{1.1b})}\\~
+
+\setcounter{equation}{11}
+```
+...
+\Paste{1.1a}
+...
+
+"""
+~\\
+```
+...
+\Paste{1.1b}
+...
+"""    
+
+
+~\\
+\color{blue}
+\underline{Comment 1.2}
+The paragraph on p.4 (Line 39) regarding the description of using entropy scores to select samples in a batch needs to be clarified. The k-highest entropy samples are determined. Is this process in a batch? Why does this batch is concatenated with the other data as stated in Line 41, “This batch is then concatenated with the initial training data for the training classifier parameter ($\theta^{(1)}$) in the next phase ($t^{(1)}$) and also accumulated to the informative set.”.
+
+\color{black}
+\underline{Response 1.2:}
+Thank you for your comment, and sorry for the confusion. In our study, it was processed in batches, gradually updating the model and selecting a new batch of informative samples. One can fully train the model with the entire data and estimate the high-entropy scores for the same data. But this might potentially cause bias in selecting the informative set as the model training with imbalanced data might be biased by itself. Inspiring by the idea of exploring critical data batch-by-batch from active learning, we proposed a mechanism that gradually explores informative samples. First, the model is trained with an initial batch of data. The model is then used to estimate entropy scores for the remaining unseen data to select the first set of high-entropy samples (this set is considered informative examples relative to the current model parameters). This high informative data is then accumulated to previous training data to continue fine-tuning the current model and select the next informative set from the rest of the data. The process is repeated until reaching the desired amount of informative samples. 
+
+To improve the readability of the manuscript, we revise the regarded section as follows.
+
+\colorbox{marygold}{(The change can be viewed at \lr{EntropyActiveLearning})}\\~
+  
+  
+```
+...
+\Paste{EntropyActiveLearning}
+...
+
+"""
+
+
+
+~\\
+\color{blue}
+\underline{Comment 1.3}
+The authors can share their code on GitHub to help other researchers reproduce and perform comparisons.
+
+\color{black}
+\underline{Response 1.3:}
+
+Thank you for your suggestion. The implementation is now publicly available on Github (https://github.com/nsh135/\_SIMPOR\_). \\
+\colorbox{marygold}{The repository link is mentioned in Section VII.A "Implementation Detail' and attached to Page 8 footnote. }  
+
+
+~\\
+\color{blue}
+\underline{Comment 1.4}
+4. The proposed method uses entropy as a criterion to select informative samples and uses KDE to approximate the likelihoods, which are related to the following two papers. The authors should discuss these two papers in the manuscript.
+
+
+Liu, C. L., \& Chang, Y. H. (2022). Learning from imbalanced data with deep density hybrid sampling. IEEE Transactions on Systems, Man, and Cybernetics: Systems, 52(11), 7065-7077. DOI: 10.1109/TSMC.2022.3151394
+
+Liu, C. L., \& Hsieh, P. Y. (2019). Model-based synthetic sampling for imbalanced data. IEEE Transactions on Knowledge and Data Engineering, 32(8), 1543-1556. DOI: 10.1109/TKDE.2019.2905559
+
+
+\color{black}
+\underline{Response 1.4:}
+
+Thank you for your suggestion. In this revision, we have considered the two related works in our study and briefly discussed them in Section II.A Related Work. \colorbox{marygold}{The change can be viewed at \lr{liu}, and the corresponding references are \cite{9723474} and \cite{8668459}}.
+
+

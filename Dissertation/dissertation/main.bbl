@@ -1,0 +1,675 @@
+\begin{thebibliography}{100}
+
+\bibitem{kaggleCreditCard}
+{C}redit {C}ard {F}raud {D}etection --- kaggle.com.
+\newblock \url{https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud}.
+\newblock [Accessed 16-Dec-2022].
+
+\bibitem{imbalancedlearnFetch_datasetsx2014}
+fetch datasets 2014; {V}ersion 0.10.0 --- imbalanced-learn.org.
+\newblock
+  \url{https://imbalanced-learn.org/stable/references/generated/imblearn.datasets.fetch_datasets.html}.
+\newblock [Accessed 16-Dec-2022].
+
+\bibitem{KEEL_detail}
+Keel: Software tool. evolutionary algorithms for data mining.
+
+\bibitem{maximum_exist}
+Maximal and minimal points of functions theory.
+
+\bibitem{wikipedia_2021}
+Sphere, Aug 2021.
+
+\bibitem{Abadi2016}
+Mart{\'{i}}n Abadi, Andy Chu, Ian Goodfellow, H.~Brendan McMahan, Ilya Mironov,
+  Kunal Talwar, and Li~Zhang.
+\newblock {Deep Learning with Differential Privacy}.
+\newblock (Ccs), 2016.
+
+\bibitem{aggarwal_active_2020}
+Umang Aggarwal, Adrian Popescu, and Celine Hudelot.
+\newblock Active {Learning} for {Imbalanced} {Datasets}.
+\newblock In {\em 2020 {IEEE} {Winter} {Conference} on {Applications} of
+  {Computer} {Vision} ({WACV})}, pages 1417--1426, Snowmass Village, CO, USA,
+  March 2020. IEEE.
+
+\bibitem{Al-rubaie}
+Mohammad Al-rubaie, Pei-yuan Wu, J~Morris Chang, and Sun-yuan Kung.
+\newblock {Privacy-Preserving PCA on Horizontally-Partitioned Data}.
+
+\bibitem{Baldi2012}
+Pierre Baldi.
+\newblock {Autoencoders, Unsupervised Learning, and Deep Architectures}.
+\newblock {\em ICML Unsupervised Transf. Learn.}, pages 37--50, 2012.
+
+\bibitem{Raphael}
+Raphael Bost, Raluca Ada~Popa, Stephen Tu, and Shafi Goldwasser.
+\newblock Machine learning classification over encrypted data.
+\newblock 01 2015.
+
+\bibitem{Bost2015}
+Rapha{\"{e}}l Bost, Ra~Popa, Stephen Tu, and S~Goldwasser.
+\newblock {Machine Learning Classification over Encrypted Data}.
+\newblock {\em Ndss '15}, (February):1--31, 2015.
+
+\bibitem{Chaudhuri}
+Kamalika Chaudhuri.
+\newblock {Privacy-preserving logistic regression}.
+\newblock pages 1--8.
+
+\bibitem{NIPS2008}
+Kamalika Chaudhuri and Claire Monteleoni.
+\newblock Privacy-preserving logistic regression.
+\newblock In D.~Koller, D.~Schuurmans, Y.~Bengio, and L.~Bottou, editors, {\em
+  Advances in Neural Information Processing Systems 21}, pages 289--296. Curran
+  Associates, Inc., 2009.
+
+\bibitem{chawla_smote:_2002}
+N.~V. Chawla, K.~W. Bowyer, L.~O. Hall, and W.~P. Kegelmeyer.
+\newblock {SMOTE}: {Synthetic} {Minority} {Over}-sampling {Technique}.
+\newblock {\em Journal of Artificial Intelligence Research}, 16:321--357, June
+  2002.
+
+\bibitem{SMOTEBoost}
+Nitesh~V. Chawla, Aleksandar Lazarevic, Lawrence~O. Hall, and Kevin~W. Bowyer.
+\newblock Smoteboost: Improving prediction of the minority class in boosting.
+\newblock In Nada Lavra{\v{c}}, Dragan Gamberger, Ljup{\v{c}}o Todorovski, and
+  Hendrik Blockeel, editors, {\em Knowledge Discovery in Databases: PKDD 2003},
+  pages 107--119, Berlin, Heidelberg, 2003. Springer Berlin Heidelberg.
+
+\bibitem{FedRod}
+Hong-You Chen and Wei-Lun Chao.
+\newblock On bridging generic and personalized federated learning for image
+  classification.
+\newblock In {\em International Conference on Learning Representations}, 2022.
+
+\bibitem{DBLP:journals/corr/abs-1809-08911}
+Xiao Chen, Peter Kairouz, and Ram Rajagopal.
+\newblock Understanding compressive adversarial privacy.
+\newblock {\em CoRR}, abs/1809.08911, 2018.
+
+\bibitem{GAP}
+Xiao Chen Lalitha Sankar Ram~Rajagopal Chong~Huang, Peter~Kairouz.
+\newblock {Generative Adversarial Privacy}.
+\newblock {\em Privacy in Machine Learning and Artificial Intelligence
+  Workshop, ICML 2018}, 2018.
+
+\bibitem{covid19}
+Muhammad Enamul~Hoque Chowdhury, Tawsifur Rahman, Amith Khandakar, Rashid
+  Mazhar, Muhammad~Abdul Kadir, Zaid~Bin Mahbub, Khandakar~Reajul Islam,
+  Muhammad~Salman Khan, Atif Iqbal, Nasser Al{-}Emadi, and Mamun Bin~Ibne Reaz.
+\newblock Can {AI} help in screening viral and {COVID-19} pneumonia?
+\newblock {\em CoRR}, abs/2003.13145, 2020.
+
+\bibitem{wilcoxon}
+Wikipedia contributors.
+\newblock Wilcoxon signed-rank test --- {Wikipedia} the free encyclopedia,
+  2022.
+\newblock Online; accessed 22-December-2022.
+
+\bibitem{cui_class-balanced_2019}
+Yin Cui, Menglin Jia, Tsung-Yi Lin, Yang Song, and Serge Belongie.
+\newblock Class-{Balanced} {Loss} {Based} on {Effective} {Number} of {Samples}.
+\newblock In {\em 2019 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and
+  {Pattern} {Recognition} ({CVPR})}, pages 9260--9269, Long Beach, CA, USA,
+  June 2019. IEEE.
+
+\bibitem{dai_generative_2019}
+Wangzhi Dai, Kenney Ng, Kristen Severson, Wei Huang, Fred Anderson, and Collin
+  Stultz.
+\newblock Generative {Oversampling} with a {Contrastive} {Variational}
+  {Autoencoder}.
+\newblock In {\em 2019 {IEEE} {International} {Conference} on {Data} {Mining}
+  ({ICDM})}, pages 101--109, Beijing, China, November 2019. IEEE.
+
+\bibitem{deng2012mnist}
+Li~Deng.
+\newblock The mnist database of handwritten digit images for machine learning
+  research.
+\newblock {\em IEEE Signal Processing Magazine}, 29(6):141--142, 2012.
+
+\bibitem{fedDNA}
+Jian-Hui Duan, Wenzhong Li, and Sanglu Lu.
+\newblock {\em FedDNA: Federated Learning with Decoupled Normalization-Layer
+  Aggregation for Non-IID Data}, pages 722--737.
+\newblock 09 2021.
+
+\bibitem{Dwork2006}
+Cynthia Dwork.
+\newblock {Differential privacy}.
+\newblock {\em Proc. 33rd Int. Colloq. Autom. Lang. Program.}, pages 1--12,
+  2006.
+
+\bibitem{Emekci2007}
+F.~Emekci, O.~D. Sahin, D.~Agrawal, and A.~{El Abbadi}.
+\newblock {Privacy preserving decision tree learning over multiple parties}.
+\newblock {\em Data Knowl. Eng.}, 63(2):348--361, 2007.
+
+\bibitem{ertekin_learning_2007}
+Seyda Ertekin, Jian Huang, Leon Bottou, and Lee Giles.
+\newblock Learning on the border: active learning in imbalanced data
+  classification.
+\newblock In {\em Proceedings of the sixteenth {ACM} conference on {Conference}
+  on information and knowledge management - {CIKM} '07}, page 127, Lisbon,
+  Portugal, 2007. ACM Press.
+
+\bibitem{ertekin_active_2007}
+Seyda Ertekin, Jian Huang, and C.~Lee Giles.
+\newblock Active learning for class imbalance problem.
+\newblock In {\em Proceedings of the 30th annual international {ACM} {SIGIR}
+  conference on {Research} and development in information retrieval - {SIGIR}
+  '07}, page 823, Amsterdam, The Netherlands, 2007. ACM Press.
+
+\bibitem{feki_federated_2021}
+Ines Feki, Sourour Ammar, Yousri Kessentini, and Khan Muhammad.
+\newblock Federated learning for {COVID}-19 screening from {Chest} {X}-ray
+  images.
+\newblock {\em Applied Soft Computing}, 106:107330, July 2021.
+
+\bibitem{KEEL_dataset}
+Alberto Fernández, Julián Luengo, Joaquin Derrac, Jesús Alcalá-Fdez, and
+  Francisco Herrera.
+\newblock Implementation and integration of algorithms into the keel
+  data-mining software tool.
+\newblock {\em Intelligent Data Engineering and Automated Learning - IDEAL
+  2009}, page 562–569, 2009.
+
+\bibitem{PCA}
+Karl~Pearson F.R.S.
+\newblock Liii. on lines and planes of closest fit to systems of points in
+  space.
+\newblock {\em The London, Edinburgh, and Dublin Philosophical Magazine and
+  Journal of Science}, 2(11):559--572, 1901.
+
+\bibitem{DBLP:journals/corr/abs-1711-00941}
+Yonatan Geifman and Ran El{-}Yaniv.
+\newblock Deep active learning over the long tail.
+\newblock {\em CoRR}, abs/1711.00941, 2017.
+
+\bibitem{GeBeKr01}
+A.S. Georghiades, P.N. Belhumeur, and D.J. Kriegman.
+\newblock From few to many: Illumination cone models for face recognition under
+  variable lighting and pose.
+\newblock {\em IEEE Trans. Pattern Anal. Mach. Intelligence}, 23(6):643--660,
+  2001.
+
+\bibitem{MADE}
+Mathieu Germain, Karol Gregor, Iain Murray, and Hugo Larochelle.
+\newblock Made: Masked autoencoder for distribution estimation.
+\newblock In Francis Bach and David Blei, editors, {\em Proceedings of the 32nd
+  International Conference on Machine Learning}, volume~37 of {\em Proceedings
+  of Machine Learning Research}, pages 881--889, Lille, France, 07--09 Jul
+  2015. PMLR.
+
+\bibitem{DAL}
+Daniel Gissin and Shai Shalev-Shwartz.
+\newblock Discriminative active learning, 2019.
+
+\bibitem{Goodfellow2014}
+Ian~J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David
+  Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio.
+\newblock {Generative Adversarial Networks}.
+\newblock pages 1--9, 2014.
+
+\bibitem{goswami_class_2020}
+Dr~Saptarsi Goswami.
+\newblock Class {Imbalance}, {SMOTE}, {Borderline} {SMOTE}, {ADASYN}, November
+  2020.
+
+\bibitem{haibo_he_learning_2009}
+{Haibo He} and E.A. Garcia.
+\newblock Learning from {Imbalanced} {Data}.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering},
+  21(9):1263--1284, September 2009.
+
+\bibitem{bordersmote}
+Hui "Han, Wen-Yuan Wang, editor="Huang De-Shuang Mao, Bing-Huan", Xiao-Ping
+  Zhang, and Guang-Bin" Huang.
+\newblock "borderline-smote: A new over-sampling method in imbalanced data sets
+  learning".
+\newblock In {\em "Advances in Intelligent Computing"}, pages "878--887",
+  "Berlin, Heidelberg", "2005". "Springer Berlin Heidelberg".
+
+\bibitem{abs-1811-03604}
+Andrew Hard, Kanishka Rao, Rajiv Mathews, Fran{\c{c}}oise Beaufays, Sean
+  Augenstein, Hubert Eichner, Chlo{\'{e}} Kiddon, and Daniel Ramage.
+\newblock Federated learning for mobile keyboard prediction.
+\newblock {\em CoRR}, abs/1811.03604, 2018.
+
+\bibitem{ADASYN}
+Haibo He, Yang Bai, Edwardo~A. Garcia, and Shutao Li.
+\newblock Adasyn: Adaptive synthetic sampling approach for imbalanced learning.
+\newblock In {\em 2008 IEEE International Joint Conference on Neural Networks
+  (IEEE World Congress on Computational Intelligence)}, pages 1322--1328, 2008.
+
+\bibitem{Hesamifard2017}
+Ehsan Hesamifard, Hassan Takabi, and Mehdi Ghasemi.
+\newblock {CryptoDL : Deep Neural Networks over Encrypted Data}.
+\newblock pages 1--21, 2017.
+
+\bibitem{Hesamifard}
+Ehsan Hesamifard, Hassan Takabi, and Mehdi Ghasemi.
+\newblock Cryptodl: Deep neural networks over encrypted data.
+\newblock {\em CoRR}, abs/1711.05189, 2017.
+
+\bibitem{Hitaj2017}
+Briland Hitaj, Giuseppe Ateniese, and Fernando Perez-Cruz.
+\newblock {Deep Models Under the GAN: Information Leakage from Collaborative
+  Deep Learning}.
+\newblock 2017.
+
+\bibitem{huang_learning_2016}
+Chen Huang, Yining Li, Chen~Change Loy, and Xiaoou Tang.
+\newblock Learning {Deep} {Representation} for {Imbalanced} {Classification}.
+\newblock In {\em 2016 {IEEE} {Conference} on {Computer} {Vision} and {Pattern}
+  {Recognition} ({CVPR})}, pages 5375--5384, Las Vegas, NV, USA, June 2016.
+  IEEE.
+
+\bibitem{9392310}
+S.~Itahara, T.~Nishio, Y.~Koda, M.~Morikura, and K.~Yamamoto.
+\newblock Distillation-based semi-supervised federated learning for
+  communication-efficient collaborative training with non-iid private data.
+\newblock {\em IEEE Transactions on Mobile Computing}, (01):1--1, mar 2021.
+
+\bibitem{Shenzhen}
+Stefan Jaeger, Sema Candemir, Sameer Antani, Yì-Xiáng Wáng, Pu-Xuan Lu, and
+  George Thoma.
+\newblock Two public chest x-ray datasets for computer-aided screening of
+  pulmonary diseases.
+\newblock {\em Quantitative imaging in medicine and surgery}, 4:475--7, 12
+  2014.
+
+\bibitem{pauljensen}
+Paul~A. Jensen.
+\newblock Algorithms for constrained optimization.
+\newblock \url
+  {https://www.me.utexas.edu/~jensen/ORMM/supplements/units/nlp_methods/const_opt.pdf}.
+
+\bibitem{noauthor_empirical_2021}
+Chi Jin, Lydia~T. Liu, Rong Ge, and Michael~I Jordan.
+\newblock On the local minima of the empirical risk.
+\newblock In S.~Bengio, H.~Wallach, H.~Larochelle, K.~Grauman, N.~Cesa-Bianchi,
+  and R.~Garnett, editors, {\em Advances in Neural Information Processing
+  Systems}, volume~31. Curran Associates, Inc., 2018.
+
+\bibitem{johnson_survey_2019}
+Justin~M. Johnson and Taghi~M. Khoshgoftaar.
+\newblock Survey on deep learning with class imbalance.
+\newblock {\em Journal of Big Data}, 6(1):27, December 2019.
+
+\bibitem{Kermany2018LabeledOC}
+Daniel~S. Kermany, Kang Zhang, and Michael~H. Goldbaum.
+\newblock Labeled optical coherence tomography (oct) and chest x-ray images for
+  classification.
+\newblock 2018.
+
+\bibitem{7815484}
+S.~Y. {Kung}.
+\newblock Compressive privacy: From information\/estimation theory to machine
+  learning [lecture notes].
+\newblock {\em IEEE Signal Processing Magazine}, 34(1):94--112, Jan 2017.
+
+\bibitem{Kung}
+S.Y. Kung.
+\newblock A compressive privacy approach to generalized information bottleneck
+  and privacy funnel problems.
+\newblock {\em Journal of the Franklin Institute}, 355, 07 2017.
+
+\bibitem{uci_imbalance_dataset}
+Guillaume Lema{{\^i}}tre, Fernando Nogueira, and Christos~K. Aridas.
+\newblock Imbalanced-learn: A python toolbox to tackle the curse of imbalanced
+  datasets in machine learning.
+\newblock {\em Journal of Machine Learning Research}, 18(17):1--5, 2017.
+
+\bibitem{leroueil_compressibility_1996}
+S.~Leroueil.
+\newblock Compressibility of {Clays}: {Fundamental} and {Practical} {Aspects}.
+\newblock {\em Journal of Geotechnical Engineering}, 122(7):534--543, July
+  1996.
+
+\bibitem{li_entropy-based_2020}
+Lusi Li, Haibo He, and Jie Li.
+\newblock Entropy-based {Sampling} {Approaches} for {Multi}-{Class}
+  {Imbalanced} {Problems}.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering},
+  32(11):2159--2170, November 2020.
+
+\bibitem{abs-2102-02079}
+Qinbin Li, Yiqun Diao, Quan Chen, and Bingsheng He.
+\newblock Federated learning on non-iid data silos: An experimental study.
+\newblock {\em CoRR}, abs/2102.02079, 2021.
+
+\bibitem{survey}
+Tian Li, Anit~Kumar Sahu, Manzil Zaheer, Maziar Sanjabi, Ameet Talwalkar, and
+  Virginia Smith.
+\newblock Federated optimization in heterogeneous networks.
+\newblock In {\em MLSys}, 2020.
+
+\bibitem{li2021fedbn}
+Xiaoxiao Li, Meirui JIANG, Xiaofei Zhang, Michael Kamp, and Qi~Dou.
+\newblock Fed{BN}: Federated learning on non-{IID} features via local batch
+  normalization.
+\newblock In {\em International Conference on Learning Representations}, 2021.
+
+\bibitem{ECOEnsemble}
+Pin Lim, Chi~Keong Goh, and Kay~Chen Tan.
+\newblock Evolutionary cluster-based synthetic oversampling ensemble
+  (eco-ensemble) for imbalance learning.
+\newblock {\em IEEE Transactions on Cybernetics}, 47(9):2850--2861, 2017.
+
+\bibitem{DBLP:conf/dmin/LiuGM07}
+Alexander Liu, Joydeep Ghosh, and Cheryl~E. Martin.
+\newblock Generative oversampling for mining imbalanced datasets.
+\newblock In Robert Stahlbock, Sven~F. Crone, and Stefan Lessmann, editors,
+  {\em Proceedings of the 2007 International Conference on Data Mining, {DMIN}
+  2007, June 25-28, 2007, Las Vegas, Nevada, {USA}}, pages 66--72. {CSREA}
+  Press, 2007.
+
+\bibitem{abs_1905_06641}
+Lumin Liu, Jun Zhang, Shenghui Song, and Khaled~Ben Letaief.
+\newblock Edge-assisted hierarchical federated learning with non-iid data.
+\newblock {\em CoRR}, abs/1905.06641, 2019.
+
+\bibitem{LIU201735}
+Shigang Liu, Yu~Wang, Jun Zhang, Chao Chen, and Yang Xiang.
+\newblock Addressing the class imbalance problem in twitter spam detection
+  using ensemble learning.
+\newblock {\em Computers and Security}, 69:35--49, 2017.
+\newblock Security Data Science and Cyber Threat Management.
+
+\bibitem{EE}
+Xu-Ying Liu, Jianxin Wu, and Zhi-Hua Zhou.
+\newblock Exploratory undersampling for class-imbalance learning.
+\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics, Part B
+  (Cybernetics)}, 39(2):539--550, 2009.
+
+\bibitem{liu_high-performance_2020}
+Yang Liu, Xiang Li, Xianbang Chen, Xi~Wang, and Huaqiang Li.
+\newblock High-{Performance} {Machine} {Learning} for {Large}-{Scale} {Data}
+  {Classification} considering {Class} {Imbalance}.
+\newblock {\em Scientific Programming}, 2020:1--16, May 2020.
+
+\bibitem{celeba}
+Ziwei Liu, Ping Luo, Xiaogang Wang, and Xiaoou Tang.
+\newblock Deep learning face attributes in the wild.
+\newblock In {\em Proceedings of International Conference on Computer Vision
+  (ICCV)}, December 2015.
+
+\bibitem{DBLP:journals/corr/abs-1805-00932}
+Dhruv Mahajan, Ross~B. Girshick, Vignesh Ramanathan, Kaiming He, Manohar
+  Paluri, Yixuan Li, Ashwin Bharambe, and Laurens van~der Maaten.
+\newblock Exploring the limits of weakly supervised pretraining.
+\newblock {\em CoRR}, abs/1805.00932, 2018.
+
+\bibitem{cssvm}
+Hamed Masnadi{-}Shirazi, Nuno Vasconcelos, and Arya Iranmehr.
+\newblock Cost-sensitive support vector machines.
+\newblock {\em CoRR}, abs/1212.0975, 2012.
+
+\bibitem{OriginFL}
+Brendan McMahan, Eider Moore, Daniel Ramage, Seth Hampson, and Blaise Aguera~y
+  Arcas.
+\newblock Communication-efficient learning of deep networks from decentralized
+  data.
+\newblock In Aarti Singh and Jerry Zhu, editors, {\em Proceedings of the 20th
+  International Conference on Artificial Intelligence and Statistics},
+  volume~54 of {\em Proceedings of Machine Learning Research}, pages
+  1273--1282. PMLR, 20--22 Apr 2017.
+
+\bibitem{densityratio}
+Aditya Menon and Cheng~Soon Ong.
+\newblock Linking losses for density ratio and class-probability estimation.
+\newblock In Maria~Florina Balcan and Kilian~Q. Weinberger, editors, {\em
+  Proceedings of The 33rd International Conference on Machine Learning},
+  volume~48 of {\em Proceedings of Machine Learning Research}, pages 304--313,
+  New York, New York, USA, 20--22 Jun 2016. PMLR.
+
+\bibitem{AFL}
+Mehryar Mohri, Gary Sivek, and Ananda~Theertha Suresh.
+\newblock Agnostic federated learning.
+\newblock In Kamalika Chaudhuri and Ruslan Salakhutdinov, editors, {\em
+  Proceedings of the 36th International Conference on Machine Learning},
+  volume~97 of {\em Proceedings of Machine Learning Research}, pages
+  4615--4625. PMLR, 09--15 Jun 2019.
+
+\bibitem{mullick_generative_2019}
+Sankha~Subhra Mullick, Shounak Datta, and Swagatam Das.
+\newblock Generative {Adversarial} {Minority} {Oversampling}.
+\newblock In {\em 2019 {IEEE}/{CVF} {International} {Conference} on {Computer}
+  {Vision} ({ICCV})}, pages 1695--1704, Seoul, Korea (South), October 2019.
+  IEEE.
+
+\bibitem{Pedersen2007}
+Tb~Pedersen, Y~Saygın, and E~Savaş.
+\newblock {Secret charing vs. encryption-based techniques for privacy
+  preserving data mining}.
+\newblock {\em Fac. Eng. Nat. Sci. Sabanci Univ. Istanbul, TURKEY}, 1:1--11,
+  2007.
+
+\bibitem{Phan2016}
+Nhathai Phan, Yue Wang, Xintao Wu, and Dejing Dou.
+\newblock {Differential Privacy Preservation for Deep Auto-Encoders: An
+  Application of Human Behavior Prediction}.
+\newblock {\em Aaai}, pages 1309--1316, 2016.
+
+\bibitem{7393573}
+Zhicong Qiu, David~J. Miller, and George Kesidis.
+\newblock A maximum entropy framework for semisupervised and active learning
+  with unknown and label-scarce classes.
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems},
+  28(4):917--933, 2017.
+
+\bibitem{rangarajan_sridhar_unsupervised_2015}
+Vivek~Kumar Rangarajan~Sridhar.
+\newblock Unsupervised {Text} {Normalization} {Using} {Distributed}
+  {Representations} of {Words} and {Phrases}.
+\newblock In {\em Proceedings of the 1st {Workshop} on {Vector} {Space}
+  {Modeling} for {Natural} {Language} {Processing}}, pages 8--16, Denver,
+  Colorado, 2015. Association for Computational Linguistics.
+
+\bibitem{rashid_convergence_2012}
+M.H. Rashid, J.H. Wang, and C.~Li.
+\newblock Convergence analysis of a method for variational inclusions.
+\newblock {\em Applicable Analysis}, 91(10):1943--1956, October 2012.
+
+\bibitem{FedProx}
+Anit~Kumar Sahu, Tian Li, Maziar Sanjabi, Manzil Zaheer, Ameet Talwalkar, and
+  Virginia Smith.
+\newblock On the convergence of federated optimization in heterogeneous
+  networks.
+\newblock {\em CoRR}, abs/1812.06127, 2018.
+
+\bibitem{Sahu2018OnTC}
+Anit~Kumar Sahu, Tian Li, Maziar Sanjabi, Manzil Zaheer, Ameet~S. Talwalkar,
+  and Virginia Smith.
+\newblock On the convergence of federated optimization in heterogeneous
+  networks.
+\newblock {\em ArXiv}, abs/1812.06127, 2018.
+
+\bibitem{341300}
+F.~S. Samaria and A.~C. Harter.
+\newblock Parameterisation of a stochastic model for human face identification.
+\newblock In {\em Proceedings of 1994 IEEE Workshop on Applications of Computer
+  Vision}, pages 138--142, Dec 1994.
+
+\bibitem{RUSBoost}
+Chris Seiffert, Taghi~M. Khoshgoftaar, Jason Van~Hulse, and Amri Napolitano.
+\newblock Rusboost: A hybrid approach to alleviating class imbalance.
+\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics - Part A:
+  Systems and Humans}, 40(1):185--197, 2010.
+
+\bibitem{settles_analysis_2008}
+Burr Settles and Mark Craven.
+\newblock An analysis of active learning strategies for sequence labeling
+  tasks.
+\newblock In {\em Proceedings of the {Conference} on {Empirical} {Methods} in
+  {Natural} {Language} {Processing} - {EMNLP} '08}, page 1070, Honolulu,
+  Hawaii, 2008. Association for Computational Linguistics.
+
+\bibitem{Shamir1979}
+Adi Shamir.
+\newblock {How to share a secret}.
+\newblock {\em Commun. ACM}, pages 612--613, 1979.
+
+\bibitem{shannon_mathematical_1948}
+C.~E. Shannon.
+\newblock A {Mathematical} {Theory} of {Communication}.
+\newblock {\em Bell System Technical Journal}, 27(3):379--423, July 1948.
+
+\bibitem{DBLP:journals/corr/ShenLH15}
+Li~Shen, Zhouchen Lin, and Qingming Huang.
+\newblock Learning deep convolutional neural networks for places2 scene
+  recognition.
+\newblock {\em CoRR}, abs/1512.05830, 2015.
+
+\bibitem{Shen2020FederatedML}
+Tao Shen, J.~Zhang, Xinkang Jia, Fengda Zhang, Gang Huang, Pan Zhou, Fei Wu,
+  and Chao Wu.
+\newblock Federated mutual learning.
+\newblock {\em ArXiv}, abs/2006.16765, 2020.
+
+\bibitem{vgg}
+Karen Simonyan and Andrew Zisserman.
+\newblock Very deep convolutional networks for large-scale image recognition.
+\newblock In {\em 3rd International Conference on Learning Representations,
+  {ICLR} 2015, San Diego, CA, USA, May 7-9, 2015, Conference Track
+  Proceedings}, 2015.
+
+\bibitem{FedProto}
+Yue Tan, Guodong Long, LU~LIU, Tianyi Zhou, Qinghua Lu, Jing Jiang, and Chengqi
+  Zhang.
+\newblock Fedproto: Federated prototype learning across heterogeneous clients.
+\newblock {\em Proceedings of the AAAI Conference on Artificial Intelligence},
+  36(8):8432–8440, 2022.
+
+\bibitem{9155494}
+Hao Wang, Zakhary Kaplan, Di~Niu, and Baochun Li.
+\newblock Optimizing federated learning on non-iid data with reinforcement
+  learning.
+\newblock In {\em IEEE INFOCOM 2020 - IEEE Conference on Computer
+  Communications}, pages 1698--1707, 2020.
+
+\bibitem{fedma}
+Hongyi Wang, Mikhail Yurochkin, Yuekai Sun, Dimitris Papailiopoulos, and
+  Yasaman Khazaeni.
+\newblock Federated learning with matched averaging.
+\newblock In {\em International Conference on Learning Representations}, 2020.
+
+\bibitem{fednova}
+"Jianyu Wang, Qinghua Liu, Hao Liang, Gauri Joshi, and H." Vincent~Poor.
+\newblock "tackling the objective inconsistency problem in heterogeneous
+  federated optimization".
+\newblock {\em "Advances in Neural Information Processing Systems"},
+  "2020-December", "2020".
+
+\bibitem{cite:AUC}
+{Wikipedia contributors}.
+\newblock Receiver operating characteristic --- {Wikipedia}{,} the free
+  encyclopedia.
+\newblock
+  \url{https://en.wikipedia.org/w/index.php?title=Receiver_operating_characteristic&oldid=1081635328},
+  2022.
+
+\bibitem{Wu}
+Zhenyu Wu, Zhangyang Wang, Zhaowen Wang, and Hailin Jin.
+\newblock Towards privacy-preserving visual recognition via adversarial
+  training: {A} pilot study.
+\newblock {\em CoRR}, abs/1807.08379, 2018.
+
+\bibitem{XiaoqianJiangZhanglongJiShuangWangNomanMohammedSamuelCheng2013}
+Lucila Ohno-Machado {Xiaoqian Jiang, Zhanglong Ji, Shuang Wang, Noman Mohammed,
+  Samuel Cheng}.
+\newblock {Differential-Private Data Publishing Through Component Analysis}.
+\newblock {\em Trans. data Priv.}, 6(1):19--34, 2013.
+
+\bibitem{XieKun}
+Kun Xie, Xueping Ning, Xin Wang, Jigang Wen, Xiaoxiao Liu, Shiming He,
+  editor="Wang-Guojun Zhang, Daqiang", Albert Zomaya, Gregorio Martinez, and
+  Kenli" Li.
+\newblock "an efficient privacy-preserving compressive data gathering scheme in
+  wsns".
+\newblock In {\em "Algorithms and Architectures for Parallel Processing"},
+  pages "702--715", "Cham", "2015". "Springer International Publishing".
+
+\bibitem{bib:GDO}
+Yuxi Xie, Min Qiu, Haibo Zhang, Lizhi Peng, and Zhenxiang Chen.
+\newblock Gaussian distribution based oversampling for imbalanced data
+  classification.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering},
+  34(2):667--679, 2022.
+
+\bibitem{ya-guan_emsgd:_2020}
+Qian Ya-Guan, Ma~Jun, Zhang Xi-Min, Pan Jun, Zhou Wu-Jie, Wu~Shu-Hui, Yun
+  Ben-Sheng, and Lei Jing-Sheng.
+\newblock {EMSGD}: {An} {Improved} {Learning} {Algorithm} of {Neural}
+  {Networks} {With} {Imbalanced} {Data}.
+\newblock {\em IEEE Access}, 8:64086--64098, 2020.
+
+\bibitem{yadav_federated_2022}
+Satya~Prakash Yadav, Bhoopesh~Singh Bhati, Dharmendra~Prasad Mahato, Sachin
+  Kumar, and {SpringerLink (Online service)}.
+\newblock {\em Federated {Learning} for {IoT} {Applications}}.
+\newblock Springer International Publishing Imprint Springer., Cham, 2022.
+\newblock OCLC: 1295622946.
+
+\bibitem{MYang}
+M.~{Yang}, T.~{Zhu}, B.~{Liu}, Y.~{Xiang}, and W.~{Zhou}.
+\newblock Machine learning differential privacy with multifunctional
+  aggregation in a fog computing architecture.
+\newblock {\em IEEE Access}, 6:17119--17129, 2018.
+
+\bibitem{Yao1986}
+Andrew Chi-Chih Yao.
+\newblock {How to generate and exchange secrets}.
+\newblock {\em 27th Annu. Symp. Found. Comput. Sci. (sfcs 1986)}, (1):162--167,
+  1986.
+
+\bibitem{pfnm}
+Mikhail Yurochkin, Mayank Agarwal, Soumya Ghosh, Kristjan Greenewald, Nghia
+  Hoang, and Yasaman Khazaeni.
+\newblock {B}ayesian nonparametric federated learning of neural networks.
+\newblock In Kamalika Chaudhuri and Ruslan Salakhutdinov, editors, {\em
+  Proceedings of the 36th International Conference on Machine Learning},
+  volume~97 of {\em Proceedings of Machine Learning Research}, pages
+  7252--7261. PMLR, 09--15 Jun 2019.
+
+\bibitem{zhai_dynamic_2021}
+Shaolei Zhai, Xin Jin, Ling Wei, Hongxuan Luo, and Min Cao.
+\newblock Dynamic {Federated} {Learning} for {GMEC} {With} {Time}-{Varying}
+  {Wireless} {Link}.
+\newblock {\em IEEE Access}, 9:10400--10412, 2021.
+
+\bibitem{Zhang2012}
+Jun Zhang, Zhenjie Zhang, Xiaokui Xiao, Yin Yang, and Marianne Winslett.
+\newblock {Functional Mechanism: Regression Analysis under Differential
+  Privacy}.
+\newblock pages 1364--1375, 2012.
+
+\bibitem{abs-2005-11418}
+Xinwei Zhang, Mingyi Hong, Sairaj~V. Dhople, Wotao Yin, and Yang Liu.
+\newblock Fedpd: {A} federated learning framework with optimal rates and
+  adaptivity to non-iid data.
+\newblock {\em CoRR}, abs/2005.11418, 2020.
+
+\bibitem{Zhao2018FederatedLW}
+Yue Zhao, Meng Li, Liangzhen Lai, Naveen Suda, Damon Civin, and Vikas Chandra.
+\newblock Federated learning with non-iid data.
+\newblock {\em ArXiv}, abs/1806.00582, 2018.
+
+\bibitem{DifferentialPrivacywithCompression}
+Shuheng Zhou, Katrina Ligett, and Larry Wasserman.
+\newblock Differential privacy with compression.
+\newblock {\em CoRR}, 2009.
+
+\bibitem{ZHU2021371}
+Hangyu Zhu, Jinjin Xu, Shiqing Liu, and Yaochu Jin.
+\newblock Federated learning on non-iid data: A survey.
+\newblock {\em Neurocomputing}, 465:371--390, 2021.
+
+\bibitem{zhuang2017fripal}
+Di~Zhuang, Sen Wang, and J~Morris Chang.
+\newblock Fripal: Face recognition in privacy abstraction layer.
+\newblock In {\em 2017 IEEE Conference on Dependable and Secure Computing},
+  pages 441--448. IEEE, 2017.
+
+\end{thebibliography}

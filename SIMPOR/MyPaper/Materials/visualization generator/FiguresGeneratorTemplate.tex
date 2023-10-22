@@ -1,0 +1,111 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[
+margin=0.2cm,
+]{geometry}
+\usepackage{layout}
+%\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{adjustbox}
+\pagenumbering{gobble} 
+
+\newcommand{\image}[6]{%  
+  \begin{figure*}[h!]
+  	\centering
+  	%[trim=left bottom right top, clip]
+  	\begin{subfigure}[t]{0.32\linewidth}	
+  		\includegraphics[width=\linewidth,trim=40 40 40 40]{creditcard/PCA/RawData-data-run-0-0}
+  		\includegraphics[width=\linewidth,trim=40 40 40 40]{creditcard/PCA/RawData-data-run-0-0_DIST}
+  		\begin{adjustbox}{width=\columnwidth,center}
+  		\begin{tabular}{c|c|c|c}
+  			Minority & Majority & Inter. & HDR  \\
+  			\hline
+  			367  & 2585  & 256 & 69.75\(\%\) \\
+  		\end{tabular}
+  		\end{adjustbox}
+  		\caption{#1. }
+  		\label{fig:RawData_hist}
+  	\end{subfigure}
+  	\hspace{0.1em}%
+  	\begin{subfigure}[t]{0.32\linewidth}	
+  		\includegraphics[width=\linewidth,trim=40 40 40 40,clip]{creditcard/PCA/SIMPOR-data-run-0-0}
+  		\includegraphics[width=\linewidth,trim=40 40 40 40,clip]{creditcard/PCA/SIMPOR-data-run-0-0_DIST}
+  		\begin{adjustbox}{width=\columnwidth,center}
+  		\begin{tabular}{c|c|c|c}
+  			Minority & Majority & Inter. & HDR  \\
+  			\hline
+  			2585  & 2585  & 288 & \textbf{11.14\(\%\)} \\
+  		\end{tabular}
+  		\end{adjustbox}
+  		\caption{#2. }
+  		\label{fig:SIMPOR_hist}
+  	\end{subfigure}
+  	\hspace{0.1em}%
+  	\begin{subfigure}[t]{0.32\linewidth}	
+  		\includegraphics[width=\linewidth,trim=40 40 40 40,clip]{creditcard/PCA/SMOTE-data-run-0-0}
+  		\includegraphics[width=\linewidth,trim=40 40 40 40,clip]{creditcard/PCA/SMOTE-data-run-0-0_DIST}
+  		\begin{adjustbox}{width=\columnwidth,center}
+  		\begin{tabular}{c|c|c|c}
+  			Minority & Majority & Inter. & HDR  \\
+  			\hline
+  			2585  & 2585  & 534 & 20.66\(\%\) \\
+  		\end{tabular}
+  		\end{adjustbox}
+  		\caption{#3. }
+  		\label{fig:SMOTE_hist}
+  	\end{subfigure}
+  	\\ 
+  	\begin{subfigure}[t]{0.32\linewidth}	
+  		\includegraphics[width=\linewidth,trim=40 40 40 40,clip]{creditcard/PCA/ADASYN-data-run-0-0}
+  		\includegraphics[width=\linewidth,trim=40 40 40 40,clip]{creditcard/PCA/ADASYN-data-run-0-0_DIST}
+		\begin{adjustbox}{width=\columnwidth,center}
+  		\begin{tabular}{c|c|c|c}
+  			Minority & Majority & Inter. & HDR  \\
+  			\hline
+  			2585  & 2585  & 2115 & 81.82\(\%\) \\
+  		\end{tabular}
+  	\end{adjustbox}
+  		\caption{#4. }
+  		\label{fig:ADASYN_hist}
+  	\end{subfigure}
+  	\hspace{0.1em}%
+  	\begin{subfigure}[t]{0.32\linewidth}	
+  		\includegraphics[width=\linewidth,trim=40 40 40 40,clip]{creditcard/PCA/BorderlineSMOTE-data-run-0-0}
+  		\includegraphics[width=\linewidth,trim=40 40 40 40,clip]{creditcard/PCA/BorderlineSMOTE-data-run-0-0_DIST}
+		\begin{adjustbox}{width=\columnwidth,center}
+  		\begin{tabular}{c|c|c|c}
+  			Minority & Majority & Inter. & HDR  \\
+  			\hline
+  			2585  & 2585  & 1964 & 75.98\(\%\) \\
+  		\end{tabular}
+  	\end{adjustbox}
+  		\caption{#5. }
+  		\label{fig:BorderlineSMOTE_hist}
+  	\end{subfigure}
+  	\hspace{0.1em}%
+  	\begin{subfigure}[t]{0.32\linewidth}	
+  		\includegraphics[width=\linewidth,trim=40 40 40 40,clip]{creditcard/PCA/Oversampling-data-run-0-0}
+  		\includegraphics[width=\linewidth,trim=40 40 40 40,clip]{creditcard/PCA/Oversampling-data-run-0-0_DIST}
+		\begin{adjustbox}{width=\columnwidth,center}
+  		\begin{tabular}{c|c|c|c}
+  			Minority & Majority & Inter. & HDR  \\
+  			\hline
+  			2585  & 2585  & 544 & 21.4\(\%\) \\
+  		\end{tabular}
+  	\end{adjustbox}
+  		\caption{#6. }
+  		\label{fig:#1}
+  	\end{subfigure}
+  	
+  	\caption{Generated training data projected onto 2-dimension space and their histograms in 1-Dimension space using Principle Component Analysis dimension reduction technique. The explanation tables illustrate the number of samples in each class (Minority and Majority), 1-Dimension histogram intersection between 2 classes, and the hard-to-differentiate ratio ($HDR = \frac{Inter.}{Fraud}100\%$).}
+  	\label{fig:creditcard_plot}
+
+  	
+  \end{figure*}
+}
+
+\begin{document}
+
+\image{Raw Data}{SIMPOR}{SMOTE}{ADASYN}{BorderlineSMOTE}{ROS} 
+
+\end{document}

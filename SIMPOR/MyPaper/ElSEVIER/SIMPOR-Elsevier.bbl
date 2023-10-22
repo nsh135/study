@@ -1,0 +1,202 @@
+\begin{thebibliography}{10}
+
+\bibitem{maximum_exist}
+Maximal and minimal points of functions theory.
+
+\bibitem{wikipedia_2021}
+Sphere, Aug 2021.
+
+\bibitem{aggarwal_active_2020}
+Umang Aggarwal, Adrian Popescu, and Celine Hudelot.
+\newblock Active {Learning} for {Imbalanced} {Datasets}.
+\newblock In {\em 2020 {IEEE} {Winter} {Conference} on {Applications} of
+  {Computer} {Vision} ({WACV})}, pages 1417--1426, Snowmass Village, CO, USA,
+  March 2020. IEEE.
+
+\bibitem{chawla_smote:_2002}
+N.~V. Chawla, K.~W. Bowyer, L.~O. Hall, and W.~P. Kegelmeyer.
+\newblock {SMOTE}: {Synthetic} {Minority} {Over}-sampling {Technique}.
+\newblock {\em Journal of Artificial Intelligence Research}, 16:321--357, June
+  2002.
+
+\bibitem{cui_class-balanced_2019}
+Yin Cui, Menglin Jia, Tsung-Yi Lin, Yang Song, and Serge Belongie.
+\newblock Class-{Balanced} {Loss} {Based} on {Effective} {Number} of {Samples}.
+\newblock In {\em 2019 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and
+  {Pattern} {Recognition} ({CVPR})}, pages 9260--9269, Long Beach, CA, USA,
+  June 2019. IEEE.
+
+\bibitem{dai_generative_2019}
+Wangzhi Dai, Kenney Ng, Kristen Severson, Wei Huang, Fred Anderson, and Collin
+  Stultz.
+\newblock Generative {Oversampling} with a {Contrastive} {Variational}
+  {Autoencoder}.
+\newblock In {\em 2019 {IEEE} {International} {Conference} on {Data} {Mining}
+  ({ICDM})}, pages 101--109, Beijing, China, November 2019. IEEE.
+
+\bibitem{breast_cancer}
+Dheeru Dua and Casey Graff.
+\newblock {UCI} machine learning repository, 2017.
+
+\bibitem{ertekin_learning_2007}
+Seyda Ertekin, Jian Huang, Leon Bottou, and Lee Giles.
+\newblock Learning on the border: active learning in imbalanced data
+  classification.
+\newblock In {\em Proceedings of the sixteenth {ACM} conference on {Conference}
+  on information and knowledge management - {CIKM} '07}, page 127, Lisbon,
+  Portugal, 2007. ACM Press.
+
+\bibitem{ertekin_active_2007}
+Seyda Ertekin, Jian Huang, and C.~Lee Giles.
+\newblock Active learning for class imbalance problem.
+\newblock In {\em Proceedings of the 30th annual international {ACM} {SIGIR}
+  conference on {Research} and development in information retrieval - {SIGIR}
+  '07}, page 823, Amsterdam, The Netherlands, 2007. ACM Press.
+
+\bibitem{pca}
+Karl~Pearson F.R.S.
+\newblock Liii. on lines and planes of closest fit to systems of points in
+  space.
+\newblock {\em The London, Edinburgh, and Dublin Philosophical Magazine and
+  Journal of Science}, 2(11):559--572, 1901.
+
+\bibitem{DBLP:journals/corr/abs-1711-00941}
+Yonatan Geifman and Ran El{-}Yaniv.
+\newblock Deep active learning over the long tail.
+\newblock {\em CoRR}, abs/1711.00941, 2017.
+
+\bibitem{DAL}
+Daniel Gissin and Shai Shalev-Shwartz.
+\newblock Discriminative active learning, 2019.
+
+\bibitem{goswami_class_2020}
+Dr~Saptarsi Goswami.
+\newblock Class {Imbalance}, {SMOTE}, {Borderline} {SMOTE}, {ADASYN}, November
+  2020.
+
+\bibitem{goy_credit_2019}
+Gokhan Goy, Cengiz Gezer, and Vehbi~Cagri Gungor.
+\newblock Credit {Card} {Fraud} {Detection} with {Machine} {Learning}
+  {Methods}.
+\newblock In {\em 2019 4th {International} {Conference} on {Computer} {Science}
+  and {Engineering} ({UBMK})}, pages 350--354, Samsun, Turkey, September 2019.
+  IEEE.
+
+\bibitem{haibo_he_learning_2009}
+{Haibo He} and E.A. Garcia.
+\newblock Learning from {Imbalanced} {Data}.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering},
+  21(9):1263--1284, September 2009.
+
+\bibitem{bordersmote}
+Hui Han, Wen-Yuan Wang, and Bing-Huan Mao.
+\newblock Borderline-smote: A new over-sampling method in imbalanced data sets
+  learning.
+\newblock In De-Shuang Huang, Xiao-Ping Zhang, and Guang-Bin Huang, editors,
+  {\em Advances in Intelligent Computing}, pages 878--887, Berlin, Heidelberg,
+  2005. Springer Berlin Heidelberg.
+
+\bibitem{ADASYN}
+Haibo He, Yang Bai, Edwardo~A. Garcia, and Shutao Li.
+\newblock Adasyn: Adaptive synthetic sampling approach for imbalanced learning.
+\newblock In {\em 2008 IEEE International Joint Conference on Neural Networks
+  (IEEE World Congress on Computational Intelligence)}, pages 1322--1328, 2008.
+
+\bibitem{huang_learning_2016}
+Chen Huang, Yining Li, Chen~Change Loy, and Xiaoou Tang.
+\newblock Learning {Deep} {Representation} for {Imbalanced} {Classification}.
+\newblock In {\em 2016 {IEEE} {Conference} on {Computer} {Vision} and {Pattern}
+  {Recognition} ({CVPR})}, pages 5375--5384, Las Vegas, NV, USA, June 2016.
+  IEEE.
+
+\bibitem{leroueil_compressibility_1996}
+S.~Leroueil.
+\newblock Compressibility of {Clays}: {Fundamental} and {Practical} {Aspects}.
+\newblock {\em Journal of Geotechnical Engineering}, 122(7):534--543, July
+  1996.
+
+\bibitem{li_entropy-based_2020}
+Lusi Li, Haibo He, and Jie Li.
+\newblock Entropy-based {Sampling} {Approaches} for {Multi}-{Class}
+  {Imbalanced} {Problems}.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering},
+  32(11):2159--2170, November 2020.
+
+\bibitem{DBLP:conf/dmin/LiuGM07}
+Alexander Liu, Joydeep Ghosh, and Cheryl~E. Martin.
+\newblock Generative oversampling for mining imbalanced datasets.
+\newblock In Robert Stahlbock, Sven~F. Crone, and Stefan Lessmann, editors,
+  {\em Proceedings of the 2007 International Conference on Data Mining, {DMIN}
+  2007, June 25-28, 2007, Las Vegas, Nevada, {USA}}, pages 66--72. {CSREA}
+  Press, 2007.
+
+\bibitem{liu_high-performance_2020}
+Yang Liu, Xiang Li, Xianbang Chen, Xi~Wang, and Huaqiang Li.
+\newblock High-{Performance} {Machine} {Learning} for {Large}-{Scale} {Data}
+  {Classification} considering {Class} {Imbalance}.
+\newblock {\em Scientific Programming}, 2020:1--16, May 2020.
+
+\bibitem{DBLP:journals/corr/abs-1805-00932}
+Dhruv Mahajan, Ross~B. Girshick, Vignesh Ramanathan, Kaiming He, Manohar
+  Paluri, Yixuan Li, Ashwin Bharambe, and Laurens van~der Maaten.
+\newblock Exploring the limits of weakly supervised pretraining.
+\newblock {\em CoRR}, abs/1805.00932, 2018.
+
+\bibitem{mullick_generative_2019}
+Sankha~Subhra Mullick, Shounak Datta, and Swagatam Das.
+\newblock Generative {Adversarial} {Minority} {Oversampling}.
+\newblock In {\em 2019 {IEEE}/{CVF} {International} {Conference} on {Computer}
+  {Vision} ({ICCV})}, pages 1695--1704, Seoul, Korea (South), October 2019.
+  IEEE.
+
+\bibitem{cuda}
+NVIDIA, Péter Vingelmann, and Frank~H.P. Fitzek.
+\newblock Cuda, release: 10.2.89, 2020.
+
+\bibitem{7393573}
+Zhicong Qiu, David~J. Miller, and George Kesidis.
+\newblock A maximum entropy framework for semisupervised and active learning
+  with unknown and label-scarce classes.
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems},
+  28(4):917--933, 2017.
+
+\bibitem{rangarajan_sridhar_unsupervised_2015}
+Vivek~Kumar Rangarajan~Sridhar.
+\newblock Unsupervised {Text} {Normalization} {Using} {Distributed}
+  {Representations} of {Words} and {Phrases}.
+\newblock In {\em Proceedings of the 1st {Workshop} on {Vector} {Space}
+  {Modeling} for {Natural} {Language} {Processing}}, pages 8--16, Denver,
+  Colorado, 2015. Association for Computational Linguistics.
+
+\bibitem{rashid_convergence_2012}
+M.H. Rashid, J.H. Wang, and C.~Li.
+\newblock Convergence analysis of a method for variational inclusions.
+\newblock {\em Applicable Analysis}, 91(10):1943--1956, October 2012.
+
+\bibitem{settles_analysis_2008}
+Burr Settles and Mark Craven.
+\newblock An analysis of active learning strategies for sequence labeling
+  tasks.
+\newblock In {\em Proceedings of the {Conference} on {Empirical} {Methods} in
+  {Natural} {Language} {Processing} - {EMNLP} '08}, page 1070, Honolulu,
+  Hawaii, 2008. Association for Computational Linguistics.
+
+\bibitem{shannon_mathematical_1948}
+C.~E. Shannon.
+\newblock A {Mathematical} {Theory} of {Communication}.
+\newblock {\em Bell System Technical Journal}, 27(3):379--423, July 1948.
+
+\bibitem{DBLP:journals/corr/ShenLH15}
+Li~Shen, Zhouchen Lin, and Qingming Huang.
+\newblock Learning deep convolutional neural networks for places2 scene
+  recognition.
+\newblock {\em CoRR}, abs/1512.05830, 2015.
+
+\bibitem{ya-guan_emsgd:_2020}
+Qian Ya-Guan, Ma~Jun, Zhang Xi-Min, Pan Jun, Zhou Wu-Jie, Wu~Shu-Hui, Yun
+  Ben-Sheng, and Lei Jing-Sheng.
+\newblock {EMSGD}: {An} {Improved} {Learning} {Algorithm} of {Neural}
+  {Networks} {With} {Imbalanced} {Data}.
+\newblock {\em IEEE Access}, 8:64086--64098, 2020.
+
+\end{thebibliography}

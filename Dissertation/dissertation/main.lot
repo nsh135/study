@@ -1,0 +1,12 @@
+\babel@toc {english}{}\relax 
+\contentsline {table}{\numberline {3.1}{\ignorespaces Dataset description.\relax }}{\hspace *{\fill }42}{}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Classification model settings for each dataset.\relax }}{\hspace *{\fill }44}{}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Classification result on Moon dataset.\relax }}{\hspace *{\fill }45}{}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces F1-score over different datasets.\relax }}{\hspace *{\fill }48}{}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces AUC result over different datasets.\relax }}{\hspace *{\fill }49}{}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Precision results over 41 datasets.\relax }}{\hspace *{\fill }50}{}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Recall results over 41 datasets.\relax }}{\hspace *{\fill }51}{}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Wilcoxon signed rank hypothesis test results.\relax }}{\hspace *{\fill }53}{}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces Processing time}}{\hspace *{\fill }56}{}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Implementation information\relax }}{\hspace *{\fill }76}{}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Sample visualization of AutoGAN, DP, PCA over three datasets\relax }}{\hspace *{\fill }84}{}%

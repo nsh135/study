@@ -1,0 +1,237 @@
+\RequirePackage{color}
+\documentclass[12pt,frontmatter,copyright,dissertation]{usfmanus}
+\usepackage[bottom=1in, left=1in, right=1in, top=1in]{geometry}
+\usepackage[utf8]{inputenc}
+
+\usepackage{ifpdf}
+\ifpdf %This ensure proper paper size (some compiler like overleaf mess it up)
+  \pdfpageheight=11in
+  \pdfpagewidth=8.5in
+\else
+  \special{papersize=11in,8.5in}
+\fi
+
+% Block comments
+\usepackage{verbatim}
+
+\usepackage[titles]{tocloft}
+
+\newcommand{\subfigureautorefname}{Figure}
+
+% Indent the section levels properly
+\setlength{\cftsecindent}{0.5in}
+\setlength{\cftsubsecindent}{1in}
+\setlength{\cftsubsubsecindent}{1.5in}
+
+
+\usepackage{multirow}
+\usepackage{url} \urlstyle{same} %To keep same font for url
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{floatrow}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb,alltt,url,verbatim}
+\usepackage{float}
+\usepackage{graphics}
+\usepackage{graphicx,leftidx}
+\usepackage{epsfig}
+\usepackage{appendix}
+\usepackage[ruled,chapter]{algorithm}
+\usepackage{algorithmic}
+\usepackage[english]{babel}
+\usepackage{url}
+\usepackage{multirow}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{comment}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage[center]{caption}
+\usepackage{subcaption}
+\usepackage{balance}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{color,colortbl}
+\usepackage{booktabs}
+%\usepackage{unicode-math}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{comment}
+\usepackage{booktabs}
+\usepackage{hhline}
+\usepackage{pgf}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{tikz}
+%\usepackage{cite}
+\usepackage{algorithmic}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{balance}
+\usepackage{array}
+\usepackage{pdflscape}
+\usepackage{float}
+\usepackage{pgfplotstable}
+\usepackage{sfmath}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{color, colortbl}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{collcell}
+\usepackage{etoolbox}
+%\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{hhline}
+\usepackage{pgf}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{everypage}
+\usepackage{blindtext}
+\usepackage{fancyhdr}
+
+\usepackage{tabularx,booktabs}
+\usepackage{adjustbox}
+
+%%%for SIMPOR 
+\usepackage{mathtools}
+\usepackage{cuted}
+%%for table 
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{booktabs}
+
+
+
+%%% for Federated Learning
+%%%%%% for privacy section
+\usepackage{stmaryrd}
+
+
+
+%%%% Only Edit if you know what you are doing %%%
+\floatsetup[table]{capposition=top}
+\counterwithout{footnote}{chapter}
+
+ \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+
+%\captionsetup{justification=raggedright,singlelinecheck=false}
+\setlength{\cftbeforetoctitleskip}{-3em}
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+\pgfplotsset{compat=1.16}
+\newcommand{\Lpagenumber}{\ifdim\textwidth=\linewidth\else\bgroup
+  \dimendef\margin=0 
+  \ifodd\value{page}\margin=\oddsidemargin
+  \else\margin=\evensidemargin
+  \fi
+  \raisebox{\dimexpr -\topmargin-\headheight-\headsep}[0pt][0pt]{%
+    \rlap{\hspace{\dimexpr \margin+\textheight+\footskip}%
+    \llap{\rotatebox{90}{\thepage}}}}%
+\egroup\fi}
+\AddEverypageHook{\Lpagenumber}%
+
+
+\def\vita{\long\def\@vita}
+\def\printvita{%
+  \newpage
+  \pagestyle{empty}
+
+  \addtocontents{toc}{\protect\contentsline{chapter}%
+{About the Author}{End Page}}
+  \begin{center}
+  ~\\~\\~\\{\bf About the Author} 
+  \end{center}
+  \begin{doublespace}
+   \@vita\nopagebreak\par
+  \end{doublespace}
+  \vfill
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%% Edit from here %%%%%%%%%%%%%%%%%
+
+
+\title{
+		Deep Learning Classification Enhancement and Privacy-Preserving Deep Learning: A Data-Centric Approach
+}
+
+
+
+
+\author{Hung S. Nguyen}
+
+
+\degree{Doctor of Philosophy} 
+
+\distname{dissertation }
+
+\department{Electrical Engineering} 
+
+
+\college{Engineering} 
+
+\majorprofessor{Morris J. Chang, Ph.D.}
+
+\members{Ismail Uysal, Ph.D. \and
+		 Zhuo Lu,  Ph.D. \and
+          Lu Lu, Ph.D. \and
+          Simon Ou, Ph.D. }
+\presentdate{May 29, 2023 (TBD)}
+
+\keywords{Dimentional reduction, Non-IID data, Privacy preservation, Federated learning}
+
+\copyrightyear{2023}
+
+\input{dedication}
+
+
+\acknowledgments{\input{acknowlegements}}
+
+\abstract{\input{abstract}}
+
+
+%\vita{\input{about}}
+
+\setlength{\textfloatsep}{2cm}
+\setlength{\intextsep}{2cm}
+
+\begin{document}
+	
+\input{Chapter1/chapter1}
+\input{Chapter2/chapter2}	
+\input{Chapter3/chapter3}
+\input{Chapter4/chapter4}
+
+
+
+\begin{spacing}{1}
+\bibliographystyle{plain}
+\interlinepenalty=10000
+\bibliography{template}
+\end{spacing}
+
+
+\begin{appendices}
+\include{appendixA}
+\end{appendices}
+
+
+%\printvita
+
+
+
+\end{document}
+

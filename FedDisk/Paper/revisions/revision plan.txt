@@ -1,0 +1,153 @@
+
+
+
+1.a In the abstract, “non-IID data issue” should be concisely discussed and IID
+must be expanded at its first occurrence.
+
+1, create a separate related work section
++ Phan introduction chi gioi thieu chung chung ve FL
++  in introduction, please emphasize your contribution and innovation by using simple language
++ phan related work bo rieng xuong section related work
+
++  Please give enough recent references related to heterogeneous FL in the related work, such as
+(1) Wang, Mingjie, Jianxiong Guo, and Weijia Jia. "FedCL: Federated Multi-Phase Curriculum Learning to Synchronously
+Correlate User Heterogeneity." arXiv preprint arXiv:2211.07248 (2022).
+(2) Zhu, Zhuangdi, Junyuan Hong, and Jiayu Zhou. "Data-free knowledge distillation for heterogeneous federated learning."
+International conference on machine learning. PMLR, 2021.
+(3) Luo, M., Chen, F., Hu, D., Zhang, Y., Liang, J., & Feng, J. (2021). No fear of heterogeneity: Classifier calibration for
+federated learning with non-iid data. Advances in Neural Information Processing Systems, 34, 5972-5984.
+Especially for (3), it is very similar to your proposed method.
+
+Please include following references within the manuscript at an appropriate
+place:
+Wang, Zhibin, Jiahang Qiu, Yong Zhou, Yuanming Shi, Liqun Fu, Wei
+Chen, and Khaled B. Letaief. "Federated learning via intelligent
+reflecting surface." IEEE Transactions on Wireless Communications 21, no.
+2 (2021): 808-822.
+Singh, Ashutosh Kumar, Deepika Saxena, Jitendra Kumar, and Vrinda
+Gupta. "A quantum approach towards the adaptive prediction of cloud
+workloads." IEEE Transactions on Parallel and Distributed Systems 32, no.
+12 (2021): 2893-2905.
+Lim, Wei Yang Bryan, Jer Shyuan Ng, Zehui Xiong, Jiangming Jin, Yang
+Zhang, Dusit Niyato, Cyril Leung, and Chunyan Miao. "Decentralized
+edge intelligence: A dynamic resource allocation framework for
+hierarchical federated learning." IEEE Transactions on Parallel and
+Distributed Systems 33, no. 3 (2021): 536-550.
+
++ As indicated in Introduction “the primary problem is the divergence of
+weights, which worsens...”, please discuss this issue with an example and
+strengthen the motivation of the tackled problem.
+
+
+2, adding problem statement section
+The problem definition and method are not clear. It is better to combine Section II and Section III, and give a formalized
+definition of your problem, such as optimization goal.
+========= what have been done =====
+Da~ rewrite Scenario thanh Problem statement
+rewrite methodology
+
+
+3, Add more experiements
++  In the experiment part, this is not enough ablation experiment to verify your proposed module.
++ In addition, it is better to
+compare with the more recent development in this area.
+
+4.a How the proposed method is effective in resolving the issue of non-IID and
+privacy leakage in real-time while meeting the weight optimization criteria?
+Please include this detailed information within the proposed method.
+
+5. Time and complexity
+Elaborate the effectiveness of the proposed method in reducing non-IID data
+impacts as compared to the existing methods in terms of accuracy, time and
+space complexity, and improvement in overall performance.
+
+6, publish code and dataset
+Provide complete details of the testbed set-up and the way datasets are used
+during experimentation within the manuscript to allow replication and
+verification of this work for the further growth of this research.
+
+7 Please carefully proof-read the complete manuscript for typos and English
+grammar before the revised manuscript submission.
+
+------------------------------------------------
+Associate Editor
+Comments to the Author:
+An important work of FL method to tackle the problem of data distribution skewness. The technique utilizes an FL
+framework and a neural network-based density estimation model to derive training sample weights. This helps to adjust the
+individual distribution without revealing clients’ raw data.
+-A section of Related Works is needed.
+-A section of the Problem Statement is needed.
+-Comparative results with literature state-of-the-art approaches are needed.
+
+
+Reviewer: 2
+Comments to the Author
+This paper focuses on improving federated learning performance for skewed data distribution
+across clients by adjusting the client distribution closer to the global distribution using sample weights. The considered
+problem is meaningful and the proposed method through leveraging data distribution is interesting. In summary, I think this
+work makes a contribution to this area. However, I have several comments shown as follows.
+1. The introduction is too long and complicated, which includes the part of related work actually. You should separate the
+Introduction and Related Work into two different sections.
+2. In the introduction, please emphasize your contribution and innovation by using simple language, not to list a lot of
+references.
+3. Please give enough recent references related to heterogeneous FL in the related work, such as
+(1) Wang, Mingjie, Jianxiong Guo, and Weijia Jia. "FedCL: Federated Multi-Phase Curriculum Learning to Synchronously
+Correlate User Heterogeneity." arXiv preprint arXiv:2211.07248 (2022).
+(2) Zhu, Zhuangdi, Junyuan Hong, and Jiayu Zhou. "Data-free knowledge distillation for heterogeneous federated learning."
+International conference on machine learning. PMLR, 2021.
+(3) Luo, M., Chen, F., Hu, D., Zhang, Y., Liang, J., & Feng, J. (2021). No fear of heterogeneity: Classifier calibration for
+federated learning with non-iid data. Advances in Neural Information Processing Systems, 34, 5972-5984.
+Especially for (3), it is very similar to your proposed method.
+4. The problem definition and method are not clear. It is better to combine Section II and Section III, and give a formalized
+definition of your problem, such as optimization goal.
+5. It is better to give a detailed description of your training method, such as "algorithm" structure. This is imperative to
+thoroughly understand your idea.
+6. In the experiment part, this is not enough ablation experiment to verify your proposed module. In addition, it is better to
+compare with the more recent development in this area.
+7. For the reader to reproduce your work, please open your datasets and source code. In this area, if you cannot prove
+reproducibility, this is meaningless.
+
+---
+reviewer 1
+This paper focuses on improving federated learning performance for skewed data
+distribution across clients. The main idea is to adjust the client distribution closer to
+the global distribution using sample weights. Thus, the machine learning model
+converges faster with higher accuracy. This work derives a solution for adjusting the
+distribution skewness using sample weights. The sample weights are determined by
+exchanging the density information implicitly by leveraging a neural network-based
+density estimation model, MADE. However, the reviewer has the following queries
+and comments:
+1. In the abstract, “non-IID data issue” should be concisely discussed and IID
+must be expanded at its first occurrence.
+2. As indicated in Introduction “the primary problem is the divergence of
+weights, which worsens...”, please discuss this issue with an example and
+strengthen the motivation of the tackled problem.
+3.How the proposed method is effective in resolving the issue of non-IID and
+privacy leakage in real-time while meeting the weight optimization criteria?
+Please include this detailed information within the proposed method.
+4.Elaborate the effectiveness of the proposed method in reducing non-IID data
+impacts as compared to the existing methods in terms of accuracy, time and
+space complexity, and improvement in overall performance.
+5. Provide complete details of the testbed set-up and the way datasets are used
+during experimentation within the manuscript to allow replication and
+verification of this work for the further growth of this research.
+6. Please include following references within the manuscript at an appropriate
+place:
+I.
+II.
+III.
+Wang, Zhibin, Jiahang Qiu, Yong Zhou, Yuanming Shi, Liqun Fu, Wei
+Chen, and Khaled B. Letaief. "Federated learning via intelligent
+reflecting surface." IEEE Transactions on Wireless Communications 21, no.
+2 (2021): 808-822.
+Singh, Ashutosh Kumar, Deepika Saxena, Jitendra Kumar, and Vrinda
+Gupta. "A quantum approach towards the adaptive prediction of cloud
+workloads." IEEE Transactions on Parallel and Distributed Systems 32, no.
+12 (2021): 2893-2905.
+Lim, Wei Yang Bryan, Jer Shyuan Ng, Zehui Xiong, Jiangming Jin, Yang
+Zhang, Dusit Niyato, Cyril Leung, and Chunyan Miao. "Decentralized
+edge intelligence: A dynamic resource allocation framework for
+hierarchical federated learning." IEEE Transactions on Parallel and
+Distributed Systems 33, no. 3 (2021): 536-550.
+7. Please carefully proof-read the complete manuscript for typos and English
+grammar before the revised manuscript submission.

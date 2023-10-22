@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: FedDisk.aux
+White space in argument---line 123 of file FedDisk.aux
+ : \citation{FLviaIntel
+ :                      }
+I'm skipping whatever remains of this command
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: egbib.bib
+Repeated entry---line 568 of file egbib.bib
+ : @article{cifar10
+ :                 ,
+I'm skipping whatever remains of this entry
+A bad cross reference---entry "survey"
+refers to entry "conf/mlsys/2020", which doesn't exist
+Warning--I didn't find a database entry for "conf/mlsys/2020"
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in cifar10
+Warning--empty year in cifar10
+Warning--missing publisher in fedDNA
+Warning--empty booktitle in Kermany2018LabeledOC
+
+Done.
+You've used 39 entries,
+            4087 wiz_defined-function locations,
+            1066 strings with 16098 characters,
+and the built_in function-call counts, 29839 in all, are:
+= -- 2265
+> -- 988
+< -- 165
++ -- 507
+- -- 212
+* -- 1560
+:= -- 4507
+add.period$ -- 83
+call.type$ -- 39
+change.case$ -- 52
+chr.to.int$ -- 360
+cite$ -- 43
+duplicate$ -- 2157
+empty$ -- 2405
+format.name$ -- 250
+if$ -- 6873
+int.to.chr$ -- 0
+int.to.str$ -- 39
+missing$ -- 458
+newline$ -- 176
+num.names$ -- 53
+pop$ -- 1138
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 2233
+stack$ -- 0
+substring$ -- 909
+swap$ -- 1694
+text.length$ -- 45
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 39
+warning$ -- 4
+while$ -- 99
+width$ -- 41
+write$ -- 437
+(There were 3 error messages)

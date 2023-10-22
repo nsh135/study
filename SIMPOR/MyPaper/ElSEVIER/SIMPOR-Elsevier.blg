@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: SIMPOR-Elsevier.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: plain.bst
+Database file #1: citation.bib
+Warning--to sort, need author or key in wikipedia_2021
+Warning--to sort, need author or key in maximum_exist
+You've used 32 entries,
+            2118 wiz_defined-function locations,
+            699 strings with 10679 characters,
+and the built_in function-call counts, 12399 in all, are:
+= -- 1248
+> -- 589
+< -- 13
++ -- 233
+- -- 198
+* -- 873
+:= -- 1944
+add.period$ -- 100
+call.type$ -- 32
+change.case$ -- 192
+chr.to.int$ -- 0
+cite$ -- 34
+duplicate$ -- 481
+empty$ -- 954
+format.name$ -- 198
+if$ -- 2688
+int.to.chr$ -- 0
+int.to.str$ -- 32
+missing$ -- 26
+newline$ -- 155
+num.names$ -- 64
+pop$ -- 227
+preamble$ -- 1
+purify$ -- 160
+quote$ -- 0
+skip$ -- 382
+stack$ -- 0
+substring$ -- 781
+swap$ -- 151
+text.length$ -- 13
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 128
+warning$ -- 2
+while$ -- 112
+width$ -- 34
+write$ -- 354
+(There were 2 warnings)

@@ -1,0 +1,22 @@
+\babel@toc {english}{}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces FedDisk{} framework.}}{\hspace *{\fill }7}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Classification accuracy over global iterations.}}{\hspace *{\fill }17}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Classification results over 100 clients.}}{\hspace *{\fill }17}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Validation and training loss over gloabl iterations.}}{\hspace *{\fill }18}{}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Accuracy over different noise levels.}}{\hspace *{\fill }19}{}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Summary of effective communication rounds.}}{\hspace *{\fill }21}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Learning from imbalanced datasets\relax }}{\hspace *{\fill }29}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Demonstration of synthetic sample generation.}}{\hspace *{\fill }37}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Artificial class imbalanced Moon dataset with IR of 7:1.\relax }}{\hspace *{\fill }45}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Data and model decision boundary plot.}}{\hspace *{\fill }46}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Winning times over 41 datasets.\relax }}{\hspace *{\fill }52}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Data visualization over methods.}}{\hspace *{\fill }54}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces F1-score and AUC results with varying Gaussian standard deviation.\relax }}{\hspace *{\fill }57}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces F1-score and AUC results with varying informative portion IP.\relax }}{\hspace *{\fill }58}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Attack model.\relax }}{\hspace *{\fill }67}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces DR projection and reconstruction.\relax }}{\hspace *{\fill }69}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces AutoGAN-DRP\relax }}{\hspace *{\fill }70}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Accuracy for different number of reduced dimensions. \relax }}{\hspace *{\fill }75}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Average distance measurement result.\relax }}{\hspace *{\fill }75}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces AutoGAN-DRP and GAP visualization.\relax }}{\hspace *{\fill }81}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Facial expression accuracy and distance.}}{\hspace *{\fill }82}{}%

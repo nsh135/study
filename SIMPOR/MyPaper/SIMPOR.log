@@ -1,0 +1,1605 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.12)  14 MAY 2023 03:23
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**SIMPOR.tex
+(./SIMPOR.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21> (./IEEEtai.cls
+
+LaTeX Warning: You have requested document class `IEEEtai',
+               but the document class provides `IEEEtran'.
+
+Document Class: IEEEtran 2007/03/05 V1.7a by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen138
+\@IEEEtrantmpdimenB=\dimen139
+\@IEEEtrantmpcountA=\count185
+\@IEEEtrantmpcountB=\count186
+\@IEEEtrantmptoksA=\toks16
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
+79.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen140
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen141
+\CLASSINFOnormalsizeunitybaselineskip=\dimen142
+\IEEEnormaljot=\dimen143
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 737.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 737.
+\IEEEilabelindentA=\dimen144
+\IEEEilabelindentB=\dimen145
+\IEEEilabelindent=\dimen146
+\IEEEelabelindent=\dimen147
+\IEEEdlabelindent=\dimen148
+\IEEElabelindent=\dimen149
+\IEEEiednormlabelsep=\dimen150
+\IEEEiedmathlabelsep=\dimen151
+\IEEEiedtopsep=\skip47
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@IEEEsubequation=\count191
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\c@figure=\count192
+\c@table=\count193
+\@IEEEeqnnumcols=\count194
+\@IEEEeqncolcnt=\count195
+\@IEEEtmpitemindent=\dimen152
+\c@IEEEbiography=\count196
+\@IEEEtranrubishbin=\box50
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen153
+\Hy@linkcounter=\count197
+\Hy@pagecounter=\count198
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count199
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count266
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen154
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count267
+\Field@Width=\dimen155
+\Fld@charsize=\dimen156
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring ON on input line 6094.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count268
+\c@Item=\count269
+\c@Hfootnote=\count270
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count271
+\c@bookmark@seq@number=\count272
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip50
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen157
+\ar@mcellbox=\box51
+\extrarowheight=\dimen158
+\NC@list=\toks18
+\extratabsurround=\skip51
+\backup@length=\skip52
+\ar@cellbox=\box52
+)
+** ATTENTION: Overriding command lockouts (line 4).
+(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen159
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen160
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count273
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count274
+\leftroot@=\count275
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count276
+\DOTSCASE@=\count277
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+\big@size=\dimen161
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count278
+\c@MaxMatrixCols=\count279
+\dotsspace@=\muskip17
+\c@parentequation=\count280
+\dspbrk@lvl=\count281
+\tag@help=\toks20
+\row@=\count282
+\column@=\count283
+\maxfields@=\count284
+\andhelp@=\toks21
+\eqnshift@=\dimen162
+\alignsep@=\dimen163
+\tagshift@=\dimen164
+\tagwidth@=\dimen165
+\totwidth@=\dimen166
+\lineht@=\dimen167
+\@envbody=\toks22
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@ALC@unique=\count285
+\c@ALC@line=\count286
+\c@ALC@rem=\count287
+\c@ALC@depth=\count288
+\ALC@tlm=\skip56
+\algorithmicindent=\skip57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen168
+\captionmargin@=\dimen169
+\captionwidth=\dimen170
+\caption@tempdima=\dimen171
+\caption@indent=\dimen172
+\caption@parindent=\dimen173
+\caption@hangindent=\dimen174
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
+blestring \footnotesize \begin {center}{\normalfont \footnotesize #1}\\{\normal
+font \footnotesize \scshape #2}\end {center}\@IEEEtablecaptionsepspace \else \@
+IEEEfigurecaptionsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {
+#1.}~~ #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\normalfont \
+footnotesize {#1.}~~ }\parbox [t]{\hsize }{\normalfont \footnotesize \noindent 
+\unhbox \@tempboxa #2}\else \ifCLASSOPTIONconference \hbox to\hsize {\normalfon
+t \footnotesize \hfil \box \@tempboxa \hfil }\else \hbox to\hsize {\normalfont 
+\footnotesize \box \@tempboxa \hfil }\fi \fi \fi  on input line 1139.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count289
+\c@continuedfloat=\count290
+Package caption Info: hyperref package is loaded.
+)
+\c@subfigure=\count291
+\c@subtable=\count292
+) (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count293
+\float@exts=\toks24
+\float@box=\box55
+\@float@everytoks=\toks25
+\@floatcapt=\box56
+)
+\@float@every@algorithm=\toks26
+\c@algorithm=\count294
+)
+(/usr/share/texlive/texmf-dist/tex/latex/sttools/stfloats.sty
+Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip sett
+ings
+\@dblbotnum=\count295
+\c@dblbotnumber=\count296
+)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2022-02-02 v3.0.46 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen175
+\l__siunitx_angle_marker_box=\box57
+\l__siunitx_angle_unit_box=\box58
+\l__siunitx_compound_count_int=\count297
+
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/01/04 v1.11 internationalization of LaTeX2e packages
+ (CN)
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count298
+))
+\l__siunitx_number_exponent_fixed_int=\count299
+\l__siunitx_number_min_decimal_int=\count300
+\l__siunitx_number_min_integer_int=\count301
+\l__siunitx_number_round_precision_int=\count302
+\l__siunitx_number_group_minimum_int=\count303
+\l__siunitx_table_tmp_box=\box59
+\l__siunitx_table_tmp_dim=\dimen176
+\l__siunitx_table_column_width_dim=\dimen177
+\l__siunitx_table_integer_box=\box60
+\l__siunitx_table_decimal_box=\box61
+\l__siunitx_table_before_box=\box62
+\l__siunitx_table_after_box=\box63
+\l__siunitx_table_before_dim=\dimen178
+\l__siunitx_table_carry_dim=\dimen179
+\l__siunitx_unit_tmp_int=\count304
+\l__siunitx_unit_position_int=\count305
+\l__siunitx_unit_total_int=\count306
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count307
+\l__pdf_internal_box=\box64
+))
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen180
+\Gin@req@width=\dimen181
+)
+\c@r@tfl@t=\count308
+\rotFPtop=\skip58
+\rotFPbot=\skip59
+\rot@float@box=\box65
+\rot@mess@toks=\toks27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip60
+\multirow@cntb=\count309
+\multirow@dima=\skip61
+\bigstrutjot=\dimen182
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen183
+\lightrulewidth=\dimen184
+\cmidrulewidth=\dimen185
+\belowrulesep=\dimen186
+\belowbottomsep=\dimen187
+\aboverulesep=\dimen188
+\abovetopsep=\dimen189
+\cmidrulesep=\dimen190
+\cmidrulekern=\dimen191
+\defaultaddspace=\dimen192
+\@cmidla=\count310
+\@cmidlb=\count311
+\@aboverulesep=\dimen193
+\@belowrulesep=\dimen194
+\@thisruleclass=\count312
+\@lastruleclass=\count313
+\@thisrulewidth=\dimen195
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/bigstrut.sty
+Package: bigstrut 2021/03/15 v2.8 Provide larger struts in tabulars
+)
+(/usr/share/texlive/texmf-dist/tex/latex/clipboard/clipboard.sty
+Package: clipboard 2016/05/18 v0.3 Copy and paste into and across documents
+\clipboard@fileout=\write3
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+LaTeX Info: Redefining \color on input line 711.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks28
+\SOUL@lasttoken=\toks29
+\SOUL@cmds=\toks30
+\SOUL@buffer=\toks31
+\SOUL@token=\toks32
+\SOUL@spaceskip=\skip62
+\SOUL@ttwidth=\dimen196
+\SOUL@uldp=\dimen197
+\SOUL@ulht=\dimen198
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count314
+\output=\toks33
+\linenoprevgraf=\count315
+\linenumbersep=\dimen199
+\linenumberwidth=\dimen256
+\c@linenumber=\count316
+\c@pagewiselinenumber=\count317
+\c@LN@truepage=\count318
+\c@internallinenumber=\count319
+\c@internallinenumbers=\count320
+\quotelinenumbersep=\dimen257
+\bframerule=\dimen258
+\bframesep=\dimen259
+\bframebox=\box66
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count321
+\l__lipsum_a_int=\count322
+\l__lipsum_b_int=\count323
+
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/preprint/balance.sty
+Package: balance 1999/02/23 4.3 (PWD)
+\oldvsize=\dimen260
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count324
+\mult@box=\box67
+\multicol@leftmargin=\dimen261
+\c@unbalance=\count325
+\c@collectmore=\count326
+\doublecol@number=\count327
+\multicoltolerance=\count328
+\multicolpretolerance=\count329
+\full@width=\dimen262
+\page@free=\dimen263
+\premulticols=\dimen264
+\postmulticols=\dimen265
+\multicolsep=\skip63
+\multicolbaselineskip=\skip64
+\partial@page=\box68
+\last@line=\box69
+\maxbalancingoverflow=\dimen266
+\mult@rightbox=\box70
+\mult@grightbox=\box71
+\mult@firstbox=\box72
+\mult@gfirstbox=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\c@minrows=\count330
+\c@columnbadness=\count331
+\c@finalcolumnbadness=\count332
+\last@try=\dimen267
+\multicolovershoot=\dimen268
+\multicolundershoot=\dimen269
+\mult@nat@firstbox=\box110
+\colbreak@box=\box111
+\mc@col@check@num=\count333
+)
+(/usr/share/texlive/texmf-dist/tex/latex/sttools/flushend.sty
+Package: flushend 2021/10/04 v4.0 Balancing columns in twocolumn mode
+\flushend@@lastskip@a=\skip65
+\flushend@@lastskip@b=\skip66
+\flushend@@lastnode=\count334
+\var@@loop@iter=\count335
+\var@@temp@spread=\dimen270
+\var@@temp@a=\dimen271
+\var@@temp@loop=\dimen272
+\flushend@@page@rule=\dimen273
+\flushend@@varbox@lastpage=\box112
+\flushend@@varbox@a=\box113
+\flushend@@varbox@c=\box114
+\flushend@@tempbox@a=\box115
+\flushend@@tempbox@c=\box116
+\flushend@@floatbox=\box117
+\@viper=\box118
+\hold@viper=\box119
+\atColsBreak=\toks34
+\atColsEnd=\toks35
+\oldbreak@skip=\dimen274
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2021/02/02 v1.28 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count336
+\calc@Bcount=\count337
+\calc@Adimen=\dimen275
+\calc@Bdimen=\dimen276
+\calc@Askip=\skip67
+\calc@Bskip=\skip68
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count338
+\calc@Cskip=\skip69
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count339
+\l_MT_multwidth_dim=\dimen277
+\origjot=\skip70
+\l_MT_shortvdotswithinadjustabove_dim=\dimen278
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen279
+\l_MT_above_intertext_sep=\dimen280
+\l_MT_below_intertext_sep=\dimen281
+\l_MT_above_shortintertext_sep=\dimen282
+\l_MT_below_shortintertext_sep=\dimen283
+\xmathstrut@box=\box120
+\xmathstrut@dim=\dimen284
+)
+(/usr/share/texlive/texmf-dist/tex/latex/sttools/cuted.sty
+Package: cuted 2021/10/04 v2.0 Mixing onecolumn and twocolumn modes
+\At@ViperColsBreak=\toks36
+\preCutedStrip=\toks37
+\postCutedStrip=\toks38
+\cuted@@tempbox@a=\box121
+\cuted@@tempbox@c=\box122
+\cuted@@tempbox@var=\box123
+\cuted@@varbox@a=\box124
+\cuted@@varbox@c=\box125
+\cuted@@tempdim@spread=\dimen285
+\cuted@@tempdim@a=\dimen286
+\cuted@@tempdim@b=\dimen287
+\ht@hold@viper=\dimen288
+\ht@viper=\dimen289
+\var@@pagediscards@ht=\dimen290
+\stripsep=\skip71
+\viper@penalty=\count340
+)
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 68.
+ (./SIMPOR.aux
+
+LaTeX Warning: Label `AUCabbreviation' multiply defined.
+
+
+LaTeX Warning: Label `liu' multiply defined.
+
+
+LaTeX Warning: Label `EntropyActiveLearning' multiply defined.
+
+
+LaTeX Warning: Label `1.1a' multiply defined.
+
+
+LaTeX Warning: Label `PriorApproximation' multiply defined.
+
+
+LaTeX Warning: Label `1.1b' multiply defined.
+
+
+LaTeX Warning: Label `sow' multiply defined.
+
+
+LaTeX Warning: Label `histogramVisualization' multiply defined.
+
+
+LaTeX Warning: Label `EmpiricalExplanation' multiply defined.
+
+
+LaTeX Warning: Label `EmpiricalExplanationIP' multiply defined.
+
+
+LaTeX Warning: Label `equ:vecV' multiply defined.
+
+
+LaTeX Warning: Label `equ:r_dist' multiply defined.
+
+)
+\openout1 = `SIMPOR.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+Package hyperref Info: Link coloring ON on input line 68.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count341
+)
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
+
+(./SIMPOR.out) (./SIMPOR.out)
+\@outlinefile=\write4
+\openout4 = `SIMPOR.out'.
+
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count342
+\scratchdimen=\dimen291
+\scratchbox=\box126
+\nofMPsegments=\count343
+\nofMParguments=\count344
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count345
+\MPscratchDim=\dimen292
+\MPnumerator=\count346
+\makeMPintoPDFobject=\count347
+\everyMPtoPDFconversion=\toks40
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
+nary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 68.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 82.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 82.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 82.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+] (./Sec.RelatedWork.tex [2])
+Underfull \hbox (badness 2922) in paragraph at lines 144--146
+[]\OT1/ptm/m/n/10 In this work, clas-si-fi-ca-tion per-for-mance is used for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--146
+
+ []
+
+[3]
+\clipboard {EntropyActiveLearning}{ To select informative samples, one can full
+y train the entire original dataset and estimate entropy scores on the same dat
+a to select high-entropy samples. However, the model fully training on the enti
+re dataset might be biased due to the data imbalance. This could lead to a bias
+ in selecting informative samples because the model might only recognize the de
+nsest minority area and ignore other areas containing fewer informative example
+s. To avoid this issue, we proposed to explore more informative samples batch b
+y batch gradually; this mechanism was inspired by the idea of exploring critica
+l data by batches from active learning. First, the model is trained with an ini
+tial batch of data. The model is then used to estimate entropy scores for the r
+emaining unseen data to select the first set of high-entropy samples (this set 
+is considered informative examples relative to the current model parameters). T
+his high informative data is then accumulated to previous training data to cont
+inue fine-tuning the current model and select the next informative set from the
+ rest of the data. The process is repeated until reaching the desired amount of
+ informative samples. The remainder of this section describes more detail on th
+e mechanism. \par The proposed approach implementation requires repeated phases
+, and a batch of informative data is selected for each phase. At the first phas
+e $t^{(0)}$, a classifier with parameter $\theta ^{(0)}$ (Note that this classi
+fier differs from the classifier for the final classification problem) is train
+ed on an initial batch of data (at least one sample in each class is required) 
+and use the model $\theta ^{(0)}$ to estimate the entropy for the remaining dat
+a. The entropy scores are then estimated for the remaining samples based on Equ
+ation \ref {eq:entropy_AL}. The first batch of informative samples is determine
+d by selecting $k$ highest entropy samples. This batch is then concatenated wit
+h the initial training data for the training classifier parameter ($\theta ^{(1
+)}$) in the next phase ($t^{(1)}$) and also accumulated to the informative set.
+ In the next phase, similarly, the classifier is fine-tuned with new data and u
+sed to estimate the entropy of the remaining data. The next informative batch i
+s selected and also added to the informative set. Phases are repeated until the
+ number of accumulated informative samples reaches a pre-set informative portio
+n (IP). For example, $IP=0.3$ will select 30\% training samples as informative 
+samples.}
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Figures/proplem.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<Figures/proplem.pdf, id=244, 963.6pt x 542.025pt>
+File: Figures/proplem.pdf Graphic file (type pdf)
+<use Figures/proplem.pdf>
+Package pdftex.def Info: Figures/proplem.pdf  used on input line 177.
+(pdftex.def)             Requested size: 252.0pt x 194.40468pt.
+[4 <./Figures/proplem.pdf>] (./Sec.Methodology.tex
+\clipboard {1.1a}{ A synthetic neighbor $ x'$ and its label $y'$ can be created
+ surrounding a minority sample $x$ by adding a small random vector $v$ to the s
+ample, $x' = x + v$. Thus, $x'$ can be selected on the d-sphere's surface cente
+red at $x$ with a radius of $|\vec {v}|$. For notation convenience, let $r = |\
+vec {v}|$ be the radius of the d-sphere. To enrich the synthetic samples, $r$ i
+s sampled from a defined Gaussian distribution to generate a new synthetic samp
+le distance each time. This section describes how the direction and distance of
+ a synthetic sample are determined, which can also be represented via the direc
+tion and length of vector $\vec {v}$. \par It is critical to generate synthetic
+ data in the informative region because synthetic samples can unexpectedly jump
+ across the decision boundary. This can be harmful to models as this might crea
+te outliers and reduce the model's performance. Therefore, we safely find vecto
+r $\vec {v}$ towards the minority class, such as $\vec {v}_0$ and $\vec {v}_1$ 
+depicted in Figure \ref {fig:problem}.}
+\clipboard {PriorApproximation}{ \textbf {\textit {Approximation of priors in E
+quation \ref {equ:f_ratio}:}} Additionally, we estimate the prior probabilities
+ of observing samples in class A ($p(A)$) and class B ($p(B)$) (in Equation \re
+f {equ:f_ratio}) by the widely-used Empirical Bayes Method \cite {empiricalBaye
+s} to leverage the existing information from the original data. The estimates a
+re denoted as $\widehat {p(A)}$ and $\widehat {p(B)}$ respectively. \par \textb
+f {\textit {Equation \ref {equ:f_ratio} Approximation:} } Let $X_A$ and $X_B$ b
+e the subsets of dataset $X$ which contain samples of class A and class B, $X_A
+=\{x: y=A \}$ and $X_B=\{x: y=B \}$. $N_A$ and $N_B$ are the numbers of samples
+ in $X_A$ and $X_B$. $d$ is the number of data dimensions. $h$ presents the wid
+th parameter of the Gaussian kernel. The posterior ratio for each synthetic sam
+ple $x'$ then can be estimated as follows: \par \begin {align} \label {eq:fracp
+ost_estimation} f &= \frac {p(x'|y'=B) \: p(B)}{p(x'|y'=A) \: p(A)} \\ &\propto
+ \frac { \frac {1}{N_B h^d} \: \sum _{i=1}^{N_B}{ (2\pi )^{-\frac {d}{2}} \: e^
+{\frac {1}{2}{(\frac {x'-X_{B_i}}{h})^2} } } \: \widehat {p(B)} } { \frac {1}{N
+_A h^d} \: \sum _{j=1}^{N_A}{ (2\pi )^{-\frac {d}{2}} \: e^{ \frac {1}{2} {(\fr
+ac {x-X_{A_j}}{h})^2} } }\: \widehat {p(A)} }\\ & \propto \frac { \frac {1}{N_B
+ h^d} \: \sum _{i=1}^{N_B}{ \: e^{\frac {1}{2}{(\frac {x'-X_{B_i}}{h})^2} } } \
+: \widehat {p(B)} } { \frac {1}{N_A h^d} \: \sum _{j=1}^{N_A}{ \: e^{ \frac {1}
+{2} {(\frac {x-X_{A_j}}{h})^2} } }\: \widehat {p(A)} } \label {equ:f} \end {ali
+gn} }
+[5]
+\clipboard {1.1b}{The relationship between a synthetic sample $x'$ and a minori
+ty sample can be described as follows, \begin {align} \label {equ:vecV} \vec {x
+'} = \vec {x} + \vec {v}, \end {align} where the length of $\vec {v}$ is equal 
+to $r$, and $r$ is sampled from a Gaussian distribution, \begin {align} r \sim 
+\mathcal {N}(0,\,(\alpha R)^{2}), \label {equ:r_dist} \end {align} where $\alph
+a R$ is the standard deviation of the Gaussian distribution and $ 0< \alpha <=1
+ $. The range parameter $R$ is relatively small and computed as the average dis
+tance of a minority sample $x$ to its k-nearest neighbors. This will ensure tha
+t the generated sample will surround the minority sample. The Gaussian distribu
+tion with the mean of zero and the standard deviation $\alpha R$ controls the d
+istance between the synthetic samples and the minority sample. The standard dev
+iation is tuned from 0 to R by a coefficient $\alpha \in (0,1]$. The larger the
+ $\alpha $ is, the farther synthetic data is placed from its original sample.}
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Figures/MaxPosteriorRatio/sphere_maxF
+.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
+d
+<Figures/MaxPosteriorRatio/sphere_maxF.pdf, id=324, 963.6pt x 542.025pt>
+File: Figures/MaxPosteriorRatio/sphere_maxF.pdf Graphic file (type pdf)
+<use Figures/MaxPosteriorRatio/sphere_maxF.pdf>
+Package pdftex.def Info: Figures/MaxPosteriorRatio/sphere_maxF.pdf  used on inp
+ut line 80.
+(pdftex.def)             Requested size: 252.0pt x 198.54561pt.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 98.
+[6 <./Figures/MaxPosteriorRatio/sphere_maxF.pdf>]
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 1
+51.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 151.
+)
+(./Sec.Complexity.tex
+\clipboard {timeComplexity}{ \iffalse Our proposed technique is straightforward
+ in implementation. We first train a neural network model with initial samples 
+and start querying the next batches of data based on the entropy scores from th
+e previous model to find informative samples. The model is then updated with ne
+w batches of data until the entropy scores reach a certain threshold. All the i
+nformative samples are then balanced first, and the remaining data are balanced
+ later. Each synthetic data point is generated by finding local maxima in Equat
+ion \ref {equ:f}. \fi \par The costly part of \Methodname {} is that each synth
+etic sample requires computing a kernel density estimation of the entire datase
+t. Elaborately, let $n$ be the number of samples of the dataset. In the worst c
+ase, the numbers of samples of minority and majority class are $N_B = 1$ and $N
+_A = n-1$, respectively. We need to generate $n-2$ synthetic samples to balance
+ the dataset completely. Since each generated sample must loop through the enti
+re dataset of size $n$ to estimate the density, the algorithm complexity is $O(
+n^2)$. \par Although generating synthetic data is only a one-time process, and 
+this does not affect the classification efficiency in the testing phase, we sti
+ll try to alleviate its weakness by providing parallelized implementations to r
+educe the time complexity to $O(n)$. Specifically, each exponential component i
+n Equation \ref {equ:f} is computed parallelly, utilizing GPU or CPU threads. E
+llaborately, Equation \ref {equ:f} can be rewritten as $N_B$ components of $e^{
+\frac {1}{2} (\frac {x - X_{B_i}}{h})^2}$ and $N_A$ components of $e^{\frac {1}
+{2} (\frac {x - X_{A_i}}{h})^2}$. Fortunately, they are all independent and can
+ be processed parallelly. Thus, with a sufficient hardware resource, the consum
+ption time for the kernel density estimation of each synthetic data point is th
+en reduced by $N_A+N_B=n$ times, which significantly simplifies the complexity 
+to $O(n)$. \par }
+[7]) (./Sec.Experiments.tex
+\clipboard {sow}{ In this section, we explore the techniques via binary classif
+ication problems on an artificial dataset (i.e., Moon) and 41 real-world datase
+ts (i.e., KEEL, UCI, Credit Card Fraud) with a diversity of imbalance ratios an
+d different numbers of features. Samples in Moon have two features, while other
+ datasets contain various numbers of features and imbalance ratios.}
+\clipboard {datasetTable}{ \begin {table}[htbp] \centering \caption {Dataset De
+scription.} \par \begin {tabular}{lccc} \hline dataset & \#samples & \#features
+ & IR \bigstrut \\ \hline glass1 & 214 & 9 & 1.8 (138:76)\bigstrut [t]\\ wiscon
+sin & 683 & 9 & 1.9 (444:239) \\ pima & 768 & 8 & 1.9 (500:268)\\ glass0 & 214 
+& 9 & 2.1 (144:70) \\ yeast1 & 1484 & 8 & 2.5 (1055:429)\\ haberman & 306 & 3 &
+ 2.8 (225:81) \\ vehicle1 & 846 & 18 & 2.9 (629:217)\\ vehicle2 & 846 & 18 & 2.
+9 (628:218)\\ vehicle3 & 846 & 18 & 3.0 (634:212)\\ creditcard & 1968 & 30 & 3.
+0 (1476:492)\\ glass-0-1-2-3\_vs\_4-5-6 & 214 & 9 & 3.2 (163:51)\\ vehicle0 & 8
+46 & 18 & 3.3 (647:199)\\ ecoli1 & 336 & 7 & 3.4 (259:77)\\ new-thyroid1 & 215 
+& 5 & 5.1 (180:35) \\ new-thyroid2 & 215 & 5 & 5.1 (180:35)\\ ecoli2 & 336 & 7 
+& 5.5 (284:52)\\ glass6 & 214 & 9 & 6.4 (185:29)\\ yeast3 & 1484 & 8 & 8.1 (132
+1:63)\\ ecoli3 & 336 & 7 & 8.6 (301:35)\\ page-blocks0 & 5472 & 10 & 8.8 (4913:
+559)\\ yeast-2\_vs\_4 & 514 & 8 & 9.0 (463:51)\\ yeast-0-5-6-7-9\_vs\_4 & 528 &
+ 8 & 9.4 (477:51)\\ vowel0 & 988 & 13 & 10.0 (898:90)\\ glass-0-1-6\_vs\_2 & 19
+2 & 9 & 10.3 (175:17)\\ glass2 & 214 & 9 & 11.6 (197:17)\\ yeast-1\_vs\_7 & 459
+ & 7 & 14.3 (429:30)\\ glass4 & 214 & 9 & 15.5 (201:13)\\ ecoli4 & 336 & 7 & 15
+.8 (316:20)\\ page-blocks-1-3\_vs\_4 & 472 & 10 & 15.9 (444:28)\\ abalone9-18 &
+ 731 & 8 & 16.4 (689:42)\\ yeast-1-4-5-8\_vs\_7 & 693 & 8 & 22.1 (663:30)\\ gla
+ss5 & 214 & 9 & 22.8 (205:9)\\ yeast-2\_vs\_8 & 482 & 8 & 23.1 (462:20)\\ car\_
+eval\_4 & 1728 & 21 & 25.6 (1663:65)\\ wine\_quality & 4898 & 11 & 25.8 (4715:1
+83)\\ yeast\_me2 & 1484 & 8 & 28.0 (1433:51)\\ yeast4 & 1484 & 8 & 28.1 (1433:5
+1)\\ yeast-1-2-8-9\_vs\_7 & 947 & 8 & 30.6 (917:30)\\ yeast5 & 1484 & 8 & 32.7 
+(1440:44)\\ yeast6 & 1484 & 8 & 41.4 (1449:35)\\ abalone19 & 4174 & 8 & 129.4 (
+689:42)\\ \end {tabular}\label {tab:dataDecription}\end {table}}
+\clipboard {ALImplementation}{ In order to find the informative subset, we leve
+rage entropy-based active learning. We first utilize a neural network model pla
+ying a role as a classifier to find high-entropy samples (Note that the classif
+ier for finding the informative subset differs from the classifiers for the fin
+al classification evaluation after all balancing techniques are applied to the 
+data). The detailed steps are introduced in Section \ref {sec:EAL}. The model c
+ontains two fully connected hidden layers with \textit {relu} activation functi
+ons and 10 neurons in each layer. The output layer applies the soft-max activat
+ion function. The model is trained in a maximum of 300 epochs with an early sto
+p option when the loss is not significantly improved after updating weights. Th
+e model is trained firstly on a random set of three samples each class (six sam
+ples two classes). This model is then used to estimate entropy scores for the r
+emaining data. We then select next 20 highest entropy samples ($k$=20) for the 
+next informative data batch. This batch is concatenated to the initial batch fo
+r updating the classifiers and accumulated to the informative set. The steps ar
+e repeated until the informative set reaches desire informative portion (IP). I
+n these experiments, we set IP=0.3 corresponding to 30 percent of the training 
+size selected for the informative set. }
+[8]
+<Figures/moon/ImbalancedData.jpg, id=447, 462.528pt x 346.896pt>
+File: Figures/moon/ImbalancedData.jpg Graphic file (type jpg)
+<use Figures/moon/ImbalancedData.jpg>
+Package pdftex.def Info: Figures/moon/ImbalancedData.jpg  used on input line 11
+9.
+(pdftex.def)             Requested size: 226.79846pt x 170.10226pt.
+<Figures/moon/Training_Data_PLot_SIMPOR.jpg, id=448, 462.528pt x 346.896pt>
+File: Figures/moon/Training_Data_PLot_SIMPOR.jpg Graphic file (type jpg)
+<use Figures/moon/Training_Data_PLot_SIMPOR.jpg>
+Package pdftex.def Info: Figures/moon/Training_Data_PLot_SIMPOR.jpg  used on in
+put line 129.
+(pdftex.def)             Requested size: 154.80157pt x 116.10104pt.
+<Figures/moon/Training_Data_PLot_GDO.jpg, id=449, 462.528pt x 346.896pt>
+File: Figures/moon/Training_Data_PLot_GDO.jpg Graphic file (type jpg)
+<use Figures/moon/Training_Data_PLot_GDO.jpg>
+Package pdftex.def Info: Figures/moon/Training_Data_PLot_GDO.jpg  used on input
+ line 135.
+(pdftex.def)             Requested size: 154.80157pt x 116.10104pt.
+<Figures/moon/Training_Data_PLot_SMOTE.jpg, id=450, 462.528pt x 346.896pt>
+File: Figures/moon/Training_Data_PLot_SMOTE.jpg Graphic file (type jpg)
+<use Figures/moon/Training_Data_PLot_SMOTE.jpg>
+Package pdftex.def Info: Figures/moon/Training_Data_PLot_SMOTE.jpg  used on inp
+ut line 141.
+(pdftex.def)             Requested size: 154.80157pt x 116.10104pt.
+<Figures/moon/Training_Data_PLot_DeepSMOTE.jpg, id=451, 462.528pt x 346.896pt>
+File: Figures/moon/Training_Data_PLot_DeepSMOTE.jpg Graphic file (type jpg)
+<use Figures/moon/Training_Data_PLot_DeepSMOTE.jpg>
+Package pdftex.def Info: Figures/moon/Training_Data_PLot_DeepSMOTE.jpg  used on
+ input line 147.
+(pdftex.def)             Requested size: 154.80157pt x 116.10104pt.
+<Figures/moon/Training_Data_PLot_BorderlineSMOTE.jpg, id=452, 462.528pt x 346.8
+96pt>
+File: Figures/moon/Training_Data_PLot_BorderlineSMOTE.jpg Graphic file (type jp
+g)
+<use Figures/moon/Training_Data_PLot_BorderlineSMOTE.jpg>
+Package pdftex.def Info: Figures/moon/Training_Data_PLot_BorderlineSMOTE.jpg  u
+sed on input line 153.
+(pdftex.def)             Requested size: 154.80157pt x 116.10104pt.
+<Figures/moon/Training_Data_PLot_ADASYN.jpg, id=453, 462.528pt x 346.896pt>
+File: Figures/moon/Training_Data_PLot_ADASYN.jpg Graphic file (type jpg)
+<use Figures/moon/Training_Data_PLot_ADASYN.jpg>
+Package pdftex.def Info: Figures/moon/Training_Data_PLot_ADASYN.jpg  used on in
+put line 159.
+(pdftex.def)             Requested size: 154.80157pt x 116.10104pt.
+
+\clipboard {moonGeneration}{ We implement techniques on an artificial 2-dimensi
+on dataset for demonstration purposes. We first generate the balanced synthetic
+ MOON dataset using python library \textit {sklearn.datasets.make\_moons}. The 
+generated MOON contains 3000 samples labeled in two classes, and each instance 
+has two numerical features with values ranging from 0 to 1. We then make the da
+taset artificially imbalanced with an Imbalance Ratio of 7:1 by randomly removi
+ng 1285 samples from one class.}
+
+Underfull \hbox (badness 2142) in paragraph at lines 169--170
+\OT1/ptm/m/n/10 bal-anced syn-thetic MOON dataset us-ing python li-brary
+ []
+
+\clipboard {datasetDetail}{ In this section, we compare the proposed technique 
+on 41 real two-class datasets with a variable number of features and Imbalance 
+Ratios, i.e., KEEL datasets \cite { KEEL_detail,KEEL_dataset}, UCI datasets fet
+ched from Sklearn tool \cite {imbalancedlearnFetch_datasetsx2014, uci_imbalance
+_dataset} and Credit Card Fraud \cite {kaggleCreditCard} dataset. Since the ori
+ginal Credit Card Fraud contains a large number of banking normal and fraud tra
+nsaction samples (284,807) which significantly reduces our experimental efficie
+ncy, we reduced the dataset size by randomly removing normal class transactions
+ to reach an imbalance ratio of 3.0. Other datasets are kept as their original 
+versions after removing bad samples (containing Null values). The datasets are 
+described in Table \ref {tab:dataDecription}. }
+\clipboard {precisionAndRecall}{ \begin {table}[hbp] \centering \caption {Preci
+sion results over 41 datasets.} \resizebox {0.97\columnwidth }{!}{\par \begin {
+tabular}{lrrrrrrrr} \toprule & \multicolumn {1}{c}{SIMPOR} & \multicolumn {1}{c
+}{GDO} & \multicolumn {1}{c}{SMOTE} & \multicolumn {1}{c}{BL-SMOTE} & \multicol
+umn {1}{c}{ADASYN} & \multicolumn {1}{c}{DeepSM} & \multicolumn {1}{c}{SVMCS} &
+ \multicolumn {1}{c}{EE} \\ \midrule glass1 & 0.733 & \textbf {0.744} & 0.710 &
+ 0.732 & 0.730 & 0.710 & 0.726 & 0.711 \\ wisconsin & \textbf {0.959} & 0.955 &
+ 0.952 & 0.956 & 0.954 & 0.957 & 0.956 & 0.955 \\ pima & \textbf {0.776} & 0.69
+4 & 0.714 & 0.715 & 0.700 & 0.727 & 0.752 & 0.737 \\ glass0 & \textbf {0.836} &
+ 0.782 & 0.796 & 0.782 & 0.795 & 0.809 & 0.825 & 0.808 \\ yeast1 & \textbf {0.7
+27} & 0.674 & 0.670 & 0.680 & 0.668 & 0.687 & 0.702 & 0.689 \\ haberman & \text
+bf {0.610} & 0.588 & 0.578 & 0.574 & 0.570 & 0.592 & 0.603 & 0.608 \\ vehicle1 
+& \textbf {0.835} & 0.803 & 0.811 & 0.804 & 0.819 & 0.797 & 0.793 & 0.817 \\ ve
+hicle2 & \textbf {0.986} & 0.954 & 0.970 & 0.973 & 0.977 & 0.944 & 0.971 & 0.97
+7 \\ vehicle3 & \textbf {0.826} & 0.760 & 0.779 & 0.797 & 0.807 & 0.788 & 0.794
+ & 0.798 \\ creditcard & \textbf {0.961} & 0.933 & 0.955 & 0.953 & 0.951 & 0.95
+8 & 0.904 & 0.954 \\ glass-0-1-2-3\_vs\_4-5-6 & 0.845 & 0.915 & 0.922 & 0.915 &
+ 0.911 & \textbf {0.925} & 0.907 & 0.911 \\ vehicle0 & 0.921 & 0.935 & 0.960 & 
+0.960 & 0.956 & 0.959 & \textbf {0.971} & 0.969 \\ ecoli1 & 0.810 & 0.795 & 0.8
+11 & 0.792 & 0.784 & \textbf {0.827} & 0.813 & 0.816 \\ new-thyroid1 & \textbf 
+{0.977} & 0.964 & 0.950 & 0.953 & 0.953 & 0.903 & 0.950 & 0.950 \\ new-thyroid2
+ & \textbf {0.974} & 0.971 & 0.966 & 0.966 & 0.966 & 0.886 & 0.963 & 0.963 \\ e
+coli2 & \textbf {0.928} & 0.849 & 0.901 & 0.852 & 0.867 & 0.867 & 0.915 & 0.924
+ \\ glass6 & 0.977 & 0.922 & 0.941 & \textbf {0.980} & 0.926 & 0.920 & \textbf 
+{0.980} & \textbf {0.980} \\ yeast3 & 0.868 & 0.777 & 0.825 & 0.815 & 0.786 & 0
+.829 & 0.867 & \textbf {0.876} \\ ecoli3 & 0.791 & 0.726 & 0.739 & 0.743 & 0.73
+4 & 0.806 & \textbf {0.842} & 0.838 \\ page-blocks0 & 0.929 & 0.858 & 0.897 & 0
+.870 & 0.854 & \textbf {0.936} & 0.922 & 0.913 \\ yeast-2\_vs\_4 & 0.874 & 0.84
+6 & \textbf {0.907} & 0.864 & 0.865 & 0.830 & 0.750 & 0.818 \\ yeast-0-5-6-7-9\
+_vs\_4 & 0.835 & 0.688 & 0.741 & 0.755 & 0.721 & 0.748 & 0.861 & \textbf {0.868
+} \\ vowel0 & \textbf {1.000} & \textbf {1.000} & \textbf {1.000} & \textbf {1.
+000} & \textbf {1.000} & 0.999 & \textbf {1.000} & 0.999 \\ glass-0-1-6\_vs\_2 
+& \textbf {0.822} & 0.710 & 0.760 & 0.728 & 0.720 & 0.531 & 0.664 & 0.619 \\ gl
+ass2 & 0.731 & 0.653 & \textbf {0.765} & 0.764 & 0.723 & 0.758 & 0.739 & 0.649 
+\\ yeast-1\_vs\_7 & \textbf {0.779} & 0.613 & 0.580 & 0.632 & 0.584 & 0.693 & 0
+.740 & 0.759 \\ glass4 & 0.756 & 0.845 & 0.910 & 0.927 & 0.853 & \textbf {0.985
+} & 0.887 & 0.899 \\ ecoli4 & \textbf {0.896} & 0.792 & 0.879 & 0.862 & 0.862 &
+ 0.808 & 0.879 & 0.879 \\ page-blocks-1-3\_vs\_4 & 0.967 & 0.903 & 0.935 & 0.94
+9 & 0.935 & 0.969 & \textbf {0.982} & \textbf {0.982} \\ abalone9-18 & 0.806 & 
+0.706 & 0.717 & 0.731 & 0.731 & 0.762 & \textbf {0.903} & 0.866 \\ yeast-1-4-5-
+8\_vs\_7 & \textbf {0.668} & 0.574 & 0.557 & 0.582 & 0.579 & 0.479 & 0.479 & 0.
+479 \\ glass5 & 0.912 & 0.823 & 0.824 & \textbf {0.954} & 0.803 & 0.824 & 0.673
+ & 0.673 \\ yeast-2\_vs\_8 & 0.913 & 0.728 & 0.670 & 0.752 & 0.682 & 0.825 & \t
+extbf {0.921} & \textbf {0.921} \\ car\_eval\_4 & \textbf {1.000} & 0.939 & 0.9
+94 & 0.988 & 0.994 & 0.999 & \textbf {1.000} & \textbf {1.000} \\ wine\_quality
+ & \textbf {0.758} & 0.659 & 0.682 & 0.713 & 0.682 & 0.727 & 0.723 & 0.736 \\ y
+east\_me2 & 0.737 & 0.593 & 0.666 & 0.652 & 0.641 & 0.738 & \textbf {0.852} & 0
+.843 \\ yeast4 & 0.800 & 0.635 & 0.640 & 0.660 & 0.629 & 0.738 & 0.829 & \textb
+f {0.831} \\ yeast-1-2-8-9\_vs\_7 & 0.909 & 0.598 & 0.587 & 0.620 & 0.589 & 0.8
+42 & 0.957 & \textbf {0.988} \\ yeast5 & 0.629 & 0.759 & 0.804 & 0.807 & \textb
+f {0.821} & 0.753 & 0.807 & 0.816 \\ yeast6 & 0.785 & 0.662 & 0.671 & 0.729 & 0
+.657 & 0.714 & 0.740 & \textbf {0.801} \\ abalone19 & 0.497 & 0.498 & 0.516 & \
+textbf {0.517} & 0.511 & 0.497 & 0.497 & 0.497 \\ \bottomrule \end {tabular}\pa
+r } \label {tab:Precision}\end {table}\par \par \begin {table}[htbp] \centering
+ \caption {Recall results over 41 datasets.} \resizebox {0.97\columnwidth }{!}{
+\begin {tabular}{lrrrrrrrr} \toprule & \multicolumn {1}{c}{SIMPOR} & \multicolu
+mn {1}{c}{GDO} & \multicolumn {1}{c}{SMOTE} & \multicolumn {1}{c}{BL-SMOTE} & \
+multicolumn {1}{c}{ADASYN} & \multicolumn {1}{c}{DeepSM} & \multicolumn {1}{c}{
+SVMCS} & \multicolumn {1}{c}{EE} \\ \midrule glass1 & 0.725 & \textbf {0.739} &
+ 0.705 & 0.726 & 0.727 & 0.702 & 0.713 & 0.699 \\ wisconsin & \textbf {0.965} &
+ 0.963 & 0.955 & 0.961 & 0.959 & 0.962 & 0.960 & 0.958 \\ pima & \textbf {0.778
+} & 0.705 & 0.714 & 0.727 & 0.701 & 0.715 & 0.733 & 0.726 \\ glass0 & 0.844 & 0
+.817 & 0.814 & 0.810 & 0.818 & 0.817 & \textbf {0.847} & 0.815 \\ yeast1 & \tex
+tbf {0.704} & 0.679 & 0.680 & 0.691 & 0.677 & 0.660 & 0.669 & 0.668 \\ haberman
+ & 0.593 & \textbf {0.611} & 0.601 & 0.599 & 0.590 & 0.583 & 0.570 & 0.563 \\ v
+ehicle1 & 0.814 & \textbf {0.827} & 0.803 & 0.789 & 0.816 & 0.774 & 0.777 & 0.8
+00 \\ vehicle2 & \textbf {0.988} & 0.980 & 0.983 & 0.983 & 0.985 & 0.965 & 0.98
+2 & 0.986 \\ vehicle3 & \textbf {0.817} & 0.772 & 0.791 & 0.787 & 0.806 & 0.772
+ & 0.770 & 0.773 \\ creditcard & \textbf {0.948} & 0.937 & 0.937 & 0.936 & 0.93
+5 & 0.936 & 0.911 & 0.925 \\ glass-0-1-2-3\_vs\_4-5-6 & 0.857 & 0.932 & 0.915 &
+ 0.910 & 0.920 & \textbf {0.935} & 0.909 & 0.901 \\ vehicle0 & 0.947 & \textbf 
+{0.979} & \textbf {0.979} & 0.971 & 0.973 & 0.946 & 0.969 & 0.969 \\ ecoli1 & 0
+.854 & 0.852 & 0.866 & 0.847 & 0.849 & \textbf {0.880} & 0.837 & 0.839 \\ new-t
+hyroid1 & 0.965 & \textbf {0.995} & 0.942 & 0.953 & 0.953 & 0.901 & 0.942 & 0.9
+42 \\ new-thyroid2 & 0.951 & \textbf {0.995} & 0.913 & 0.913 & 0.913 & 0.859 & 
+0.900 & 0.900 \\ ecoli2 & \textbf {0.916} & 0.913 & 0.911 & 0.878 & 0.902 & 0.9
+10 & 0.903 & 0.905 \\ glass6 & \textbf {0.931} & 0.880 & 0.818 & 0.800 & 0.820 
+& 0.816 & 0.800 & 0.800 \\ yeast3 & 0.856 & 0.863 & 0.862 & 0.860 & 0.878 & 0.8
+34 & 0.869 & \textbf {0.883} \\ ecoli3 & 0.823 & \textbf {0.870} & 0.850 & 0.85
+0 & 0.861 & 0.855 & 0.816 & 0.814 \\ page-blocks0 & 0.923 & \textbf {0.955} & 0
+.924 & 0.932 & 0.952 & 0.892 & 0.917 & 0.913 \\ yeast-2\_vs\_4 & 0.895 & \textb
+f {0.908} & 0.881 & 0.827 & 0.868 & 0.810 & 0.875 & 0.741 \\ yeast-0-5-6-7-9\_v
+s\_4 & 0.814 & \textbf {0.832} & 0.770 & 0.815 & 0.802 & 0.771 & 0.772 & 0.752 
+\\ vowel0 & \textbf {1.000} & \textbf {1.000} & \textbf {1.000} & \textbf {1.00
+0} & \textbf {1.000} & 0.995 & \textbf {1.000} & 0.995 \\ glass-0-1-6\_vs\_2 & 
+\textbf {0.741} & 0.680 & 0.735 & 0.735 & 0.730 & 0.520 & 0.716 & 0.682 \\ glas
+s2 & 0.747 & 0.800 & \textbf {0.939} & 0.869 & 0.907 & 0.812 & 0.677 & 0.689 \\
+ yeast-1\_vs\_7 & 0.655 & \textbf {0.722} & 0.611 & 0.678 & 0.634 & 0.562 & 0.6
+33 & 0.635 \\ glass4 & 0.841 & \textbf {0.906} & 0.795 & 0.795 & 0.872 & 0.821 
+& 0.759 & 0.761 \\ ecoli4 & \textbf {0.934} & 0.901 & 0.911 & 0.909 & 0.909 & 0
+.928 & 0.911 & 0.911 \\ page-blocks-1-3\_vs\_4 & 0.998 & 0.992 & 0.996 & 0.997 
+& 0.996 & 0.998 & \textbf {0.999} & \textbf {0.999} \\ abalone9-18 & 0.751 & \t
+extbf {0.830} & 0.812 & 0.812 & 0.823 & 0.748 & 0.751 & 0.733 \\ yeast-1-4-5-8\
+_vs\_7 & 0.549 & \textbf {0.723} & 0.618 & 0.665 & 0.697 & 0.495 & 0.499 & 0.49
+9 \\ glass5 & \textbf {0.912} & 0.868 & 0.768 & 0.893 & 0.766 & 0.768 & 0.602 &
+ 0.602 \\ yeast-2\_vs\_8 & \textbf {0.872} & 0.835 & 0.858 & 0.838 & 0.858 & 0.
+845 & 0.848 & 0.848 \\ car\_eval\_4 & \textbf {1.000} & 0.997 & \textbf {1.000}
+ & 0.999 & \textbf {1.000} & 0.986 & \textbf {1.000} & \textbf {1.000} \\ wine\
+_quality & \textbf {0.750} & 0.706 & 0.639 & 0.670 & 0.667 & 0.620 & 0.634 & 0.
+623 \\ yeast\_me2 & 0.671 & \textbf {0.693} & 0.670 & 0.658 & 0.673 & 0.647 & 0
+.610 & 0.609 \\ yeast4 & \textbf {0.790} & 0.776 & 0.732 & 0.725 & 0.722 & 0.74
+1 & 0.690 & 0.690 \\ yeast-1-2-8-9\_vs\_7 & 0.685 & \textbf {0.694} & 0.641 & 0
+.649 & 0.627 & 0.602 & 0.622 & 0.604 \\ yeast5 & 0.716 & \textbf {0.979} & 0.95
+5 & 0.964 & 0.956 & 0.830 & 0.883 & 0.883 \\ yeast6 & 0.714 & \textbf {0.827} &
+ 0.813 & 0.723 & 0.776 & 0.691 & 0.681 & 0.691 \\ abalone19 & 0.499 & 0.503 & 0
+.537 & 0.518 & \textbf {0.539} & 0.497 & 0.500 & 0.500 \\ \bottomrule \end {tab
+ular}\par } \label {tab:Recall}\end {table}}
+<Figures/winning_times.png, id=469, 406.026pt x 217.467pt>
+File: Figures/winning_times.png Graphic file (type png)
+<use Figures/winning_times.png>
+Package pdftex.def Info: Figures/winning_times.png  used on input line 440.
+(pdftex.def)             Requested size: 252.0pt x 134.97081pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+\clipboard {winningTime}{We also provide the summary of the F1 and AUC scores b
+y ``winning times" scores. We count the number of datasets for which a techniqu
+e achieves the highest scores among the compared techniques and name this numbe
+r ``winning times". For convention, if more than two techniques share the same 
+highest score, the winning times will be increased for each technique. Figure \
+ref {fig:winingTimes} shows a summary of winning times.}
+[9 <./Figures/moon/ImbalancedData.jpg>]
+\clipboard {wilcoxonTest}{ To further evaluate the effectiveness of the techniq
+ue, we also performed a Wilcoxon Signed Rank Test \cite {wilcoxon} on the 41 da
+taset results (F1 score and AUC). Wilcoxon hypothesis test is relevant to our s
+tudy as it is a non-parametric statistical test and does not require a specific
+ distribution assumption for the results. On the other hand, 41 data points (co
+rresponding to 41 datasets results) are sufficient to support this test. Our nu
+ll hypothesis is that the difference between the proposed technique results and
+ those of the other technique is insignificant. Wilcoxon signed-rank test outpu
+ts are computed over the 41 dataset results and return a p-value for each techn
+ique pair. We then compare the p-value with the significant value $\alpha = 0.0
+5$. Suppose the p-value is smaller than $\alpha $. In that case, the evidence i
+s sufficient to reject the hypothesis, which means the proposed technique does 
+make a significant difference from the others, and vice versa. Table \ref {tab:
+wilcoxonTest} shows the Wilcoxon p-value results. \par \begin {table}[htbp] \ce
+ntering \caption {Wilcoxon Signed Rank Hypothesis Test results.} \par \begin {t
+abular}{lcc} \toprule & \multicolumn {2}{c}{p-value} \\ \midrule SIMPOR vs. & \
+multicolumn {1}{l|}{F1-score} & \multicolumn {1}{l}{AUC} \\ \midrule GDO & 1.82
+E-03 & 1.93E-03 \\ SMOTE & 2.66E-03 & 6.64E-05 \\ BL\_SMOTE & 4.22E-03 & 1.63E-
+04 \\ ADASYN & 2.89E-03 & 6.13E-04 \\ DeepSM & 6.40E-04 & 2.57E-04 \\ SVMCS & 2
+.74E-03 & 3.40E-02 \\ EE & 1.99E-03 & 2.17E-02 \\ \bottomrule \end {tabular}\la
+bel {tab:wilcoxonTest}\end {table}\par As we can see from Table \ref {tab:wilco
+xonTest}, the p-values are all smaller than the critical value of 0.05. Thus, t
+he null hypothesis can be rejected as the supporting evidence is sufficient. In
+ other words, the statistical result shows that the proposed technique makes a 
+significant improvement compared to others. }
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./Figures/moon/Training_Data_PLot_SIMPOR.jpg> <./Figures/moon/Training_Da
+ta_PLot_GDO.jpg> <./Figures/moon/Training_Data_PLot_SMOTE.jpg> <./Figures/moon/
+Training_Data_PLot_DeepSMOTE.jpg> <./Figures/moon/Training_Data_PLot_Borderline
+SMOTE.jpg> <./Figures/moon/Training_Data_PLot_ADASYN.jpg>]
+<Figures/PCA/abalone9-18.pdf, id=501, 597.50829pt x 845.0471pt>
+File: Figures/PCA/abalone9-18.pdf Graphic file (type pdf)
+<use Figures/PCA/abalone9-18.pdf>
+Package pdftex.def Info: Figures/PCA/abalone9-18.pdf  used on input line 487.
+(pdftex.def)             Requested size: 412.80157pt x 532.37953pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+\clipboard {histogramVisualization}{ To explore more on how the techniques perf
+orm, we visualize the generated data by projecting them onto lower dimension sp
+ace (i.e., one and two dimensions) using the Principle Component Analysis techn
+ique (PCA) \cite {pca}. Data's 2-Dimension (2D) plots and 1-Dimension histogram
+s are presented with a hard-to-differentiate ratio (HDR) for each technique. 1D
+ histograms are computed by dividing one-dimensional-reduced data into 20 bins 
+(intervals) and counting the number of samples within the interval of each bin.
+ A hard-to-differentiate ratio is defined as the ratio of the number of samples
+ in the intersection between 2 classes to the total of minority samples ($HDR =
+ \frac {No.\: Intersection \: samples}{No. \: Minority \: samples}100\% $) wher
+e the number of intersection samples is estimated by counting samples in the ov
+erlapped bins between the two classes in the 1D histograms. This ratio is expec
+ted to be as small as 0\% if the two classes are well separated; in contrast, 1
+00\% indicates that the two classes cannot be distinguished in the projected 1D
+ space. Besides HDR, we show the absolute numbers of Minority, Majority, and In
+tersection samples for each technique in the bottom tables. From the plots, we 
+observe how the data are distributed in 2D space and quantify samples that are 
+hard to be differentiated in the 1D space histograms. }
+[11 <./Figures/winning_times.png>]
+\clipboard {processingTime}{ \begin {table}[htbp] \centering \caption {Processi
+ng time (in seconds) over 41 datasets.} \resizebox {0.97\columnwidth }{!}{\par 
+\begin {tabular}{lcccccc} \toprule & SIMPOR & GDO & SMOTE & BL-SMOTE & ADASYN &
+ DeepSM \\ \midrule glass1 & 0.1147 & 0.0576 & 0.0020 & 0.0033 & 0.0032 & 0.858
+7 \\ wisconsin & 2.0805 & 0.1769 & 0.0024 & 0.0044 & 0.0046 & 1.2004 \\ pima & 
+0.2032 & 0.2066 & 0.0025 & 0.0049 & 0.0050 & 1.2297 \\ glass0 & 0.2157 & 0.0553
+ & 0.0023 & 0.0035 & 0.0036 & 0.8601 \\ yeast1 & 0.2457 & 0.4749 & 0.0035 & 0.0
+108 & 0.0104 & 1.4846 \\ haberman & 0.0517 & 0.1560 & 0.0022 & 0.0033 & 0.0036 
+& 0.9246 \\ vehicle1 & 0.4365 & 0.1237 & 0.0025 & 0.0059 & 0.0059 & 1.4147 \\ v
+ehicle2 & 6.2913 & 0.1512 & 0.0029 & 0.0053 & 0.0061 & 1.3976 \\ vehicle3 & 0.2
+821 & 0.1237 & 0.0024 & 0.0060 & 0.0061 & 1.3487 \\ creditcard & 2.1200 & 0.378
+3 & 0.0087 & 0.0184 & 0.0182 & 1.7980 \\ glass-0-1-2-3\_vs\_4-5-6 & 0.3376 & 0.
+0459 & 0.0023 & 0.0035 & 0.0035 & 0.8407 \\ vehicle0 & 7.3645 & 0.1198 & 0.0024
+ & 0.0054 & 0.0058 & 1.2953 \\ ecoli1 & 0.0418 & 0.0337 & 0.0010 & 0.0018 & 0.0
+017 & 0.9310 \\ new-thyroid1 & 0.5352 & 0.0304 & 0.0015 & 0.0024 & 0.0024 & 0.8
+590 \\ new-thyroid2 & 0.3881 & 0.0359 & 0.0025 & 0.0033 & 0.0031 & 0.8747 \\ ec
+oli2 & 0.2516 & 0.0266 & 0.0011 & 0.0017 & 0.0016 & 0.9733 \\ glass6 & 0.3196 &
+ 0.0268 & 0.0014 & 0.0025 & 0.0023 & 1.0744 \\ yeast3 & 0.1374 & 0.2422 & 0.002
+3 & 0.0060 & 0.0059 & 1.6699 \\ ecoli3 & 0.0658 & 0.0378 & 0.0015 & 0.0025 & 0.
+0024 & 0.9647 \\ page-blocks0 & 7.9654 & 2.0918 & 0.0045 & 0.0143 & 0.0138 & 3.
+6029 \\ yeast-2\_vs\_4 & 2.4310 & 0.0624 & 0.0017 & 0.0028 & 0.0028 & 1.0286 \\
+ yeast-0-5-6-7-9\_vs\_4 & 0.0868 & 0.0632 & 0.0016 & 0.0029 & 0.0027 & 0.9809 \
+\ vowel0 & 4.7675 & 0.1312 & 0.0018 & 0.0039 & 0.0037 & 1.2410 \\ glass-0-1-6\_
+vs\_2 & 0.0482 & 0.0207 & 0.0013 & 0.0023 & 0.0022 & 0.9133 \\ glass2 & 0.0501 
+& 0.0227 & 0.0013 & 0.0024 & 0.0024 & 0.8855 \\ yeast-1\_vs\_7 & 0.4697 & 0.042
+0 & 0.0017 & 0.0026 & 0.0026 & 1.0355 \\ glass4 & 0.1141 & 0.0197 & 0.0012 & 0.
+0024 & 0.0023 & 0.9469 \\ ecoli4 & 0.1087 & 0.0310 & 0.0015 & 0.0024 & 0.0024 &
+ 0.9393 \\ page-blocks-1-3\_vs\_4 & 1.8742 & 0.0445 & 0.0015 & 0.0027 & 0.0026 
+& 0.9992 \\ abalone9-18 & 2.9722 & 0.0716 & 0.0015 & 0.0028 & 0.0026 & 1.2095 \
+\ yeast-1-4-5-8\_vs\_7 & 0.0881 & 0.0673 & 0.0017 & 0.0031 & 0.0028 & 1.0803 \\
+ glass5 & 0.2815 & 0.0241 & 0.0017 & 0.0033 & 0.0036 & 0.8550 \\ yeast-2\_vs\_8
+ & 0.1239 & 0.0441 & 0.0016 & 0.0027 & 0.0028 & 0.9849 \\ car\_eval\_4 & 0.4381
+ & 0.1746 & 0.0026 & 0.0066 & 0.0049 & 1.6616 \\ wine\_quality & 0.1622 & 0.858
+7 & 0.0030 & 0.0144 & 0.0137 & 3.3128 \\ yeast\_me2 & 0.1060 & 0.1379 & 0.0018 
+& 0.0042 & 0.0039 & 1.7350 \\ yeast4 & 0.1083 & 0.1386 & 0.0018 & 0.0041 & 0.00
+39 & 1.6314 \\ yeast-1-2-8-9\_vs\_7 & 0.0924 & 0.0757 & 0.0017 & 0.0031 & 0.003
+0 & 1.3069 \\ yeast5 & 0.1188 & 0.1312 & 0.0019 & 0.0037 & 0.0040 & 1.6181 \\ y
+east6 & 0.0613 & 0.1419 & 0.0018 & 0.0037 & 0.0036 & 1.6382 \\ abalone19 & 0.08
+90 & 0.3161 & 0.0022 & 0.0053 & 0.0054 & 3.0168 \\ \bottomrule \end {tabular}\p
+ar } \label {tab:ProcessingTime}\end {table}\par \subsection {Processing Time.}
+ \label {sec:processingTime} Data processing times for oversampling-based appro
+aches on 41 datasets are compared to provide a more comprehensive comparison. W
+e don't compare them to the other approaches, i.e., cost-sensitive learning and
+ ensemble learning, because they only need negligible data processing time as t
+hey focus on classifiers other than improving the data. The processing time was
+ recorded from our machine, which uses an Intel i7 32-thread processor and two 
+NVIDIA 3090 Ti GPUs. Table \ref {tab:ProcessingTime} shows the recorded process
+ing time over 41 datasets. Overall, our technique takes longer than others as w
+e have to compute the kernel estimation for each data point, as mentioned in Se
+ction \ref {sec:implementation}. Similarly, DeepSMOTE generally suffers high ti
+me consuming cost because it heavily relies on underlying heuristic methods. In
+ other words, the proposed technique is slower, but it provides better F1 and A
+UC scores than others. \par }
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./Figures/PCA/abalone9-18.pdf>]
+<Figures/r_impact.png, id=566, 784.677pt x 217.686pt>
+File: Figures/r_impact.png Graphic file (type png)
+<use Figures/r_impact.png>
+Package pdftex.def Info: Figures/r_impact.png  used on input line 569.
+(pdftex.def)             Requested size: 505.6778pt x 129.84166pt.
+<Figures/threshold_impact.png, id=569, 730.146pt x 217.467pt>
+File: Figures/threshold_impact.png Graphic file (type png)
+<use Figures/threshold_impact.png>
+Package pdftex.def Info: Figures/threshold_impact.png  used on input line 577.
+(pdftex.def)             Requested size: 505.6778pt x 139.58904pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+\clipboard {EmpiricalExplanation}{ The figure obtained from the experiment indi
+cates that the r factor, with a radius distribution standard deviation ranging 
+from 0.6R to R, has minimal impact on the classification performance. While the
+re are slight variations within the $\alpha $ range of 0.6 to 1, the performanc
+e improves between 0.2 to 0.6 (such as for ecoli1, abalone9-18, and yeast4). Th
+is is because the performance mainly depends on the classifier's decision bound
+ary, and the synthetic data are placed far away from the decision boundary towa
+rds the minority class area; thus, the radius does not have much effect on the 
+accuracy results. However, in the case of multi-classed data, the performance m
+ight be affected by a significant value of R. }
+\clipboard {EmpiricalExplanationIP}{ As we can see from the figure, while datas
+ets with outstanding performance (new-thyroid1, ecoli1) have little impact, the
+re are fluctuations in other datasets' F1-score and AUC score  (abalonce9-18, 
+glass0, yeast4). This is because, for the easy-separated dataset such as new-th
+yroid1 and ecoli1, the IP change does not affect the classification performance
+ as the data classes are easily separated. While in more challenging datasets, 
+IP changes might affect the balance at the informative region; thus, this leads
+ to performance variations. The resulting figure also suggests tuning IP for ea
+ch dataset between a range of (0.2, 0.6) could achieve higher performance. }
+) [13 <./Figures/r_impact.png>] (./SIMPOR.bbl
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+[14 <./Figures/threshold_impact.png>]
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--350
+[]\OT1/ptm/m/n/8 ``sklearn.neighbors.KernelDensity.'' [On-line]. Avail-able:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--350
+[][]$\OT1/ptm/m/n/8 https : / / scikit-[]learn / stable / modules / generated /
+ sklearn . neighbors .
+ []
+
+
+Underfull \hbox (badness 6047) in paragraph at lines 376--379
+[]\OT1/ptm/m/n/8 ``fetch datasets 2014; Ver-sion 0.10.0 --- imbalanced-learn.or
+g,''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--379
+[][]$\OT1/ptm/m/n/8 https : / / imbalanced-[]learn . org / stable / references 
+/ generated / imblearn .
+ []
+
+)
+<biography/hung.jpg, id=652, 593.21625pt x 593.21625pt>
+File: biography/hung.jpg Graphic file (type jpg)
+<use biography/hung.jpg>
+Package pdftex.def Info: biography/hung.jpg  used on input line 205.
+(pdftex.def)             Requested size: 65.04254pt x 65.03674pt.
+File: biography/hung.jpg Graphic file (type jpg)
+<use biography/hung.jpg>
+Package pdftex.def Info: biography/hung.jpg  used on input line 205.
+(pdftex.def)             Requested size: 65.04254pt x 65.03674pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./biography/Chang_CP.pdf): PDF inclusio
+n: found PDF version <1.6>, but at most version <1.5> allowed
+<biography/Chang_CP.pdf, id=655, 303.10037pt x 378.59242pt>
+File: biography/Chang_CP.pdf Graphic file (type pdf)
+<use biography/Chang_CP.pdf>
+Package pdftex.def Info: biography/Chang_CP.pdf  used on input line 209.
+(pdftex.def)             Requested size: 65.04254pt x 81.2398pt.
+File: biography/Chang_CP.pdf Graphic file (type pdf)
+<use biography/Chang_CP.pdf>
+Package pdftex.def Info: biography/Chang_CP.pdf  used on input line 209.
+(pdftex.def)             Requested size: 65.04254pt x 81.2398pt.
+[15 <./biography/hung.jpg> <./biography/Chang_CP.pdf>] (./SummaryOfChange.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+[16
+
+]
+
+Package hyperref Warning: Suppressing link with empty target on input line 45.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 45.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 45.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 45.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+
+Underfull \vbox (badness 6758) has occurred while \output is active []
+
+ [17]
+
+Package hyperref Warning: Suppressing link with empty target on input line 73.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 73.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+[18]
+Underfull \hbox (badness 2951) in paragraph at lines 93--95
+[]\OT1/ptm/m/n/12 Thank you for your sug-ges-tion. The im-ple-men-ta-tion is no
+w pub-licly avail-able on Github
+ []
+
+
+Overfull \hbox (28.95187pt too wide) in paragraph at lines 93--95
+[][][][][][] 
+ []
+
+
+Underfull \vbox (badness 1097) has occurred while \output is active []
+
+ [19]
+
+Package hyperref Warning: Suppressing link with empty target on input line 111.
+
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 111.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+[]\OT1/ptm/m/n/12 Thank you for your sug-ges-tion. In this re-vi-sion, we have 
+con-sid-ered the two re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+\OT1/ptm/m/n/12 lated works in our study and briefly dis-cussed them in Sec-tio
+n II.A Re-lated Work.
+ []
+
+) [20] (./SIMPOR.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `SIMPOR.out' has not changed.
+(rerunfilecheck)             Checksum: 7BF3C0B798E708E3AC009422149B1F53;5745.
+ ) 
+Here is how much of TeX's memory you used:
+ 18737 strings out of 478287
+ 357934 string characters out of 5849289
+ 844414 words of memory out of 5000000
+ 36450 multiletter control sequences out of 15000+600000
+ 517890 words of font info for 125 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 70i,13n,79p,2104b,930s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8
+a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on SIMPOR.pdf (20 pages, 1926314 bytes).
+PDF statistics:
+ 846 PDF objects out of 1000 (max. 8388607)
+ 704 compressed objects within 8 object streams
+ 188 named destinations out of 1000 (max. 500000)
+ 394 words of extra memory for PDF output out of 10000 (max. 10000000)
+

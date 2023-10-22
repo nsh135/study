@@ -1,0 +1,80 @@
+
+
+\newcommand{\argmin}[1]{\underset{#1}{\operatorname{arg}\,\operatorname{min}}\;}
+\newcommand{\minmax}[1]{\underset{#1}{\operatorname{min}\,\operatorname{max}}\;}	
+\newcommand{\prob}[1]{p_#1} 	
+
+\newtheorem{example}{\bf Example}
+\newtheorem{definition}{\bf Definition}
+\newtheorem{theorem}{\bf Theorem}
+\newtheorem{claim}{\bf Claim}
+\newtheorem{proposition}{\bf Proposition}
+\newtheorem{lemma}{\bf Lemma}
+\newtheorem{remark}{\bf Remark}
+\newtheorem{collolary}{\bf Collolary}
+
+
+\newcommand{\Name}{AutoGAN-based Dimension Reduction for Privacy Preservation}
+\newcommand{\shortName}{AGDRPP}
+
+\newcommand{\ChapterPathAutoGAN}{Chapter4}
+
+\chapter[AutoGAN-Based Dimension Reduction for Privacy Preservation]{AutoGAN-Based Dimension Reduction for Privacy Preservation \footnotemark }
+\footnotetext{This chapter was published in Journal of Neurocomputing.
+Permission is included in Appendix A.}
+
+\label{chap:AUTOGAN}
+
+
+\section{Introduction}
+\label{sec:introduction}
+\input{\ChapterPathAutoGAN/sections/intro}
+	
+\section{Related Work}
+\label{sec:autogan_relatedwork}
+\subsection{Literature Review}
+\input{\ChapterPathAutoGAN/sections/literature_review}
+	
+\subsection{Preliminaries}
+	To enhance the distance between original and reconstructed data in our DR system, we utilize the structure of Generative Adversarial Network (GAN) \cite{Goodfellow2014} for data perturbation and deep Auto-encoder \cite{Baldi2012} for data reconstruction. The following sections briefly review Auto-encoder and GAN.
+\subsubsection{Auto-encoder}
+Auto-encoder is aimed at learning lower dimension representations of unsupervised data. Auto-encoder can be used for denoising and reducing data dimension. It can be implemented by two neural network components: \textit{encoder} and \textit{decoder}. The \textit{encoder} and \textit{decoder} perform reverse operations. The input of the \textit{encoder} is the original data while the output of the \textit{decoder} is expected to be similar to the input data. The middle layer extracts latent representation of original data that could be used for dimension reduction. An Auto-encoder training process can be described as a minimization problem of the auto-encoder's loss function $\mathcal{L(\cdot)}$:
+\begin{equation}
+\mathcal{L}(x,g(f(x)))
+\end{equation}
+where x is input data, f($\cdot$) is an encoding function, and g($\cdot$) is a decoding function.
+
+\subsubsection{GAN}
+Generative Adversarial Nets is aimed at approximating distribution $p_d$ of a dataset via a generative model. GAN simultaneously trains two components \textit{generator} $G$ and \textit{discriminator} $D$, and the input of $G$ is sampled from a prior distribution $p_z(z)$ through which $G$ generates fake samples similar to the real samples. At the same time, $D$ is trained to differentiate between fake samples and real samples, and send feedback to $G$ for improvement. GAN can be formed as a two-player minimax game with value function V(G,D):
+
+\begin{equation}
+	\begin{split}
+		\min_G \max_D{V(G,D)} = & E_{x \sim \prob{d}} [log(D(x))] + \\& E_{z\sim \prob{z} }[log( 1 - D( G(z) ))]
+	\end{split}
+\end{equation}
+
+The two components, \textit{Generator} and \textit{Discriminator} can be built from neural networks (e.g., fully connected neural network, convolutional neural network). The goal of G is to reduce the accuracy of D. Meanwhile, the goal of D is to differentiate fake samples from real samples. These two components are trained until the discriminator cannot distinguish between generated samples and real samples.
+
+
+\section{Methodology} \label{sec:autogan_methodology}
+
+In this section, we first describe the problem and threat model, then we introduce a definition of DR-Privacy and our dimensionality reduction method (AutoGAN-DRP).    
+\input{\ChapterPathAutoGAN/sections/problem}
+
+\subsection{$\epsilon$-Dimension Reduction Privacy ($\epsilon$-DR Privacy)} \label{sec:theory}
+\input{\ChapterPathAutoGAN/sections/def}
+
+\input{\ChapterPathAutoGAN/sections/method.tex}
+
+\section{Experiments and Discussion}
+\label{sec:experimentsanddiscussion}
+\input{\ChapterPathAutoGAN/sections/experiment.tex}
+
+\section{Conclusion}
+\label{sec:Autogan_conclusion}
+In this work, we introduce a mathematical tool $\epsilon$-DR to evaluate privacy preserving mechanisms. We also propose a non-linear dimension reduction framework. This framework projects data onto lower dimension domain in which it prevents reconstruction attacks and preserves data utility. The dimension-reduced data can be used effectively for the machine learning tasks such as classification. In our future works, we plan to extend the framework to adapt with different types of data, such as time series and categorical data. We will apply different metrics to compute the distance other than $l_2$ norm and investigate the framework on several applications in security systems and data collaborative contributed systems.  
+
+
+
+
+

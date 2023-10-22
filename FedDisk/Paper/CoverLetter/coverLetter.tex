@@ -1,0 +1,31 @@
+
+
+% envelope.tex
+\documentclass{letter}
+\usepackage{hyperref}
+\signature{Hung Nguyen}
+\address{4202 E Fowler Ave\\ Tampa, Florida \\ USA}
+\begin{document}
+	
+	\begin{letter}{}
+		\opening{Dear Editor,}
+		
+We are submitting our manuscript titled "Handling Non-IID Data in Federated Learning using Sample Weights" to the IEEE Transactions on Artificial Intelligence.
+
+In this research, we propose a novel approach to address the challenge of non-IID data in Federated Learning (FL) settings. The presence of non-IID data significantly hampers the accuracy of machine learning models and prolongs their convergence time, resulting in increased communication costs. Several existing works have proposed solutions to tackle this issue; however, they either require clients to share portions of their private data or rely on a global model that is already affected by the non-IID problem.
+
+To circumvent these limitations, our method leverages statistical information from clients without necessitating the sharing of raw data. Only additional model weights need to be exchanged within the FL framework. This information is aggregated to compute sample weights for the loss function. Consequently, the model trains more efficiently, leading to a significant reduction in communication costs and improved machine learning accuracy.
+
+Our experiments conducted on three real datasets yield promising results. For instance, in the case of the non-IID dataset FEMNIST, communication costs were reduced by a factor of eight, while the model's accuracy improved. Similar trends were observed in other datasets, such as MNIST and Chest-Xray.
+
+With the intuitive and promising results on 3 non-IID datasets shown in this manuscript, we hope that the community will be beneficial from our study. In the end, we should say, the manuscript has not been published or copyrighted in any formal or informal journal.
+
+
+Sincerely,\\
+Hung Nguyen\\
+Ph.D. Student\\
+Phone: +1-8137667064\\
+Email:  nsh@usf.edu\\
+
+\end{letter}
+\end{document}
