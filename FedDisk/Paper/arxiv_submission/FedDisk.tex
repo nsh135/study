@@ -67,13 +67,13 @@
 
 
 % for line reference
-\usepackage[switch, columnwise]{lineno} 
-\usepackage{lipsum}% 
-\renewcommand{\linenumberfont}{\normalfont\bfseries\small\color{white}}
+%\usepackage[switch, columnwise]{lineno} 
+%\usepackage{lipsum}% 
+%\renewcommand{\linenumberfont}{\normalfont\bfseries\small\color{white}}
 
 %for line, page referal
-\newcommand{\R}[1]{\label{#1}\linelabel{#1}}
-\newcommand{\lr}[1]{page~\pageref{#1}, line~\lineref{#1}}
+%\newcommand{\R}[1]{\label{#1}\linelabel{#1}}
+%\newcommand{\lr}[1]{page~\pageref{#1}, line~\lineref{#1}}
 
 
 
@@ -104,7 +104,7 @@
 
 \maketitle
 	
-\linenumbers
+%\linenumbers
 %%%%%%%%% ABSTRACT
 \begin{abstract}
 \Copy{non-IID}{
@@ -129,7 +129,7 @@ feature skewness, communication cost reduction, privacy preservation, deep learn
 
 Since the demand for massive data in artificial intelligent machines, federated learning (FL) was first introduced in 2016, \cite{OriginFL}, a collaboratively decentralized learning framework, in contrast to centralized learning approaches (in which datasets are sent to an aggregator), FL encourages data holders to contribute without the privacy concern of exposing their raw data. For example, a number of hospitals holding patient records would participate in a machine learning (ML) system to provide better disease predictions via a FL framework without the concern of privacy disclosure. An FL framework is then set up to train a global machine learning model with the participation of all hospitals (clients) and an aggregator coordinating the model transfer between clients and the aggregator. Instead of sharing raw data, each client trains their ML model for a small number of iterations and updates the model parameters to the aggregator. The aggregator then merges all clients' model parameters into a new global model and sends them back to the clients for further training iterations. Clients receive the global model and continue to train for the next iterations. The process is repeated until the global model is fully trained.    
 
-Because the data in such collaborative learning usually come from different sources, they might be drawn from local distributions that are different from the underlying global distribution. This can be considered a non-IID issue, and it might cause a performance reduction. \R{para:motivation}\Copy{para:motivation}{The primary problem is the divergence of model weights, as found in \cite{Zhao2018FederatedLW} by Zhao et al. The authors showed that the model's weights tend to be more diverged for non-IID data compared to that for IDD data. This causes a performance reduction, and it worsens as the data distribution becomes more skewed. For example, the accuracy dropped by about 10\% for image dataset Cifar-10 \cite{cifar10}, and speech recognition dataset KWS \cite{kws} with a non-IID setting}. In FL, this issue arises due to differences between client individual distribution and the global distribution. \Copy{sec:introduction}{To address this problem, we proposed an algorithm that utilizes sample weights to adjust individual client distributions closer to the global distribution during the training process. However, obtaining global information across clients is challenging in an FL setting because clients need to allow the exposure of their raw data. To overcome this challenge, the proposed method implicitly shares statistical information of client data without revealing the client's raw data. The method only requires clients to exchange additional model weights using a typical FL procedure. Once the adjustment weights are acquired, the machine learning model can be trained using a standard FL framework. The proposed method is demonstrated to improve FL accuracy and significantly reduce FL communication costs through experiments on three real-world datasets.
+Because the data in such collaborative learning usually come from different sources, they might be drawn from local distributions that are different from the underlying global distribution. This can be considered a non-IID issue, and it might cause a performance reduction. \Copy{para:motivation}{The primary problem is the divergence of model weights, as found in \cite{Zhao2018FederatedLW} by Zhao et al. The authors showed that the model's weights tend to be more diverged for non-IID data compared to that for IDD data. This causes a performance reduction, and it worsens as the data distribution becomes more skewed. For example, the accuracy dropped by about 10\% for image dataset Cifar-10 \cite{cifar10}, and speech recognition dataset KWS \cite{kws} with a non-IID setting}. In FL, this issue arises due to differences between client individual distribution and the global distribution. \Copy{sec:introduction}{To address this problem, we proposed an algorithm that utilizes sample weights to adjust individual client distributions closer to the global distribution during the training process. However, obtaining global information across clients is challenging in an FL setting because clients need to allow the exposure of their raw data. To overcome this challenge, the proposed method implicitly shares statistical information of client data without revealing the client's raw data. The method only requires clients to exchange additional model weights using a typical FL procedure. Once the adjustment weights are acquired, the machine learning model can be trained using a standard FL framework. The proposed method is demonstrated to improve FL accuracy and significantly reduce FL communication costs through experiments on three real-world datasets.
 
 Our contributions are as follows:
 \begin{enumerate}
@@ -161,7 +161,7 @@ The approach mitigates heterogeneity by adjusting the model weight during aggreg
 \end{itemize}
 
   
-\R{par:problemStatement}\Copy{par:problemStatement}{
+\Copy{par:problemStatement}{
 \section{Problem Statement}
 \label{sec:problem}
 In this section, we introduce and formulate the scenario of FL with skewed feature distribution across clients. 
@@ -202,7 +202,7 @@ for $d \in \{1,...,D\}$ and $k \in \{1,...,K \}$ with $K$ being the number of hi
 
 \section{\MethodnameLong{}}
 \label{sec:methodology}
-\R{par:howEffectiveness}\Copy{par:howEffectiveness}{
+\Copy{par:howEffectiveness}{
 In this section, a solution is proposed to alleviate the negative impact of distribution skewness across clients for federated learning by adjusting client data distribution during the training process. The proposed method aims to find weights for training samples in order to adjust client data distributions. The remainder of this section introduces how we design sample weights. We also show that the goal in Equation \ref{equ:goal} can be derived from the machine learning optimization problem as described in this section. 
 
 By applying the sample weights for the local training on each client, the proposed method reduces the distribution skewness of each client's data and prevents clients' raw data from being exposed. Some statistical information between clients and the aggregator must be exchanged to find sample weights. However, instead of exchanging the raw information, which might hurt clients' privacy, the proposed method only exchanges model parameters, similar to a typical Fl framework.}
@@ -211,7 +211,7 @@ Our framework is illustrated in Figure \ref{fig:framework}. Where $f(\cdot)$ den
 \begin{figure*}[ht!]
 		\centering
 		%left bottom right top,
-		\includegraphics[width=0.85\textwidth, trim={1cm 0.1cm 1cm 0.3cm},clip]{Figures/FL}
+		\includegraphics[width=0.85\textwidth, trim={1cm 0.1cm 1cm 0.3cm},clip]{Figures/FL.pdf}
 		\caption{ \MethodnameShort{} Framework: The proposed framework has two phases. First, local and global probability density functions ($p(x),q(x)$) are estimated via MADE models leveraging FL procedures. Then, the sample weights $\alpha$ are computed by approximating density ratio via class probability estimation. Second, the machine learning tasks (e.g., classification) can be performed similar to a typical FL method (i.e., FedAvg) with the sample weights acquired from phase 1.} 
 		\label{fig:framework} 
 
@@ -415,18 +415,18 @@ Figure \ref{fig:examples} provides several sample images from the three datasets
 \begin{figure}[h]
 	\centering
 	\begin{tabular}{@{}cccc@{}}
-		\includegraphics[width=.21\columnwidth]{Figures/mnist/IMGS/client:1label:9} &
-		\includegraphics[width=.21\columnwidth]{Figures/mnist/IMGS/client:27label:9} &
-		\includegraphics[width=.21\columnwidth]{Figures/mnist/IMGS/client:17label:3} &
-		\includegraphics[width=.21\columnwidth]{Figures/mnist/IMGS/client:23label:3} \\
-		\includegraphics[width=.21\columnwidth]{Figures/femnist/IMGS/client:26label:15} &
-		\includegraphics[width=.21\columnwidth]{Figures/femnist/IMGS/client:27label:15} &
-		\includegraphics[width=.21\columnwidth]{Figures/femnist/IMGS/client:14label:40} &
-		\includegraphics[width=.21\columnwidth]{Figures/femnist/IMGS/client:24label:40} \\
-		\includegraphics[width=.21\columnwidth]{Figures/xray/IMGS/client:0label:0} &
-		\includegraphics[width=.21\columnwidth]{Figures/xray/IMGS/client:3label:0} &
-		\includegraphics[width=.21\columnwidth]{Figures/xray/IMGS/client:13label:1} &
-		\includegraphics[width=.21\columnwidth]{Figures/xray/IMGS/client:8label:1} \\
+		\includegraphics[width=.21\columnwidth]{Figures/mnist/IMGS/client_1label_9} &
+		\includegraphics[width=.21\columnwidth]{Figures/mnist/IMGS/client_27label_9} &
+		\includegraphics[width=.21\columnwidth]{Figures/mnist/IMGS/client_17label_3} &
+		\includegraphics[width=.21\columnwidth]{Figures/mnist/IMGS/client_23label_3} \\
+		\includegraphics[width=.21\columnwidth]{Figures/femnist/IMGS/client_26label_15} &
+		\includegraphics[width=.21\columnwidth]{Figures/femnist/IMGS/client_27label_15} &
+		\includegraphics[width=.21\columnwidth]{Figures/femnist/IMGS/client_14label_40} &
+		\includegraphics[width=.21\columnwidth]{Figures/femnist/IMGS/client_24label_40} \\
+		\includegraphics[width=.21\columnwidth]{Figures/xray/IMGS/client_0label_0} &
+		\includegraphics[width=.21\columnwidth]{Figures/xray/IMGS/client_3label_0} &
+		\includegraphics[width=.21\columnwidth]{Figures/xray/IMGS/client_13label_1} &
+		\includegraphics[width=.21\columnwidth]{Figures/xray/IMGS/client_8label_1} \\
 	\end{tabular}
 	\caption{Example images from MNIST, FEMNIST and Chest Xray datasets. They are collected from different sources and carried a veraity of resolutions, styles or conditions.}
 	\label{fig:examples}
@@ -623,7 +623,7 @@ where $S_{MADE}$ and $S_{cls}$ are model sizes needed to be transferred in phase
 
 Figure \ref{fig:communication_cost} summarizes effective communication cost. Noticeably, the communication cost reduced significantly for the FEMNIST dataset under the proposed method, 8 times, from the second lowest cost method of 907,000,000 (FedROD, brown column) to 112,000,000 (FedDisk, green column). The communication cost reduction trend is also applied to other experimental datasets, Chest-Xray (1.4 times) and MNIST (1.6 times). Thus, the proposed method improves accuracy and dramatically reduces communication costs, one of the most critical concerns in Federated Learning. This is because the loss function were reduced faster as we adjusted using the sample weights. Figure \ref{fig:loss_all} demonstrates the global loss values during training. For FedDisk, the sample weights effectively affect the optimization function, and the loss reduces much faster, and the accuracies proportionally increase faster.   
 
-\R{sec:discussion}\Copy{sec:discussion}{
+\Copy{sec:discussion}{
 \subsection{Discusion}
 The proposed method offers a holistic improvement over existing federated learning methods. Its combination of enhanced accuracy and reduced communication costs signifies its effectiveness across a variety of datasets and scenarios. For example, the accuray can be increased by 22\% and the communication time reduced by 8 times for FEMNIST dataset. 
 While FedDisk exhibits remarkable performance across various metrics in federated learning scenarios, it's important to acknowledge a drawback associated with its larger model size compared to some other methods as described in Table \ref{tab:modelSize}. The increased model size leads to higher space occupation on client devices, which can have implications for light weight devices with limited storage capacity. Hence, the suggested approach could be well-suited for the cross-silo scenario, typically characterized by clients having ample data and adequate computational capabilities. 
