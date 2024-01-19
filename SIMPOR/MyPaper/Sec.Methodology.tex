@@ -94,85 +94,10 @@ The problem can be described as a constrained optimization problem. For each min
 \textbf{\textit{Solving optimization problem in Equation \ref{prob:optimazation}:}} Interestingly, the problem in Equation\ref{prob:optimazation} can be solved numerically. Function $f(x)$ in Equation \ref{equ:f} is defined and continuous for $x' \in (-\infty, +\infty)$ because all of the exponential components (Gaussian kernels) are continuous and greater than zero. In addition, the constraint, $||\vec{x'} - \vec{x}||=r$, which contains all points on the sphere centered at $x$ with radius $r$ is a closed set (\cite{wikipedia_2021}). Thus, a maximum exits as proved in \cite{maximum_exist}. To enhance the diversity of synthetic data, either the global maximum or any local maximum can be accepted so that the synthetic samples will not simply go to the same direction.  
 
 We solve the problem in Equation \ref{prob:optimazation} by using the Projected Gradient Ascent approach in which we iteratively update the parameter to go up the gradient of the objective function. A local maximum is found if the objective value cannot be increased by any local update. For simplification, we rewrite the problem in Equation \ref{prob:optimazation} by shifting the origin to the considered minority sample. The problem becomes finding the maximum of function $f(x')$, $x' \in \mathbb{R}^d$, constrained on a d-sphere, i.e., $||x'||=r$. Our solution can be described in Algorithm \ref{alg:optimization}. After shifting the coordinates system, we start by sampling a random point on the constraint sphere (line $1-2$). The gradient of the objective function at time $t$, $g_t(x'_t)$, is computed and projected onto the sphere tangent plane as $p_t$ (line $4-5$). It is then normalized and used for update a new $x'_{t+1}$ by rotating a small angle $lr*\theta$ (line $6-7$). The algorithm stops when the value of $f(x')$ is not increased by any update of $x'$. We finally shift to the original coordinates and return the latest $x'_t$.   
-\begin{algorithm}[ht]
-	\caption{Sphere-Constrained Gradient Ascent for Finding Maximum}
-	
-	\begin{flushleft}
-		\textbf{Input}: A minority sample $x_0$, objective function $f(x,X)$\\
-		\textbf{Parameter}: \\
-		$r$ : The radius of the sphere centered at $x_0$  \\\
-		$\theta$ : Sample space $\theta \in [0,2\pi]$ \\
-		$lr$ : Gradient ascent learning rate\\
-		
-		\textbf{Output}: An local maximum $x'$\\
-		\begin{algorithmic}[1]
-			\STATE Shift the Origin to $x_0$
-			\STATE Randomly initiate $x'_t$ on the sphere with radius $r$	
-			\WHILE {converge condition}
-			\STATE Compute the gradient at $x'_t$\\
-			$g_t(x'_t) = \nabla f(x'_t)$
-			\STATE Project the gradient onto the sphere tangent plane\\
-			$p_t = g_t - (g_t \cdot x'_t) x_t$
-			\STATE Normalize projected vector\\
-			$p_t = p_t/ ||p_t||$
-			\STATE Update $x'$ on the constrained sphere \\
-			$x'_{t+1} = x'_t cos(lr*\theta) + p_t sin (lr*\theta)$ 			
-			\ENDWHILE
-			\STATE Shift back to the Origin
-			\RETURN $x'_t$
-		\end{algorithmic}
-	\end{flushleft}
-	\label{alg:optimization}
-\end{algorithm}
 
 
-\textbf{\textit{Avoiding synthesis of noise:}} To reduce the chance of misplacing synthetic samples on another class region because of noisy borderline and mislabeled minority samples, we set a policy for rejecting minority candidates which are selected for oversampling. The idea is to reject candidates surrounded mainly by other class samples. More specifically, we count the labels of the candidate's $k$-nearest neighbors and reject this candidate if there exists a class that its' number of samples is greater than the number of the minority samples). For example, the candidate is rejected when a class-A sample is selected for generating synthetic data, and its 5-nearest neighbors contain four class-B samples and one class-A sample. This is to avoid selecting mislabeled samples and noisy borderline samples for oversampling.        
+
+\textbf{\textit{Avoiding synthesis of noise:}} To reduce the chance of misplacing synthetic samples on another class region because of noisy borderline and mislabeled minority samples, we set a policy for rejecting minority candidates which are selected for oversampling. The idea is to reject candidates surrounded mainly by other class samples. More specifically, we count the labels of the candidate's $k$-nearest neighbors and reject this candidate if there exists a class that its' number of samples is greater than the number of the minority samples. For example, the candidate is rejected when a class-A sample is selected for generating synthetic data, and its 5-nearest neighbors contain four class-B samples and one class-A sample. This is to avoid selecting mislabeled samples and noisy borderline samples for oversampling.        
 
 \subsection{Algorithm}
 Our strategy can be described in Algorithm \ref{alg:SIMPOR}. The algorithm takes an imbalanced dataset as its input and results in a balanced dataset which is a combination of the original dataset and synthetic samples. We first choose an active learning method $AL(\cdot)$ and find a subset of informative samples $S$ by leveraging entropy-based active learning (lines $1-2$). We then generate synthetic data to balance $S$. For each random sample $x_i^c$ in $S$ and belonging to minority class $c$, we randomly sample a small radius $r$ and find a synthetic sample that lies on the sphere centered at $x_i^c$ and maximizes the posterior ratio in Equation \ref{equ:f} (lines $3-11$). The process is repeated until the informative set $S$ is balanced. Similarly, the remaining region is balanced, which can be described in the pseudo-code from line $12$ to line $20$. The final output of the algorithm is a balanced dataset $D'$.       
-
-\begin{algorithm}[ht]
-	\caption{\Methodname}
-	
-	\begin{flushleft}
-		\textbf{Input}: Original Imbalance Dataset $D$ including data $X$ and labels $y$.\\
-		\textbf{Parameter}: 
-		$MA$ is the majority class, $MI$ is a set of other classes.\\
-		$k$: Number of  neighbors of the considered sample which determines the maximum range of the sample to its synthetic samples.\\ 
-		$\alpha$: preset radius coefficient
-		$Count(c, P)$ : A function to count class $c$ sample number in population $P$.\\
-		$G(x_0,f,r)$ : Algorithm \ref{alg:optimization}, which returns a synthetic sample on sphere centered at $x_0$ with radius $r$ and maximize Equation \ref{equ:f}.  \\
-		\textbf{Output}: Balanced Dataset $D'$ including $\{X',y'\}$
-		\begin{algorithmic}[1]
-			\STATE Select an Active Learning Algorithm $AL()$
-			\STATE Query a subset of informative samples $S \in D$  using $AL$:
-			$s  \leftarrow AL(D) $	\\
-			
-			\COMMENT{Balance the informative region}
-			\FOR {$c \in MI$}
-			\WHILE {$Count(c, S) \leq Count(MA, S)$ }
-			\STATE Select a random $x_i^c \in S$
-			\STATE Reject and reselect $x_i^c$ if its label is dominated among k-nearest labels
-			\STATE Compute maximum range $R$ based on k-nearest neighbors
-			\STATE Randomly sample a radius $r \sim \mathcal{N}(0,\alpha R)$
-			\STATE Generate a synthetic neighbor $x'$ from $x_i^c$:
-			$x'=G(x_i^c,f,r)$ 
-			\STATE Append $x'$ to $D'$
-			\ENDWHILE
-			\ENDFOR
-			
-			\COMMENT{Balance the remaining region}
-			\FOR {$c$ in $MI$}
-			\WHILE { $Count(c, D') \leq Count(MA, D')$ }	
-			\STATE Select a random $x_j^c \in \{X-S\}$
-			\STATE Compute maximum range $R$ based on $k$
-			\STATE Randomly sample a radius $r \sim \mathcal{N}(0,\alpha R)$
-			\STATE Generate a synthetic neighbor $x'$ of $x_j^c$ 
-			\STATE Append $x'$ to $D'$
-			\ENDWHILE
-			\ENDFOR
-			\RETURN 
-		\end{algorithmic}
-	\end{flushleft}
-	\label{alg:SIMPOR}
-\end{algorithm}
