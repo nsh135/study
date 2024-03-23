@@ -1,0 +1,237 @@
+\documentclass[journal]{IEEEtai}
+\usepackage[colorlinks,urlcolor=blue,linkcolor=blue,citecolor=blue]{hyperref}
+\usepackage{color,array}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{textcomp}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+		T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\usepackage{subcaption}
+\usepackage{algorithm}
+\usepackage{url}
+\usepackage{stfloats}
+
+\usepackage{textcomp}
+\usepackage{siunitx}
+\usepackage{float}
+
+%%for table 
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{bigstrut}
+
+% for copy to revision sheet
+\usepackage{clipboard}
+\usepackage{xcolor, soul} % highlight revision
+	
+\definecolor{OliveGreen}{cmyk}{0.64,0,0.95,0.40}
+\definecolor{marygold}{cmyk}{0,0.1,0.5,0}
+
+% for line reference
+%\usepackage[switch, columnwise]{lineno} 
+%\usepackage{lipsum}% 
+
+%\newcommand{\R}[1]{\label{#1}\linelabel{#1}}
+%\newcommand{\lr}[1]{page~\pageref{#1}, line~\lineref{#1}}
+%\renewcommand{\linenumberfont}{\normalfont\bfseries\small\color{white}}
+
+%\newclipboard{mainPaper}
+%%for balance the last page
+\usepackage{balance}
+\usepackage{multicol}
+\usepackage{flushend}
+
+\newcommand{\argmax}{{\operatorname{arg}\,\operatorname{max}}\;}
+\newcommand{\x}{$\times$}
+\newcommand{\multirot}[3]{\multirow{#1}{*}{\rotatebox{#2}{ #3 } }}  %paras: rows,degree,text 
+\usepackage{mathtools}
+\usepackage{cuted}
+
+
+%\DeclarePairedDelimiterX{\infdivx}[2]{(}{)}{%
+%	#1\;\delimsize\|\;#2%
+%}
+
+%\newcommand{\KL}{KL\infdivx}
+\DeclarePairedDelimiter{\norm}{\lVert}{\rVert}
+\DeclareMathOperator*{\argmin}{\arg\min} 
+
+
+\newcommand{\MethodnameLong}{Synthetic Information towards Maximum Posterior Ratio}
+\newcommand{\Methodname}{SIMPOR}
+
+\begin{document}
+
+
+
+\title{\MethodnameLong{} for deep learning on Imbalanced Data\\}
+
+\author{\IEEEauthorblockN{Hung Nguyen\IEEEauthorrefmark{1}
+		and~J. Morris Chang\IEEEauthorrefmark{2}}
+	\IEEEauthorblockA{Department of Electrical Engineering \\
+		University of South Florida \\ Tampa, Florida 33620\\
+		Email: \IEEEauthorrefmark{1}nsh@usf.edu, \IEEEauthorrefmark{2}chang5@usf.edu}}
+
+
+\maketitle
+\thispagestyle{plain}
+\pagestyle{plain}
+
+%\linenumbers
+\begin{abstract}
+
+	This work explores how class-imbalanced data affects deep learning and proposes a data balancing technique for mitigation by generating more synthetic data for the minority class. In contrast to random-based oversampling techniques, our approach prioritizes balancing the most informative region by finding high entropy samples. This approach is opportunistic and challenging because well-placed synthetic data points can boost machine learning algorithms' accuracy and efficiency, whereas poorly-placed ones can cause a higher misclassification rate. In this study, we present an algorithm for maximizing the probability of generating a synthetic sample in the correct region of its class by placing it toward maximizing the class posterior ratio. In addition, to preserve data topology, synthetic data are closely generated within each minority sample neighborhood. Overall, experimental results on forty-one datasets show that our technique significantly outperforms experimental methods in terms of boosting deep-learning performance. 
+\end{abstract}
+
+\begin{IEEEImpStatement}
+	Data class imbalance is a well-known problem in machine learning (ML) applications. This significantly reduces ML algorithms' performance because models are biased toward the majority class. While several strategies have been proposed to mitigate the problem for traditional ML, there is a lack of research for deep learning. In contrast to rule-based ML algorithms, deep learning is highly data-dependent, so understanding how a deep model is affected by data is crucial for finding the mitigations. We provide intuitive studies of different mitigation strategies on deep learning models to fill this gap. Besides a minority oversampling-based technique is proposed to address the problem, a combination of a heuristic technique to find high entropy samples and a conventional statistical theorem to determine where synthetic samples should be spawned. Because our technique is directly designed to tackle the issue of class imbalance for deep learning models, it has been shown to achieve the highest number of winning times (in two metrics, F1-score and AUC) over 41 real datasets compared to the other techniques. The Wilcoxon signed-rank test also shows the significance of the improvement.   
+\end{IEEEImpStatement}
+
+
+\begin{IEEEkeywords}
+	data imbalance, deep learning, maximum posterior ratio, high entropy samples  
+\end{IEEEkeywords}
+
+
+\section{Introduction}
+Class imbalance is a common phenomenon; it could be caused by the data collecting procedure or simply the nature of the data. For example, it is difficult to sample some rare diseases in the medical field, so collected data for these are usually significantly less than that for other diseases. This leads to the problem of class imbalance in machine learning. The chance of rare samples appearing in model training process is much smaller than that of common samples. Thus, machine learning models tend to be dominated by the majority class; this results in a higher prediction error rate. Existing work also observed that class imbalanced data cause a slow convergence in the training process because of the domination of gradient vectors coming from the majority class \cite{ya-guan_emsgd:_2020, liu_high-performance_2020}. 
+
+In the last decades, a number of techniques have been proposed to soften the negative effects of class imbalance for conventional machine learning algorithms by analytically studying particular algorithms and developing corresponding strategies. However, the problem for heuristic algorithms such as deep learning is often more difficult to tackle. As suggested in the most recent deep learning with class imbalance survey \cite{johnson_survey_2019}, most of the works are emphasizing image data, and studies for other data types are missing. Thus, in this work, we focus on addressing the issue of tabular data with class imbalance for deep learning models. A class balancing solution is proposed that utilizes entropy-based sampling and data statistical information. As suggested in the survey (\cite{johnson_survey_2019}) that techniques for traditional ML can be extended to deep learning and inspiring by the comparison in a recent relevant work, Gaussian Distribution Based Oversampling (GDO) \cite{bib:GDO}, we compare the proposed technique with other widely-used and recent techniques such as GDO \cite{bib:GDO}, SMOTE \cite{chawla_smote:_2002}, ADASYN \cite{ADASYN}, Borderline SMOTE \cite{bordersmote}, DeepSMOTE \cite{deepsmote}. 
+
+Current solutions can be classified into two approaches: model-centric and data-centric. The former strives to alter machine algorithms, while the latter focuses on finding data balancing methods. Perhaps data-centric techniques are more commonly used because they do not tie to any specific model. In this category, a simple data balancing technique is to duplicate minority instances to balance the sample quantity between classes, namely random oversampling (ROS). This can preserve the best data structure and reduce the negative impact of data imbalance to some degree. However, this puts too much weight on a very few minority samples; as a result, it causes over-fitting problems in deep learning when the imbalance ratio becomes higher.
+
+Another widely-used technique in this category is Synthetic Minority Oversampling Technique (SMOTE) \cite{chawla_smote:_2002}, which randomly generates synthetic data on the connections (in Euclidean space) between minority samples. However, this easily breaks data topology, especially in high-dimensional space, because it can accidentally connect instances that are not supposed to be connected. In addition, if there are minority samples located in the majority class, the technique will generate sample lines across the decision boundary, which leads to distorted decision boundaries and misclassification. To improve SMOTE, Hui Han, \textit{et al.} \cite{bordersmote} proposed a SMOTE-based technique (Borderline SMOTE), in which they only apply SMOTE on the near-boundary samples determined by the labels of their neighbors. Since this technique is entirely based on Euclidean distance from determining neighbors to generating synthetic data, it performs poorly in high dimensional space. To enhance oversampling with high dimensional data such as images, Dablain \textit{et al.} introduced DeepSMOTE \cite{deepsmote} in 2022 which is a combination of SMOTE and a GAN (generative adversarial network). Similar to SMOTE, if there is any poorly generated sample near the boundary, it will worsen the problem due to synthetic samples bridges across the border. Leveraging the same way as SMOTE generates synthetic samples, another widely-used technique, ADASYN \cite{ADASYN}, controls the number of generated samples by the number of samples in different classes within small groups. Again, this technique still suffers distortion of the decision boundary if the boundary region is class imbalanced. Additionally, such mentioned techniques have not utilized statistical data information. A recent work, Gaussian Distribution Based Oversampling (GDO) \cite{bib:GDO}, balances data class based on the statistical information of data instead. However, its strong assumption of data distribution (data follow Gaussian) reduces the technique's effectiveness in real data.  
+
+To alleviate the negative effects of data imbalance and avoid the drawbacks of existing techniques, a minority oversampling technique is proposed that focuses on balancing the high-entropy region that provides the most critical information to the deep learning models. Besides, the technique enhances synthetic data's chance to fall into the minority class to reduce model errors. By carefully generating synthetic data near minority samples, our proposed technique also preserves the best data topology. Besides, our technique does not need any statistical assumption. 
+
+To find informative samples, an entropy-based deep active learning technique is used to select samples yielding high entropy to deep learning models. The region of informative samples is denoted as the informative region. This region is balanced first, and the remaining data are balanced later so that it would reduce the decision distortion mentioned earlier. For each minority sample in this region, its synthetic neighbors are safely generated so that the global data topology is still preserved. However, generating synthetic samples in this region is risky because it can easily fall across the decision boundary. Therefore, a direction for synthetic sample location can be chosen by maximizing its posterior probability based on Bayes's Theorem. However, maximizing the posterior probability is facing infeasible computation in the denominator. To overcome this, the posterior ratio is maximized instead so that the denominator computation can be avoided. This also ensures that the synthetic samples are not only close to the minority class but also far from the majority class. The remaining data are eventually balanced by a similar procedure. 
+
+The proposed technique alleviates the class imbalance problem. Overall, our experiments indicate that the proposed method can achieve better classification results over widely-used techniques.
+
+Our work has the following main contributions:
+\begin{enumerate}
+	\item{Exploring the impact of class imbalance mitigations on deep learning via visualization and experiments.}
+	\item{Proposing a new minority oversampling-based technique, namely \MethodnameLong, to balance data classes and alleviate data imbalance impacts. Our technique is enhanced by the following key points.}
+	\begin{enumerate}
+		\item Leveraging an entropy-based active learning technique to prioritize the region that needs to be balanced. It is the informative region where samples provide high information entropy to the model. 
+		\item Leveraging Maximum Posterior Ratio and Bayes's theorem to determine the direction to generate synthetic minority samples to ensure the synthetic data fall into the minority class and not fall across the decision boundary. To our best knowledge, this is the first work utilizing the posterior ratio for tackling class imbalanced data. 
+		\item Approximating the likelihood in the posterior ratio using kernel density estimation, which can approximate a complicated topology. Thus, the proposed technique is able to work with large, distributively complex data. 
+		\item Carefully generating synthetic samples surrounding minority samples so that the global data topology is still preserved. 
+	\end{enumerate}
+	\item{The proposed technique is evaluated against commonly utilized and contemporary techniques across 41 actual datasets that vary in terms of imbalance ratio and feature count. The findings demonstrate that the proposed approach exhibits superior performance compared to others, on the whole.}
+\end{enumerate}
+
+
+The rest of this paper is organized as follows. Section \ref{sec:relatedwork} briefly review other existing works. Section \ref{sec:preliminaries} introduces related concepts that will be used in this work, i.e., Imbalance Ratio, Macro F1-score, Area Under the Curve (AUC), and Entropy-based active learning. Section \ref{sec:problem} will provide more detail on the problem of learning from an imbalanced dataset. Our proposed solution to balance dataset, \MethodnameLong, will be explained comprehensively in Section \ref{sec:SIMPOR_method}. Section \ref{sec:implementation} discusses the technique implementation and complexity.  Section \ref{sec:experiments} shows experiments on different datasets, including artificial and real datasets. Experimental results are also discussed in the same section. Section \ref{sec:conclusion} concludes the study and discusses future work. 
+
+\input{Sec.RelatedWork}
+
+
+\section{Preliminaries}
+\label{sec:preliminaries}       
+In this section, we introduce relevant concepts that will be utilized in our research.
+
+\subsection{Imbalance Ratio (IR)}
+For binary classification problems, imbalance ratio (IR) is used to depict the data imbalance as it has been widely used. IR is the ratio of the majority class samples to the minority class's samples. For example, if a dataset contains 1000 class-A and 100 class-B samples, the Imbalance Ratio is 10:1.   
+
+\subsection{Evaluation Metrics}
+\label{f1score}
+In this work, classification performance is used for evaluating techniques. Specifically, F1-Score and Area Under the Curve (AUC) are used for evaluation metrics. For F1-scores, Macro-averaging is measured as it is more relevant for evaluating imbalance datasets.
+F1 score is computed based on two factors Recall and Precision as follows:\\
+\begin{align}
+	Recall &= \frac{TP}{TP+FN}\\
+	Precision &= \frac{TP}{TP+FP}\\
+	F1-score &= \frac{2*Recall*Precision}{Recall+Precision},
+\end{align}
+where $T$ and $F$ stand for True and False; $P$ and $N$ stand for Positive and Negative. 
+
+Besides, AUC \cite{cite:AUC} score is computed as it is an important metric to evaluate imbalanced data. AUC is derived from the Receiver Operating Characteristic curve (ROC). In this work, a skit-learn library to compute AUC is utilized; the library can be found in sklearn.metrics.auc. 
+
+\subsection{Entropy-based Active Learning }   
+\label{sec:EAL}
+Entropy-based active learning (AL) \cite{shannon_mathematical_1948} is leveraged to find informative samples. The technique selects samples that provide high information to the model based on information entropy theory. The information entropy is quantified based on the ``surprise" to the model in terms of class prediction probability. Take a binary classification, for example; if a sample is predicted to be 50\% belonging to class A and 50\% belonging to class B, this sample has high entropy and is informative to the model. In contrast, if it is predicted to be 100\% belonging to class A, it is certain and gives zero information to the model. The class entropy $E$ for each sample can be computed as follows. 
+
+\begin{equation}
+	E(x,\theta) = -\sum_j^n{ P_\theta( y=c_j|x) \log_n P_\theta(y=c_j|x) }
+	\label{eq:entropy_AL}
+\end{equation} 
+where $P_\theta(y=c_j|x)$ is the probability of data $x$ belonging to the $j^{th}$ class of $n$ classes with the model parameter $\theta$.
+
+
+\Copy{EntropyActiveLearning}{
+To select informative samples, one can fully train the entire original dataset and estimate entropy scores on the same data to select high-entropy samples. However, the model fully training on the entire dataset might be biased due to the data imbalance. This could lead to a bias in selecting informative samples because the model might only recognize the densest minority area and ignore other areas containing fewer informative examples. To avoid this issue, we proposed to explore more informative samples batch by batch gradually; this mechanism was inspired by the idea of exploring critical data by batches from active learning. First, the model is trained with an initial batch of data. The model is then used to estimate entropy scores for the remaining unseen data to select the first set of high-entropy samples (this set is considered informative examples relative to the current model parameters). This high informative data is then accumulated to previous training data to continue fine-tuning the current model and select the next informative set from the rest of the data. The process is repeated until reaching the desired amount of informative samples. The remainder of this section describes more detail on the mechanism.
+
+The proposed approach implementation requires repeated phases, and a batch of informative data is selected for each phase. At the first phase $t^{(0)}$, a classifier with parameter $\theta^{(0)}$ (Note that this classifier differs from the classifier for the final classification problem) is trained on an initial batch of data (at least one sample in each class is required) and use the model $\theta^{(0)}$ to estimate the entropy for the remaining data. The entropy scores are then estimated for the remaining samples based on Equation \ref{eq:entropy_AL}. The first batch of informative samples is determined by selecting $k$ highest entropy samples. This batch is then concatenated with the initial training data for the training classifier parameter ($\theta^{(1)}$) in the next phase ($t^{(1)}$) and also accumulated to the informative set. In the next phase, similarly, the classifier is fine-tuned with new data and used to estimate the entropy of the remaining data. The next informative batch is selected and also added to the informative set. Phases are repeated until the number of accumulated informative samples reaches a pre-set informative portion (IP). For example, $IP=0.3$ will select 30\% training samples as informative samples.}
+
+\section{The Problem of Learning From Imbalanced Datasets}
+\label{sec:problem}
+In this section, a concise overview of the challenge of acquiring knowledge from imbalanced datasets is presented. Although the problem may apply to different machine learning methods, this study only focus on deep learning. 
+
+\begin{figure}[t!]
+	%[trim=left bottom right top, clip]
+	\includegraphics[width=\linewidth, trim=300 150 310 120,clip]{Figures/proplem.pdf}
+	\caption{Learning from imbalanced datasets}
+	\label{fig:problem}
+\end{figure}
+
+Figure \ref{fig:problem} illustrates our problem on binary classification. The imbalance in the informative region (light blue eclipse) could lead to classification errors. The dashed green line depicts the expected boundary, while the solid blue line is the model's boundary. Since the minority class lacks data in this region, the majority class will dominate the model even with a few noisy poorly-placed samples, which leads to a shift of the model's boundary. In contrast to the study by Ertekin \textit{et al.} \cite{ertekin_learning_2007}, which assumes the informative region is more balanced by nature and proposes a solution that only classifies over the informative samples, our assumption is different. This work contemplates the scenario where the informative region comprises extensively imbalanced data, which we believe is common in most real-world scenarios. The problem could be more severe in a more complex setting, such as high-dimensional and topologically complex data. Therefore, we proposed a technique to tackle the problem by oversampling the minority class in an informative manner. The detail of the technique will be described in Section \ref{sec:SIMPOR_method}.         
+
+\input{Sec.Methodology}
+
+\input{Sec.Complexity}
+
+\input{Sec.Experiments}
+
+\section {Conclusion}
+\label{sec:conclusion}
+A data balancing technique by oversampling the minority class is proposed. The technique aims at balancing datasets and preventing the creation of noise in data by directing the synthetic samples toward the minority class. Our experiment results show that the proposed technique outperforms other experimental techniques over 41 real-world datasets. For future work, we would like to investigate the class imbalance for image data type and enhance our approach to adapt to image datasets.   
+
+\section*{Acknowledgement}
+
+Efforts sponsored in whole or in part by United States Special Operations Command (USSOCOM), under Partnership Intermediary Agreement No. H92222-15-3-0001-01. The U.S. Government is authorized to reproduce and distribute reprints for Government purposes notwithstanding any copyright notation thereon.  
+{\footnote{ The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of the United States Special Operations Command.} }
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{citation}
+
+
+
+\begin{IEEEbiography}[{\includegraphics[width=0.9\linewidth,clip,keepaspectratio]{biography/hung}}]{Hung Nguyen}
+	received the M.Sc. degree and currently pursuing his Ph.D. degree in Department of Electrical Engineering, University of South Florida, FL, USA. His current research interests include machine learning, artificial intelligence, federated learning, cyber security, privacy enhancing technologies. Hung is a member of IEEE.
+\end{IEEEbiography}
+
+%
+%\begin{IEEEbiography}[{\includegraphics[width=0.9\linewidth,clip,keepaspectratio]{biography/Chang_CP}}]{J. Morris Chang}
+%	(SM'08) is a professor in the Department of Electrical Engineering at the University of South Florida. He received his Ph.D. degree from the North Carolina State University. His past industrial experiences include positions at Texas Instruments, Microelectronic Center of North Carolina and AT\&T Bell Labs. He received the University Excellence in Teaching Award at Illinois Institute of Technology in 1999. His research interests include: cyber-security, wireless networks, and energy efficient computer systems. In the last six years, his research projects on cyber-security have been funded by DARPA. Currently, he is leading a DARPA project under Brandeis program focusing on privacy-preserving computation over Internet. He is a handling editor of Journal of Microprocessors and Microsystems and an editor of IEEE IT Professional. He is a senior member of IEEE.
+%\end{IEEEbiography}
+%
+
+
+
+\newpage
+\appendices
+
+\input{Appendix.Ago}
+\newpage
+\input{Appendix.Results}
+
+\newpage
+\input{Appendix.EmpiricalStudy}
+\newpage
+\input{Appendix.Visualization}
+
+\newpage
+\input{Appendix.DatasetDescription}
+
+
+
+
+\end{document}
+
+
